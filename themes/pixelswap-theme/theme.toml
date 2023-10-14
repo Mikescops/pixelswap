@@ -1,0 +1,17 @@
+name = 'PixelSwap Theme'
+license = 'MIT'
+licenselink = 'https://github.com/mikescops/pixelswap'
+description = 'Theme for the PixelSwap blog'
+
+homepage = 'https://github.com/mikescops/pixelswap'
+
+# If you have a running demo of the theme
+demosite = 'https://pixelswap.fr'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = []
+
+[author]
+  name = 'Corentin Mors'
+  homepage = 'https://me.pixelswap.fr'

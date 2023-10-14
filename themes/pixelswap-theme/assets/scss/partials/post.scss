@@ -1,0 +1,119 @@
+/* POST CSS */
+
+.post-topbar {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    margin: 0 -20px;
+    min-height: 50px;
+    background: $background-color;
+    top: 0;
+    align-items: center;
+    border-bottom: solid 6px $color-purple;
+    z-index: 999;
+
+    .profile-picture {
+        border-radius: 2px;
+        margin-right: 1rem;
+    }
+
+    .post-title {
+        flex: 1 1;
+        font-weight: bold;
+        margin: 0;
+        font-size: 1.8em;
+        line-height: initial;
+    }
+
+    .post-lang {
+        float: right;
+        margin-right: 7px;
+        background: $color-blue;
+        color: #fff;
+        padding: 0 4px;
+        border-radius: 4px;
+    }
+
+    .icon-home {
+        float: right;
+        border-left: 1px solid #dfdfdf;
+        text-decoration: none;
+        padding-left: 6px;
+        color: #fff;
+    }
+}
+
+.featured-content {
+    margin-top: 1rem;
+    height: auto;
+    max-height: 430px;
+    overflow: hidden;
+}
+
+.featured-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.post-container {
+    position: relative;
+    padding: 0 10px;
+    color: #eee;
+    margin-top: 30px;
+
+    .post-content {
+        font-size: 1.1rem;
+        padding: 0 10px;
+        margin-bottom: 20px;
+
+        p {
+            margin-top: 1.25rem !important;
+        }
+
+        a {
+            color: $color-blue;
+        }
+
+        img {
+            border-radius: 4px;
+            max-width: 100%;
+            height: auto !important;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            display: inline-block;
+            line-height: initial;
+            border-left: solid 6px $color-purple;
+            padding-left: 12px;
+            margin-left: -18px;
+            margin-bottom: 0;
+        }
+    }
+
+    .record-footer {
+        text-align: right;
+    }
+
+    .post-extra {
+        padding: 0 10px;
+    }
+}
+
+@media all and (max-width: 618px) {
+    .post-topbar {
+        position: relative;
+    }
+
+    .profile-picture {
+        display: none;
+    }
+}

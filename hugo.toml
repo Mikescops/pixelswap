@@ -1,0 +1,13 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'PixelSwap'
+theme = "pixelswap-theme"
+
+[permalinks]
+  [permalinks.page]
+    posts = '/entry/:slug/'
+  [permalinks.section]
+    posts = '/entries/'
+
+[markup.goldmark.renderer]
+  unsafe = true

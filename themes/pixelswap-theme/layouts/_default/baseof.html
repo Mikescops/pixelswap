@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+    dir="{{ or site.Language.LanguageDirection `ltr` }}"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+    dir="{{ or site.Language.LanguageDirection `ltr` }}"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+    dir="{{ or site.Language.LanguageDirection `ltr` }}"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html
+    class="no-js"
+    lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+    dir="{{ or site.Language.LanguageDirection `ltr` }}"
+>
+    <!--<![endif]-->
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="/img/favicon/site.webmanifest" />
+
+        {{ partial "head.html" . }}
+        <script src="https://kit.fontawesome.com/c0fcae02f6.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        {{ block "main" . }}{{ end }}
+
+        <footer>
+            <a alt="Retourner à la page d'accueil" href="{{ "" | relURL }}">
+                <img src="/img/logoss.png" alt="PixelSwap" />
+            </a>
+            <p>Corentin Mors © 2012 - {{ now.Year }}</p>
+        </footer>
+    </body>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+</html>
