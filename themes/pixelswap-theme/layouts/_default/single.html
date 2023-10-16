@@ -1,70 +1,67 @@
 {{ define "main" }}
-<div class="container container-shrinked">
-    <div class="row">
-        <div class="col-12">
-            <div class="post-topbar">
-                <img
-                    src="https://avatars1.githubusercontent.com/u/4266283?v=2&s=180"
-                    alt="Corentin"
-                    href="{{ "" | relURL }}"
-                    height="40"
-                    width="40"
-                    class="profile-picture"
-                />
+    <div class="container container-shrinked">
+        <div class="row">
+            <div class="col-12">
+                <div class="post-topbar">
+                    <img
+                        src="https://avatars1.githubusercontent.com/u/4266283?v=2&s=180"
+                        alt="Corentin"
+                        href="{{ "" | relURL }}"
+                        height="40"
+                        width="40"
+                        class="profile-picture"
+                    />
 
-                <h2 class="post-title">{{ .Title }}</h2>
+                    <h2 class="post-title">{{ .Title }}</h2>
 
-                <div class="options">
-                    <a class="icon-home" href='{{ "" | relURL }}'>
-                        <i title="Go home" class="fas fa-stream"></i>
-                    </a>
-                    <span class="post-lang">EN</span>
+                    <div class="options">
+                        <a class="icon-home" href="{{ "" | relURL }}">
+                            <i title="Go home" class="fas fa-stream"></i>
+                        </a>
+                        <span class="post-lang">EN</span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="featured-content">
-                {{ if .Params.image }}
-                {{ $image := .Resources.GetMatch .Params.image }}
-                {{ $image_cropped := $image.Fill "1300x500" }}
+                <div class="featured-content">
+                    {{ if .Params.image }}
+                        {{ $image := .Resources.GetMatch .Params.image }}
+                        {{ $image_webp := $image.Fill "1300x600 Center webp q100" }}
+                        <img class="featured-image" src="{{ $image_webp.RelPermalink }}" alt="{{ .Title }}" />
+                    {{ end }}
+                </div>
 
-                <img class="featured-image" src="{{ $image_cropped }}" alt="{{ .Title }}" />
+                <div class="post-container">
+                    <div class="post-content">{{ .Content }}</div>
 
-                {{ end }}
-            </div>
+                    <div class="post-extra">
+                        <h6 class="record-footer">
+                            {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+                            {{ $dateHuman := .Date | time.Format ":date_long" }}
+                            By Corentin, <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+                        </h6>
 
-            <div class="post-container">
-                <div class="post-content">{{ .Content }}</div>
+                        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 
-                <div class="post-extra">
 
-                    <h6 class="record-footer">
-                        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-                        {{ $dateHuman := .Date | time.Format ":date_long" }}
-                        By Corentin,  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>    
-                    </h6>
+                        <br />
 
-                   
-                    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+                        <a href="{{ "" | relURL }}" class="button">Go back to the homepage</a>
 
-                    <br />
+                        <br />
 
-                    <a href="{{ "" | relURL }}" class="button">Go back to the homepage</a>
-
-                    <br />
-
-                    <div class="commentarea">
-                        <script
-                            src="https://utteranc.es/client.js"
-                            repo="Mikescops/pixelswap"
-                            issue-term="title"
-                            theme="github-dark"
-                            crossorigin="anonymous"
-                            async
-                        ></script>
+                        <div class="commentarea">
+                            <script
+                                src="https://utteranc.es/client.js"
+                                repo="Mikescops/pixelswap"
+                                issue-term="title"
+                                theme="github-dark"
+                                crossorigin="anonymous"
+                                async
+                            ></script>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {{ end }}

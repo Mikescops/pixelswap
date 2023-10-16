@@ -1,65 +1,27 @@
 {{ define "main" }}
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div class="home-title">
-                <h1>Blog</h1>
-                <h3>
-                    by
-                    <a href="https://dev.pixelswap.fr/">Corentin Mors</a>
-                </h3>
-                <a href="https://dev.pixelswap.fr/" class="site-title prev-site"> &lt; Dev</a>
-                <a href="https://me.pixelswap.fr/" class="site-title next-site">Me &gt;</a>
-            </div>
-
-            <div class="items-list">
-                {{ range (.Paginator 12).Pages }}
-
-                <div class="container-item">
-                    {{ $image := .Resources.GetMatch .Params.image }}
-                    {{ $image_cropped := $image.Fit "542x290" }}
-                    <div
-                        class="item"
-                        {{ if isset .Params "image" }}
-                        style="background-image: url({{ $image_cropped.RelPermalink }})"
-                        {{ end }}
-                    >
-                        <div class="item-overlay"></div>
-                        <div class="item-content">
-                            <div class="item-top-content">
-                                <div class="item-top-content-inner">
-                                    <div class="item-product">
-                                        <div class="item-top-title">
-                                            <a href="{{ .RelPermalink }}" class="item-title">
-                                                <h2>{{ .LinkTitle }}</h2>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-add-content">
-                                <p class="subdescription">{{ .Summary }}</p>
-                                <div class="item-add-content-inner">
-                                    <div class="section">
-                                        <a href="{{ .RelPermalink }}" class="button">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="home-title">
+                    <h1>Blog</h1>
+                    <h3>
+                        by
+                        <a href="https://dev.pixelswap.fr/">Corentin Mors</a>
+                    </h3>
+                    <a href="https://dev.pixelswap.fr/" class="site-title prev-site"> &lt; Dev</a>
+                    <a href="https://me.pixelswap.fr/" class="site-title next-site">Me &gt;</a>
                 </div>
 
-                {{ end }}
-            </div>
+                <div class="items-list">
+                    {{ range (.Paginator 12).Pages }}{{ .Render "item" }}{{ end }}
+                </div>
 
-            <br />
+                <br />
 
-            <div style="width: 100%">
-                <div class="section">
-                    {{ template "partials/pagination.html" . }}
+                <div style="width: 100%">
+                    <div class="section">{{ template "partials/pagination.html" . }}</div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {{ end }}

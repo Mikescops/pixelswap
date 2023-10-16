@@ -1,19 +1,18 @@
 {{ define "main" }}
-  	<div class="container">
-		<div class="row">
-			<div class="col-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="centered-content content-404">
+                    <h1>404 Not Found</h1>
 
-				<div class="centered-content content-404">
+                    <p>
+                        We could not find this page on the website, you may want to go to
+                        <a href="{{ "" | relURL }}">the homepage</a>.
+                    </p>
+                </div>
 
-					<h1>404 Not Found</h1>
-
-					<p>We could not find this page on the website, you may want to go to
-						<a href="{{ "" | relURL }}">the homepage</a>.</p>
-
-				</div>
-
-				{{/* include 'partials/_sub_searchbox.twig' */}}
-			</div>
-		</div>
-	</div>
+                {{/* include 'partials/_sub_searchbox.twig' */}}
+            </div>
+        </div>
+    </div>
 {{ end }}

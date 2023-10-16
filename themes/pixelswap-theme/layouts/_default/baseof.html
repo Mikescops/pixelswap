@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
     dir="{{ or site.Language.LanguageDirection `ltr` }}"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
@@ -12,6 +12,7 @@
     dir="{{ or site.Language.LanguageDirection `ltr` }}"
 >
     <!--<![endif]-->
+
     <head>
         <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
@@ -24,14 +25,6 @@
 
     <body>
         {{ block "main" . }}{{ end }}
-
-        <footer>
-            <a alt="Retourner à la page d'accueil" href="{{ "" | relURL }}">
-                <img src="/img/logoss.png" alt="PixelSwap" />
-            </a>
-            <p>Corentin Mors © 2012 - {{ now.Year }}</p>
-        </footer>
+        {{ partial "footer.html" . }}
     </body>
-
-    <script>hljs.initHighlightingOnLoad();</script>
 </html>

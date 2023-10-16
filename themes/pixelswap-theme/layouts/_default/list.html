@@ -1,58 +1,26 @@
 {{ define "main" }}
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <a href="{{ "" | relURL }}"><img src="/img/logoss.png" alt="PixelSwap" /></a>
-            <h3 class="slogan">
-                Blog by Corentin
-                <i class="fas fa-bolt"></i>
-            </h3>
-            <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="{{ "" | relURL }}"><img src="/img/logoss.png" alt="PixelSwap" /></a>
+                <h3 class="slogan">
+                    Blog by Corentin
+                    <i class="fas fa-bolt"></i>
+                </h3>
+                <br />
 
-            <h4 style="color: #ececec">{{ .Title }}</h4>
+                <h4 style="color: #ececec">{{ .Title }}</h4>
 
-            <div class="items-list">
-                {{ range (.Paginator 12).Pages }}
-                  <div class="container-item">
-                    {{ $image := .Resources.GetMatch .Params.image }}
-                    <div
-                        class="item"
-                        {{ if isset .Params "image" }}
-                        {{ $image_cropped := $image.Fit "542x290" }}
-                        style="background-image: url({{ $image_cropped.RelPermalink }})"
-                        {{ end }}
-                    >
-                        <div class="item-overlay"></div>
-                        <div class="item-content">
-                            <div class="item-top-content">
-                                <div class="item-top-content-inner">
-                                    <div class="item-product">
-                                        <div class="item-top-title">
-                                            <a href="{{ .RelPermalink }}" class="item-title">
-                                                <h2>{{ .LinkTitle }}</h2>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-add-content">
-                                <p class="subdescription">{{ .Summary }}</p>
-                                <div class="item-add-content-inner">
-                                    <div class="section">
-                                        <a href="{{ .RelPermalink }}" class="button">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="items-list">
+                    {{ range (.Paginator 12).Pages }}
+                        {{ .Render "item" }}
+                    {{ end }}
                 </div>
-                {{ end }}
+
+                <br />
+
+                {{ template "partials/pagination.html" . }}
             </div>
-
-            <br />
-
-            {{ template "partials/pagination.html" . }}
         </div>
     </div>
-</div>
 {{ end }}

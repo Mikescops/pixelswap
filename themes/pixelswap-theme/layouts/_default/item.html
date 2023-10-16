@@ -1,0 +1,33 @@
+<div class="container-item">
+    <div
+        class="item"
+        {{ if isset .Params "image" }}
+            {{ $image := .Resources.GetMatch .Params.image }}
+            {{ $image_webp := $image.Fill "542x290 Center webp q100" }}
+            style="background-image: url({{ $image_webp.RelPermalink }})"
+        {{ end }}
+    >
+        <div class="item-overlay"></div>
+        <div class="item-content">
+            <div class="item-top-content">
+                <div class="item-top-content-inner">
+                    <div class="item-product">
+                        <div class="item-top-title">
+                            <a href="{{ .RelPermalink }}" class="item-title">
+                                <h2>{{ .LinkTitle }}</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-add-content">
+                <p class="subdescription">{{ .Summary }}</p>
+                <div class="item-add-content-inner">
+                    <div class="section">
+                        <a href="{{ .RelPermalink }}" class="button">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
