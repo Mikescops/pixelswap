@@ -6,14 +6,14 @@
     {{- else }}
         {{- $opts := dict "minify" true }}
         {{- with . | js.Build $opts | fingerprint }}
-            <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+            <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" async></script>
         {{- end }}
     {{- end }}
 {{- end }}
 {{- with resources.Get "js/highlight.pack.js" }}
-    <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+    <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" defer></script>
     <script>
         hljs.initHighlightingOnLoad();
     </script>
 {{- end }}
-<script src="https://kit.fontawesome.com/c0fcae02f6.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/c0fcae02f6.js" crossorigin="anonymous" async></script>

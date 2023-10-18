@@ -2,6 +2,7 @@ html {
     line-height: 1.7em;
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
+    font-display: 'swap';
     color: #f9f9f9;
     background: $background-color;
 }
@@ -65,18 +66,17 @@ em {
     position: absolute;
     text-decoration: none;
     font-size: 2.5em;
-    color: rgba(255, 255, 255, 0.4);
-
+    color: rgba(255, 255, 255, 0.6);
     top: 0;
     line-height: 3.2em;
-}
 
-.site-title:hover {
-    color: rgba(255, 255, 255, 0.8);
-    -webkit-transition: color 0.3s ease;
-    transition: color 0.3s ease;
+    &:hover {
+        color: rgba(255, 255, 255, 0.9);
+        -webkit-transition: color 0.3s ease;
+        transition: color 0.3s ease;
 
-    text-decoration: none !important;
+        text-decoration: none !important;
+    }
 }
 
 @media all and (max-width: 540px) {
