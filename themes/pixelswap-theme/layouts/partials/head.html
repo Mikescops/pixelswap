@@ -1,7 +1,72 @@
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="robots" content="index,follow" />
 <meta name="author" content="Corentin Mors" />
 
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{- $title := "" -}}
+{{- if .IsHome -}}
+    {{- $title = site.Title -}}
+{{- else -}}
+    {{- $title = printf "%s | %s" .Title site.Title -}}
+{{- end -}}
+
+{{- $image_url := site.Params.social_image | absURL -}}
+{{- if  .Params.image -}}
+    {{- $image := .Resources.GetMatch .Params.image -}}
+    {{- $image_url = $image.Permalink -}}
+{{- end -}}
+
+{{- $url := "" -}}
+{{- if .IsHome -}}
+    {{- $url = site.BaseURL -}}
+{{- else -}}
+    {{- $url = .Permalink -}}
+{{- end -}}
+
+{{- $description := "" -}}
+{{- if .Summary -}}
+    {{- $description = trim .Summary "\n" -}}
+{{- else if .Site.Params.description -}}
+    {{- $description = trim .Site.Params.description "\n" -}}
+{{- end -}}
+
+{{- $keywords := "blog, development, infrastructure, security, creation, pixelswap" -}}
+{{- if .Params.tags -}}
+    {{- $keywords = delimit .Params.tags ", " -}}
+{{- end -}}
+
+
+<title>{{ $title }}</title>
+
+<link rel="canonical" href="{{ $url }}" />
+
+<meta name="keywords" content="{{ $keywords }}" />
+<meta name="description" content="{{ $description }}" />
+
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:url" content="{{ $url }}" />
+<meta property="og:image" content="{{ $image_url }}" />
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+<meta name="twitter:image" content="{{ $image_url }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@mikescops" />
+<meta name="news_keywords" content="{{ $keywords }}" />
+{{- if .IsPage -}}
+    <meta itemprop="wordCount" content="{{ .WordCount }}" />
+    <meta property="og:updated_time" content="{{ .Date }}" />
+    <meta property="article:published_time" content="{{ .PublishDate }}" />
+{{- end -}}
+
+{{- with .OutputFormats.Get "rss" -}}
+    {{- printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML -}}
+{{- end -}}
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
+<link rel="manifest" href="/img/favicon/site.webmanifest" />
 
 {{ partialCached "head/css.html" . }}

@@ -1,11 +1,11 @@
 <div class="container-item">
     <div
         class="item"
-        {{ if isset .Params "image" }}
-            {{ $image := .Resources.GetMatch .Params.image }}
-            {{ $image_webp := $image.Fill "542x290 Center webp q100" }}
+        {{- if isset .Params "image" -}}
+            {{- $image := .Resources.GetMatch .Params.image -}}
+            {{- $image_webp := $image.Fill "542x290 Center webp q100" -}}
             style="background-image: url({{ $image_webp.RelPermalink }})"
-        {{ end }}
+        {{- end -}}
     >
         <div class="item-overlay"></div>
         <div class="item-content">

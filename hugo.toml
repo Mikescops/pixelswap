@@ -2,6 +2,17 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'PixelSwap'
 theme = "pixelswap-theme"
+enableGitInfo = true
+
+[params]
+  description = "A blog about development, security, creations with a grain of fun."
+  social_image = "img/socialimage.jpg"
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
 
 [permalinks]
   [permalinks.page]
