@@ -1,19 +1,5 @@
-{{- with resources.Get "js/index.js" }}
-    {{- if eq hugo.Environment "development" }}
-        {{- with . | js.Build }}
-            <script src="{{ .RelPermalink }}"></script>
-        {{- end }}
-    {{- else }}
-        {{- $opts := dict "minify" true }}
-        {{- with . | js.Build $opts | fingerprint }}
-            <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" async></script>
-        {{- end }}
-    {{- end }}
-{{- end }}
-{{- with resources.Get "js/highlight.pack.js" }}
-    <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" defer></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
-{{- end }}
-<script src="https://kit.fontawesome.com/c0fcae02f6.js" crossorigin="anonymous" async></script>
+{{- $global := resources.Get "js/index.js" }}
+{{- $highlight := resources.Get "js/highlight.pack.js" }}
+{{- $fontawesome := resources.Get "js/fontawesome.js" }}
+{{- $js := slice $highlight $fontawesome $global | resources.Concat "js/bundle.js" }}
+<script src="{{ $js.RelPermalink }}" integrity="{{- $js.Data.Integrity }}" crossorigin="anonymous" async></script>

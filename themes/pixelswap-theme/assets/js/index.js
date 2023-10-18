@@ -1,1 +1,1 @@
-// tbd
+hljs.initHighlightingOnLoad();
