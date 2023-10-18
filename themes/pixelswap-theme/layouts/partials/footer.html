@@ -1,6 +1,6 @@
 <footer>
     <a alt="Retourner à la page d'accueil" href="{{ "" | relURL }}">
-        <img src="/img/logoss.png" alt="PixelSwap" />
+        <img src="/img/logoss.png" width="300" height="60" alt="PixelSwap Logo" />
     </a>
     {{- if eq .Type "posts" }}
         <p class="page-update-info">
@@ -21,8 +21,3 @@
         mermaid.initialize({ startOnLoad: true });
     </script>
 {{- end }}
-
-
-<script>
-    hljs.initHighlightingOnLoad();
-</script>

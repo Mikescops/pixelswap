@@ -12,4 +12,8 @@
 {{- end }}
 {{- with resources.Get "js/highlight.pack.js" }}
     <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 {{- end }}
+<script src="https://kit.fontawesome.com/c0fcae02f6.js" crossorigin="anonymous"></script>
