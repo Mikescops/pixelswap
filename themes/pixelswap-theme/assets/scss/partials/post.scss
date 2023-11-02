@@ -3,15 +3,21 @@
 .post-topbar {
     position: sticky;
     width: 100%;
-    display: flex;
-    padding: 10px 20px;
-    margin: 0 -20px;
     min-height: 50px;
     background: $background-color;
     top: 0;
-    align-items: center;
-    border-bottom: solid 6px $color-purple;
+    margin-top: 10px;
     z-index: 999;
+
+    .col-12 {
+        display: flex;
+        width: 100%;
+        padding: 10px 20px;
+        margin: 0;
+        margin-left: -20px;
+        align-items: center;
+        border-bottom: solid 6px $color-purple;
+    }
 
     .profile-picture {
         border-radius: 2px;
@@ -19,6 +25,7 @@
     }
 
     .post-title {
+        color: #eaeef1;
         flex: 1 1;
         font-weight: bold;
         margin: 0;
@@ -59,20 +66,35 @@
 .post-container {
     position: relative;
     padding: 0 10px;
-    color: #eee;
+    color: $dark-text-color;
     margin-top: 30px;
 
     .post-content {
-        font-size: 1.1rem;
+        font-size: 16px;
         padding: 0 10px;
         margin-bottom: 20px;
 
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
         p {
+            width: 100%;
             margin-top: 1.25rem !important;
+        }
+
+        p:first-child {
+            margin-top: 0 !important;
         }
 
         a {
             color: $color-blue;
+        }
+
+        .highlight {
+            min-width: 100%;
+            max-width: 96vw;
+            width: fit-content;
         }
 
         img {
@@ -96,6 +118,8 @@
             padding-left: 12px;
             margin-left: -18px;
             margin-bottom: 0;
+            width: 100%;
+            color: #eaeef1;
         }
     }
 
@@ -111,6 +135,11 @@
 @media all and (max-width: 618px) {
     .post-topbar {
         position: relative;
+
+        .col-12 {
+            width: auto;
+            margin: 0;
+        }
     }
 
     .profile-picture {

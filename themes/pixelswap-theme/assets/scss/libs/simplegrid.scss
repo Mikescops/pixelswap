@@ -43,7 +43,7 @@ h6 {
 }
 
 p {
-    font-size: 1.15rem;
+    font-size: 16px;
     font-weight: 200;
     line-height: 1.4;
 }
@@ -107,7 +107,7 @@ li {
     width: 100%;
 }
 
-.row [class^="col"] {
+.row [class^='col'] {
     float: left;
     margin: 0.5rem 2%;
     min-height: 0.125rem;
@@ -177,7 +177,7 @@ li {
 }
 
 .row::after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
 }
