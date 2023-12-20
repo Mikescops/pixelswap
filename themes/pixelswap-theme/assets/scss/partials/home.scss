@@ -230,15 +230,6 @@
 }
 
 /* Buttons */
-.item-button {
-    border-radius: 3px;
-    width: 30px;
-    height: 30px;
-}
-.container-item:hover .item-button.play {
-    opacity: 1;
-}
-
 .button {
     display: block;
     background-color: $color-blue;
@@ -263,7 +254,7 @@
 
 /* content */
 
-.item-product {
+.item-post {
     width: 100%;
     float: left;
 }
@@ -280,6 +271,7 @@
 .item-content {
     background: rgba(255, 255, 255, 0.85);
 }
+
 .item-add-content {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -303,12 +295,6 @@
 @media all and (max-width: 780px) {
     .container-item {
         width: 99%;
-    }
-    .card {
-        -webkit-transform: translate3d(0px, 0px, 0px) rotateX(0) scale(1, 1);
-        -moz-transform: translate3d(0px, 0px, 0px) rotateX(0) scale(1, 1);
-        transform: translate3d(0px, 0px, 0px) rotateX(0) scale(1, 1);
-        opacity: 1;
     }
 }
 
