@@ -4,6 +4,17 @@ This repo contains the PixelSwap Blog.
 
 Available at [pixelswap.fr](https://pixelswap.fr/)
 
+
+## On Windows
+
+```powershell
+winget install Hugo.Hugo.Extended
+
+$hugo = $env:APPDATA,'\..\Local\Microsoft\WinGet\Links\hugo.exe' -join ''
+
+& $hugo serve
+```
+
 ---
 
 [![Website](https://img.shields.io/website-up-down-green-red/https/pixelswap.fr.svg?label=PixelSwap.fr)](https://pixelswap.fr/)
