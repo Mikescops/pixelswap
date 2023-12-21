@@ -70,3 +70,15 @@
 <link rel="manifest" href="/img/favicon/site.webmanifest" />
 
 {{ partialCached "head/css.html" . }}
+
+<script>
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (localStorage.getItem('dark-mode') === null) {
+        localStorage.setItem('dark-mode', true);
+    }
+
+    if ( localStorage.getItem('dark-mode') !== 'false' && (prefersDark || localStorage.getItem('dark-mode') === 'true')) {
+        document.documentElement.classList.add('dark');
+    }
+</script>
