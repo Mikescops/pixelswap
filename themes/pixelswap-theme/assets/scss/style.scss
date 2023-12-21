@@ -1,20 +1,37 @@
 html {
     line-height: 1.7em;
     font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    font-display: "swap";
-    color: $dark-text-color;
-    background: $background-color;
+    font-family: 'Ubuntu', sans-serif;
+    font-display: 'swap';
+    color: $light-text-color;
+    background: $light-background-color;
+
+    &.dark {
+        background: $dark-background-color;
+        color: $dark-text-color;
+    }
+
+    @include darkMode {
+        background-color: $dark-background-color;
+        color: $dark-text-color;
+    }
 }
 
 body {
-    background-color: $background-color;
     min-height: 100%;
 }
 
 footer {
     text-align: center;
     padding: 50px 0;
+}
+
+.pixelswap-logo {
+    filter: invert(100%);
+
+    @include darkMode {
+        filter: none;
+    }
 }
 
 .centered-content {
@@ -45,7 +62,7 @@ p {
 blockquote {
     margin: 20px 25px 20px 15px;
     padding-left: 10px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     border-left: solid 4px #f15d22;
 }
@@ -62,45 +79,42 @@ em {
     display: none;
 }
 
-.site-title {
+.dark-mode-switcher {
     position: absolute;
-    text-decoration: none;
-    font-size: 2.5em;
-    color: rgba(255, 255, 255, 0.6);
-    top: 0;
-    line-height: 3.2em;
+    top: 20px;
+    right: 30px;
+    z-index: 9999;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
 
-    &:hover {
-        color: rgba(255, 255, 255, 0.9);
-        -webkit-transition: color 0.3s ease;
-        transition: color 0.3s ease;
+    @include darkMode {
+        color: $dark-text-color;
+        background: #444;
 
-        text-decoration: none !important;
+        &:hover {
+            background: #555;
+        }
     }
-}
 
-@media all and (max-width: 540px) {
-    .site-title {
-        font-size: 1.1em;
-        top: 112px;
+    svg {
+        height: 20px;
     }
-}
-
-.site-title.prev-site {
-    left: 0;
-}
-
-.site-title.next-site {
-    right: 0;
 }
 
 .slogan {
-    color: #fff;
+    color: $light-text-color;
     font-size: 1.6em;
     float: right;
     text-align: right;
     margin-top: 18px;
     margin-right: 20px;
+
+    @include darkMode {
+        color: $dark-text-color;
+    }
 }
 
 .pagination {
@@ -163,8 +177,8 @@ em {
 
     a {
         display: inline-block;
-        color: #ddd;
-        border: 2px solid #ddd;
+        color: #555;
+        border: 2px solid #555;
         padding: 8px 12px;
         font-size: 15px !important;
         line-height: 18px;
@@ -193,6 +207,11 @@ em {
         &:hover {
             color: #1abc9c;
             border-color: #1abc9c;
+        }
+
+        @include darkMode {
+            color: #ddd;
+            border: 2px solid #ddd;
         }
     }
 }
@@ -232,13 +251,21 @@ em {
 }
 
 .search-result-title {
-    color: #ececec;
     margin-top: 20px;
+    color: $light-text-color;
+
+    @include darkMode {
+        color: $dark-text-color;
+    }
 }
 
 .content-404 {
-    color: #fff;
+    color: $light-text-color;
     margin: 50px 0;
+
+    @include darkMode {
+        color: $dark-text-color;
+    }
 }
 
 .content-404 h1 {

@@ -1,9 +1,13 @@
 .home-title {
     position: relative;
     text-align: center;
-    color: #fff;
+    color: $light-text-color;
     margin-bottom: 3em;
     margin-top: 2em;
+
+    @include darkMode {
+        color: $dark-text-color;
+    }
 
     h1 {
         font-weight: normal;
@@ -20,7 +24,11 @@
 
     a:first-child {
         text-decoration: none;
-        color: #fff;
+        color: $light-text-color;
+
+        @include darkMode {
+            color: $dark-text-color;
+        }
     }
 
     a:hover {
@@ -65,8 +73,8 @@
     overflow: hidden;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
 }
 
 .item-overlay {

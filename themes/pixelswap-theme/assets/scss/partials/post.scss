@@ -4,10 +4,14 @@
     position: sticky;
     width: 100%;
     min-height: 50px;
-    background: $background-color;
+    background: $light-background-color;
     top: 0;
     margin-top: 10px;
     z-index: 999;
+
+    @include darkMode {
+        background: $dark-background-color;
+    }
 
     .col-12 {
         display: flex;
@@ -25,12 +29,16 @@
     }
 
     .post-title {
-        color: #eaeef1;
+        color: $light-title-color;
         flex: 1 1;
         font-weight: bold;
         margin: 0;
         font-size: 1.8em;
         line-height: initial;
+
+        @include darkMode {
+            color: $dark-title-color;
+        }
     }
 
     .post-lang {
@@ -47,7 +55,11 @@
         border-left: 1px solid #dfdfdf;
         text-decoration: none;
         padding-left: 6px;
-        color: #fff;
+        color: $light-text-color;
+
+        @include darkMode {
+            color: $dark-text-color;
+        }
     }
 }
 
@@ -66,8 +78,12 @@
 .post-container {
     position: relative;
     padding: 0 10px;
-    color: $dark-text-color;
+    color: $light-text-color;
     margin-top: 30px;
+
+    @include darkMode {
+        color: $dark-text-color;
+    }
 
     .post-content {
         font-size: 16px;
@@ -119,7 +135,11 @@
             margin-left: -18px;
             margin-bottom: 0;
             width: 100%;
-            color: #eaeef1;
+            color: $light-title-color;
+
+            @include darkMode {
+                color: $dark-title-color;
+            }
         }
     }
 

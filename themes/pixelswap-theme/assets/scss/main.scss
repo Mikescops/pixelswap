@@ -2,10 +2,27 @@
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
 
-$background-color: #23252d;
+$light-background-color: #f0f0f0;
+$dark-background-color: #1d2125;
 $color-blue: rgb(58, 160, 255);
 $color-purple: #6655dd8f;
 $dark-text-color: #d5dde5;
+$light-text-color: #172b4d;
+$dark-title-color: #eaeef1;
+$light-title-color: #172b4d;
+
+$darkMode: true;
+
+@mixin darkMode {
+    @if ($darkMode) {
+        @media (prefers-color-scheme: dark) {
+            @content;
+        }
+        html.dark & {
+            @content;
+        }
+    }
+}
 
 @import 'libs/simplegrid';
 @import 'libs/prettify';

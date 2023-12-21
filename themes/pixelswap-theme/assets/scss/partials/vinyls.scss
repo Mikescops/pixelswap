@@ -12,11 +12,15 @@
     position: relative;
 
     .title {
-        fill: #fff;
+        fill: $light-text-color;
         position: absolute;
         top: 0;
         left: 0;
         transform: rotate(35deg);
+
+        @include darkMode {
+            fill: $dark-text-color;
+        }
     }
 
     .vinyl {
