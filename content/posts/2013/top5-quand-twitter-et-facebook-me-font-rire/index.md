@@ -14,7 +14,7 @@ C'est pourquoi, j'ai réuni pour vous dans ce top five les bonnes pages auquelle
 
 **1- TROLL DE GEEK :**
 
-**![](troll%20de%20geeek.jpg)**
+**![](troll-de-geeek.jpg)**
 
 Une des pages que j'apprecie le plus car elle touche un peu à tout et surtout, et c'est très important, ses modérateurs sont vraiment sympas !
 
@@ -28,7 +28,7 @@ C'est une sorte d'immense caverne où vous pouvez tout trouver, à la fois dispo
 
 Surement un des sites les plus interressant qui existe en la matière, puisqu'il vous propose de découvrir des choses pour le moins insoupsonnées et parfois irréalistes. A mettre en de bonnes mains pour brier en société et si comme moi vous etes parfois sceptique, envoyez un mail au modérateur ^^. Disponible sur leur [site web](http://saviezvousque.net/) et leur page [Facebook](https://www.facebook.com/SaviezVousQueOfficiel).
 
-![](saviez%20vous.jpg)
+![](saviez-vous.jpg)
 
 **4 - Hiteck :**
 

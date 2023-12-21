@@ -22,7 +22,7 @@ Je me suis très rapidement orienté vers un design sombre avec un fond noir pou
 
 Voici un aperçu du site à l'heure où j'écris ces lignes, mais vous pouvez visiter la version en ligne sur [mysetup.co](http://mysetup.co) : 
 
-![](mysetup%20screenshoot.jpg)
+![](mysetup-screenshoot.jpg)
 
 ### **Quand au back, c'est du CakePHP**
 

@@ -14,15 +14,15 @@ C'est un peu à l'écart de la ligne éditoriale de ce site mais je tenais à vo
 
 ![](VirbElite_HR_2.jpg)
 
-![](coque%20virb%20elite.jpg)
+![](coque-virb-elite.jpg)
 
 ![](perche.jpg)
 
-![](poignet%20camera.jpg)
+![](poignet-camera.jpg)
 
-![](anker%20mp141.jpg)
+![](anker-mp141.jpg)
 
-![](muvi%20x-lapse.jpg)
+![](muvi-x-lapse.jpg)
 
 ![](Lenovo-Yoga2-Tablet-10-blk-Angle1.png)
 

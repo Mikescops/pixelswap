@@ -47,7 +47,7 @@ Petit point mais pas des moindres, la fluidité de l’interface. Pour les deux,
 
 « Il est trop beau ton téléphone ! » Le design, c’est un style unique. Si sur iOS on  est obligé d’avoir le design d’Apple classique (qui va changer dans très peu de temps avec le passage à iOS7), Android se démarque. Et pour cause, sur Android il est possible de modifier l’apparence de son terminal de la tête au pied, tout est entièrement modifiable et presque gratuitement. Vous pouvez ajouter autant de widget que vous souhaitez, afin d'afficher la météo, l'heure, les réglages rapides...  Sur iOS en revanche, il faudra vous rabattre sur le jailbreak avec WinterBoard pour customiser votre design. **VICTOIRE D’ANDROID**
 
-![](Concept%20POST%20(Large).jpg)
+![](concept.jpg)
 
 ### **Contrôle des permissions (qui accède à vos données)**
 

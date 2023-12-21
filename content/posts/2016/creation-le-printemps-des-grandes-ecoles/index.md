@@ -12,7 +12,7 @@ Le Printemps des Grandes Ecoles aussi appelé PGE est une association de l'INSA 
 
 L'ensemble se devait de ressembler à un site de festival et pour le reste j'ai été libre de m'exprimer sur la partie graphique. Le site est entièrement responsive et est assez accessible aux personnes malvoyantes.
 
-![](pge%20prog.jpg)
+![](pge-prog.jpg)
 
 _Ci-dessus la partie programmation du PGE._
 
@@ -20,7 +20,7 @@ J'ai fait le choix de proposer des images larges afin de mettre en avant l'ambia
 
 Parlons un peu du backend, le site tourne sous le CMS Bolt que j'affectionne particulièrement. Il me permet une grande souplesse dans la réalisation des éléments de design et une simplicité remarquable pour que le client puisse ajouter ou modifier son contenu lui-même. Pour vous donner un exemple, la partie programmation que vous pouvez voir ci-dessus est facilement modifiable grâce à un système de bloc de contenu que l'on peut ajouter ([voire les fields repeaters de Bolt](https://docs.bolt.cm/3.2/fields/repeater)) :
 
-![](pge%20back.png)
+![](pge-back.png)
 
 J'espère que cette réalisation vous plaira, n'hésitez pas à me donner votre avis dans les commentaires ! 
 

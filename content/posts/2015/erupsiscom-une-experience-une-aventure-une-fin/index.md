@@ -12,7 +12,7 @@ Il y a plus d'un an maintenant, en janvier 2014, j'ai conçu un site d'actulité
 
 Il y a maintenant 2 mois, j'ai décidé d'arrêter ce projet. De nombreux rédacteurs, on écrit pour le site, mais chacun avait des disponibilités variables et puis la motivation retombe rapidement. De fait, le site était en concurrence direct avec des structures disposant de moyens bien plus conséquents. Manque de temps, de personnes et d'idées pour encore améliorer le site, j'ai choisi de conserver ce qui avait été créé puisque c'est un travail de longue haleine qui m'a pris de trop nombreuses heures.
 
-![](erupsis%20home.jpg)
+![](erupsis-home.jpg)
 
 C'est une expérience vraiment intéressante que j'ai eu avec Erupsis, contrairement à Geek Mexicain, j'ai dû gérer une équipe de 10 personnes disposant de sépcialités différentes. J'ai aussi dû réfléchir à des concepts nouveaux comme les Zap d'Erupsis publiés toutes les semaines sur Youtube.
 

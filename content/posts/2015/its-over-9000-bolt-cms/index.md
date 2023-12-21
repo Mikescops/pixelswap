@@ -14,7 +14,7 @@ image = 'featured.jpg'
 
 Yeah you did it ! From June 10 to February 10 over 9000 commits [on Github](https://github.com/bolt/bolt/tree/master) have been released in the master branch. And the top contributors are ...
 
-![](9000%20commits.png)
+![](9000-commits.png)
 
 And thanks to all the others **135 contributors** ! Bolt has become since 0.1 a huge CMS as strong as fast. With tendance for working the saturday and with the ratio of 5.2 #beer and 6.3 #karma day, the little big group will never stop hitting his keyboard (it hurts a lot).
 
