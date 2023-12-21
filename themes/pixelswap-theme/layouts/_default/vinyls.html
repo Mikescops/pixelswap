@@ -1,0 +1,45 @@
+{{ define "main" }}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="{{ "" | relURL }}"><img src="/img/logoss.png" alt="PixelSwap" /></a>
+                <h3 class="slogan">
+                    Corentin's vinyls
+                    <i class="fas fa-record-vinyl"></i>
+                </h3>
+                <br />
+                <br />
+
+                <div class="vinyl-grid">
+                    {{ $vinyls := .Site.Data.vinyls }}
+                    {{ range $vinyls }}
+                        <div class="vinyl-container">
+                            {{- $image := resources.GetRemote .image }}
+                            {{- $image_webp := $image.Fill "200x200 Center webp q100" }}
+                            <div class="vinyl" style="background-image: url('{{ $image_webp.RelPermalink }}')"></div>
+
+                            <svg class="title" viewBox="0 0 100 100" width="250" height="250">
+                                <defs>
+                                    <path
+                                        id="circle"
+                                        d="
+                                            M 45, 45
+                                            m -37, 5
+                                            a 37,37 0 1,1 84,0
+                                            a 37,37 0 1,1 -84,0"
+                                    />
+                                </defs>
+                                <text font-size="8">
+                                    <textPath xlink:href="#circle">
+                                        {{ .title }} -
+                                        {{ .artist }}
+                                    </textPath>
+                                </text>
+                            </svg>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}

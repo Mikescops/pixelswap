@@ -4,6 +4,8 @@ title = 'PixelSwap'
 theme = "pixelswap-theme"
 enableGitInfo = true
 
+staticDir = ['static']
+
 [params]
   description = "A blog about development, security, creations with a grain of fun."
   social_image = "img/socialimage.jpg"
