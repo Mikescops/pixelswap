@@ -27,7 +27,7 @@
     <div class="container container-shrinked">
         <div class="row">
             <div class="col-12">
-                <div class="featured-content">
+                <div class="featured-content is-loading">
                     {{- if .Params.image }}
                         {{- $image := .Resources.GetMatch .Params.image }}
                         {{- $image_webp := $image.Fill "1300x600 Center webp q100" }}
