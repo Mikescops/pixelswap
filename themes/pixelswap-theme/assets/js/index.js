@@ -1,6 +1,6 @@
 hljs.initHighlightingOnLoad();
 
-document.querySelectorAll('.dark-mode-switcher').forEach(function (element) {
+document.querySelectorAll('.dark-mode-switcher').forEach((element) => {
     element.addEventListener('click', function (event) {
         event.preventDefault();
 
