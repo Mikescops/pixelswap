@@ -1,13 +1,9 @@
 .home-title {
     position: relative;
     text-align: center;
-    color: $light-text-color;
+    color: darkMode($light-text-color, $dark-text-color);
     margin-bottom: 3em;
     margin-top: 2em;
-
-    @include darkMode {
-        color: $dark-text-color;
-    }
 
     h1 {
         font-weight: normal;
@@ -24,11 +20,7 @@
 
     a:first-child {
         text-decoration: none;
-        color: $light-text-color;
-
-        @include darkMode {
-            color: $dark-text-color;
-        }
+        color: darkMode($light-text-color, $dark-text-color);
     }
 
     a:hover {

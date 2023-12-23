@@ -1,17 +1,17 @@
 /* PixelSwap CSS Styles */
 
 @font-face {
-    font-family: "Ubuntu";
+    font-family: 'Ubuntu';
     font-style: bold;
     font-weight: 700;
-    src: url(/fonts/Ubuntu-Bold.woff2) format("woff2");
+    src: url(/fonts/Ubuntu-Bold.woff2) format('woff2');
 }
 
 @font-face {
-    font-family: "Ubuntu";
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/Ubuntu-Regular.woff2) format("woff2");
+    src: url(/fonts/Ubuntu-Regular.woff2) format('woff2');
 }
 
 $light-background-color: #f0f0f0;
@@ -23,20 +23,37 @@ $light-text-color: #172b4d;
 $dark-title-color: #eaeef1;
 $light-title-color: #172b4d;
 
-$darkMode: true;
-
-@mixin darkMode {
-    @if ($darkMode) {
-        html.dark & {
-            @content;
-        }
+@media (prefers-color-scheme: light) {
+    :root {
+        --initial-light-theme: initial;
+        --initial-dark-theme: ;
+        --current-light-theme: initial;
+        --current-dark-theme: ;
     }
 }
 
-@import "libs/simplegrid";
-@import "libs/prettify";
-@import "libs/highlight";
-@import "style";
-@import "partials/post";
-@import "partials/home";
-@import "partials/vinyls";
+@media (prefers-color-scheme: dark) {
+    :root {
+        --initial-light-theme: ;
+        --initial-dark-theme: initial;
+        --current-light-theme: ;
+        --current-dark-theme: initial;
+    }
+}
+
+#switch[type='checkbox']:checked ~ .app {
+    --current-dark-theme: var(--initial-dark-theme,) var(--initial-light-theme, initial);
+    --current-light-theme: var(--initial-light-theme,) var(--initial-dark-theme, initial);
+}
+
+@function darkMode($lightValue, $darkValue) {
+    @return var(--current-light-theme, #{$lightValue}) var(--current-dark-theme, #{$darkValue});
+}
+
+@import 'libs/simplegrid';
+@import 'libs/prettify';
+@import 'libs/highlight';
+@import 'style';
+@import 'partials/post';
+@import 'partials/home';
+@import 'partials/vinyls';

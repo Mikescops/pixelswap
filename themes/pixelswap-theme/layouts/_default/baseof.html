@@ -18,8 +18,14 @@
     </head>
 
     <body>
-        <button class="dark-mode-switcher"><i class="fas fa-moon"></i></button>
-        {{ block "main" . }}{{ end }}
-        {{ partial "footer.html" . }}
+        <input type="checkbox" id="switch" />
+        <div class="app">
+            <label for="switch">
+                <span class="dark-mode-switcher dark-switch"><i class="fas fa-sun"></i></span>
+                <span class="dark-mode-switcher light-switch"><i class="fas fa-moon"></i></span>
+            </label>
+            {{ block "main" . }}{{ end }}
+            {{ partial "footer.html" . }}
+        </div>
     </body>
 </html>

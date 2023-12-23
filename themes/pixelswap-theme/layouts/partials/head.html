@@ -71,14 +71,21 @@
 
 {{ partialCached "head/css.html" . }}
 
+
 <script>
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.addEventListener('DOMContentLoaded', () => {
+        const themeSwitcher = document.querySelector('#switch');
 
-    if (localStorage.getItem('dark-mode') === null) {
-        localStorage.setItem('dark-mode', true);
-    }
+        const preferredSystemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        let savedTheme = localStorage.getItem('theme-mode') ?? preferredSystemTheme;
 
-    if ( localStorage.getItem('dark-mode') !== 'false' && (prefersDark || localStorage.getItem('dark-mode') === 'true')) {
-        document.documentElement.classList.add('dark');
-    }
+        if (preferredSystemTheme !== savedTheme) {
+            themeSwitcher.checked = true;
+        }
+
+        themeSwitcher.addEventListener('click', () => {
+            localStorage.setItem('theme-mode', savedTheme === 'dark' ? 'light' : 'dark');
+            savedTheme = localStorage.getItem('theme-mode');
+        });
+    });
 </script>
