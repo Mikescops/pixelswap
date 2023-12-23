@@ -14,18 +14,6 @@ html {
     background: darkMode($light-background-color, $dark-background-color);
 }
 
-#switch[type='checkbox'] {
-    display: none;
-}
-
-.dark-switch {
-    display: darkMode(block, none);
-}
-
-.light-switch {
-    display: darkMode(none, block);
-}
-
 footer {
     text-align: center;
     padding: 50px 0;
@@ -78,30 +66,6 @@ em {
 
 .hide {
     display: none;
-}
-
-.dark-mode-switcher {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    z-index: 9999;
-    cursor: pointer;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: none;
-    text-align: center;
-    background: darkMode(#ddd, #333);
-    color: darkMode($light-text-color, $dark-text-color);
-
-    &:hover {
-        background: darkMode(#ccc, #555);
-    }
-
-    svg {
-        margin: 8px auto;
-        height: 18px;
-    }
 }
 
 .slogan {

@@ -23,33 +23,7 @@ $light-text-color: #172b4d;
 $dark-title-color: #eaeef1;
 $light-title-color: #172b4d;
 
-@media (prefers-color-scheme: light) {
-    :root {
-        --initial-light-theme: initial;
-        --initial-dark-theme: ;
-        --current-light-theme: initial;
-        --current-dark-theme: ;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --initial-light-theme: ;
-        --initial-dark-theme: initial;
-        --current-light-theme: ;
-        --current-dark-theme: initial;
-    }
-}
-
-#switch[type='checkbox']:checked ~ .app {
-    --current-dark-theme: var(--initial-dark-theme,) var(--initial-light-theme, initial);
-    --current-light-theme: var(--initial-light-theme,) var(--initial-dark-theme, initial);
-}
-
-@function darkMode($lightValue, $darkValue) {
-    @return var(--current-light-theme, #{$lightValue}) var(--current-dark-theme, #{$darkValue});
-}
-
+@import 'darkmode';
 @import 'libs/simplegrid';
 @import 'libs/prettify';
 @import 'libs/highlight';

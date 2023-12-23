@@ -74,11 +74,10 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        const themeSwitcher = document.querySelector('#switch');
-
         const preferredSystemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         let savedTheme = localStorage.getItem('theme-mode') ?? preferredSystemTheme;
 
+        const themeSwitcher = document.querySelector(`#switch-${preferredSystemTheme === 'dark' ? 'light' : 'dark'}`);
         if (preferredSystemTheme !== savedTheme) {
             themeSwitcher.checked = true;
         }
