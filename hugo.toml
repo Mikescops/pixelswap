@@ -1,14 +1,22 @@
 baseURL = 'https://pixelswap.fr/'
+title = 'PixelSwap | Blog by Corentin'
 languageCode = 'en-us'
-title = 'PixelSwap'
 theme = "pixelswap-theme"
+author = 'Corentin Mors'
 enableGitInfo = true
 
+ignoreFiles = ['README.md', 'LICENSE']
 staticDir = ['static']
+
+enableEmoji = true
+enableRobotsTXT = true
 
 [params]
   description = "A blog about development, security, creations with a grain of fun."
   social_image = "img/socialimage.jpg"
+
+  [params.contact]
+    email = 'medias@pixelswap.fr'
 
 [outputs]
   home = ['html', 'rss']

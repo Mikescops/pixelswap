@@ -36,13 +36,13 @@ For instance this is how you would display a post title in Bolt:
 
 And this is how you would do it in Hugo:
 
-```go
+```go-html-template
 {{ .Title }}
 ```
 
 And it's pretty much the same thing for looping over your content:
 
-```go
+```go-html-template
 {% for record in records %}
     {{ record.title }}
 {% endfor %}
@@ -50,7 +50,7 @@ And it's pretty much the same thing for looping over your content:
 
 _versus_
 
-```go
+```go-html-template
 {{ range .Pages }}
     {{ .Title }}
 {{ end }}
@@ -72,7 +72,7 @@ From this I created a script to convert all my previous posts written in HTML an
 
 Here is the script I used to convert the posts:
 
-````js
+````js {linenos=true}
 const fs = require('fs');
 
 const entriesFile = fs.readFileSync('./entries.json');
@@ -229,7 +229,7 @@ Here is how it looks like now to edit content:
 
 I built a simple script to allow me to create a new post easily. It will create a new folder with the current year and place a new Markdown file pre-filled with the post title slug and default metadata.
 
-```js
+```js {linenos=true}
 const fs = require('fs');
 const path = require('path');
 
