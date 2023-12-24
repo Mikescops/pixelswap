@@ -83,6 +83,10 @@
             margin-top: 1.25rem !important;
         }
 
+        ul {
+            width: 100%;
+        }
+
         p:first-child {
             margin-top: 0 !important;
         }
@@ -98,7 +102,16 @@
         }
 
         img {
-            border-radius: 4px;
+            border-radius: 6px;
+            max-width: 100%;
+            height: auto !important;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+
+        iframe {
+            border-radius: 6px;
             max-width: 100%;
             height: auto !important;
             text-align: center;

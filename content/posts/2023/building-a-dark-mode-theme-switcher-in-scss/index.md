@@ -186,4 +186,11 @@ That's it! We have a dark mode theme switcher in SCSS. You can see the result in
 
 If you want to test in your browser the system theme (this is for Chrome): inspect the page, go to the "Rendering" tab and change the theme to "Dark".
 ![How to emulate color scheme in Chrome](emulate-color-scheme.png)
+
 Enjoy and let me know what you think in the comments below!
+
+## References
+
+-   [How to Enable Dark Mode on Your Website with Pure CSS?](https://medium.com/js-dojo/how-to-enable-dark-mode-on-your-website-with-pure-css-32640335474)
+-   [SCSS @function documentation](https://sass-lang.com/documentation/at-rules/function/)
+-   [var() documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/var)

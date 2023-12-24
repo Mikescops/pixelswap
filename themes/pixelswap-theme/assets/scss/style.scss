@@ -33,7 +33,7 @@ p {
     padding: 0;
 }
 
-pre code {
+pre {
     display: block;
     background: #1d1f21;
     color: #c5c8c6;
@@ -47,7 +47,7 @@ p > code {
     border-radius: 0.3em;
     padding: 1px 5px;
     font-size: 14px;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 :focus {
