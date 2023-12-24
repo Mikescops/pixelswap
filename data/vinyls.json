@@ -21,6 +21,27 @@
         "image": "https://i.discogs.com/8z6hsrndk_8VY9DCKFA0C59dmUQRavhfeIQIzJWx38I/rs:fit/g:sm/q:90/h:558/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDMx/NDk5LTE2NzYwMjgx/OTEtNzYzNi5qcGVn.jpeg"
     },
     {
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "label": "Asylum Records, Asylum Records",
+        "year": 2017,
+        "image": "https://i.discogs.com/MwDo4jxnqX7fug9d7zaghXpsRXIYpLcuYohItSyov_w/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NTM2/Mjc5LTE2OTU2Mjk4/OTEtODE5MS5qcGVn.jpeg"
+    },
+    {
+        "title": "Ferrat Chante Aragon",
+        "artist": "Jean Ferrat",
+        "label": "Barclay",
+        "year": 1978,
+        "image": "https://i.discogs.com/XlusORQ3Oes8Ep8M2kuHlEz8HY2m8uHH9qjGPN61vqU/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMjk1/MDItMTU2NTgxNzc5/NS0yODA1LmpwZWc.jpeg"
+    },
+    {
+        "title": "Random Access Memories",
+        "artist": "Daft Punk",
+        "label": "Columbia, Columbia, Sony Music, Sony Music",
+        "year": 2021,
+        "image": "https://i.discogs.com/6qlXA_RhdONEfPqvDA7AoxGLk7aDuLo4qcTacj-Gav4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NzI0/NTg0LTE2ODEyMTcx/MTMtMzIwOC5qcGVn.jpeg"
+    },
+    {
         "title": "Happier Than Ever",
         "artist": "Billie Eilish",
         "label": "Darkroom (4), Interscope Records",
@@ -70,6 +91,20 @@
         "image": "https://i.discogs.com/8SwzNwN3-mk0Qx1bUu0e63ojbhCLiMYMe6LnmGsEBng/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NjI4/NTA1LTE2MDg5MjY1/NTgtNjIzOS5qcGVn.jpeg"
     },
     {
+        "title": "Mimi 86",
+        "artist": "Coluche",
+        "label": "Martinez Lederman Productions",
+        "year": 1986,
+        "image": "https://i.discogs.com/_XcIPLk8oa2mW79wx0k2xjM3ohFV-WGatioS9fQPc3w/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MzUy/OS0xMzM4NTU3ODgx/LTQyNTkuanBlZw.jpeg"
+    },
+    {
+        "title": "J'habite En France",
+        "artist": "Michel Sardou",
+        "label": "Philips",
+        "year": 1970,
+        "image": "https://i.discogs.com/6GsH4jo9UCd4bhBtE1SsckLCipC1Y-qnJIBBrkJstQs/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NDU0/MzctMTM0MDQ3NDU5/My00MTkwLmpwZWc.jpeg"
+    },
+    {
         "title": "Gold (Greatest Hits)",
         "artist": "ABBA",
         "label": "Polar",
@@ -112,11 +147,25 @@
         "image": "https://i.discogs.com/Jf7L3C0SL71TfzMGR9tkxjhqZmQVsDRFkBlVfcLHcyc/rs:fit/g:sm/q:90/h:573/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNjUx/MC0xMzU0MDY0NzEz/LTgwMjMuanBlZw.jpeg"
     },
     {
+        "title": "Greatest Hits",
+        "artist": "Queen",
+        "label": "Virgin EMI Records",
+        "year": 2016,
+        "image": "https://i.discogs.com/k7Q4X_bVGADYJW5-ib7-Hoyl-xNxeog22e0Ufnur9zc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzNzEw/NzItMTQ4MzE4MTU2/My05MjgwLmpwZWc.jpeg"
+    },
+    {
         "title": "Chansons De Noël - French Christmas Songs",
         "artist": "Various",
         "label": "Wagram Music",
         "year": 2020,
         "image": "https://i.discogs.com/4EdzjH8Q84NY0SpibfJztjdUAsMKh3Unp4ENHX8q7FQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzM0/NTI1LTE2MDk1MjU1/ODctMzE4My5qcGVn.jpeg"
+    },
+    {
+        "title": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "label": "Warner Records",
+        "year": 2021,
+        "image": "https://i.discogs.com/YTQfR6ejbyXtOcBHcePmR_C4NEcX0ftsVVvJ-yFrr2k/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTgz/OTY1LTE2NzM0NTE2/NzgtOTg1MS5qcGVn.jpeg"
     },
     {
         "title": "Hybrid Theory",
