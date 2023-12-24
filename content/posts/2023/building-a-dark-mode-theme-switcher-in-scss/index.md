@@ -20,7 +20,7 @@ _You can check the [different version of this blog post on Github](https://githu
 
 First, we need to create a simple HTML structure with a checkbox and a label. The checkbox will be used to switch the theme and the label will be used to style the button.
 
-```html
+```html {linenos=true}
 <input type="checkbox" id="switch-light" />
 <input type="checkbox" id="switch-dark" />
 <div class="app">
@@ -174,7 +174,7 @@ The code above will check if the user has a dark mode enabled on his system and 
 
 That's it! We have a dark mode theme switcher in SCSS. You can see the result in the CodePen below.
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Dark mode with pure SCSS and system theme (Safari fix)" src="https://codepen.io/mikescops/embed/rNRNbXz?default-tab=css%2Cresult&editable=true&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%;" scrolling="no" title="Dark mode with pure SCSS and system theme (Safari fix)" src="https://codepen.io/mikescops/embed/rNRNbXz?default-tab=css%2Cresult&editable=true&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/mikescops/pen/rNRNbXz">
   Dark mode with pure SCSS and system theme (Safari fix)</a> by Corentin Mors (<a href="https://codepen.io/mikescops">@mikescops</a>)
   on <a href="https://codepen.io">CodePen</a>.

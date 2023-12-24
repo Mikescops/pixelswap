@@ -33,6 +33,23 @@ p {
     padding: 0;
 }
 
+pre code {
+    display: block;
+    background: #1d1f21;
+    color: #c5c8c6;
+    padding: 1.5em;
+    font-size: 14px;
+}
+
+p > code {
+    background-color: darkMode($dark-background-color, $light-background-color);
+    color: darkMode($dark-text-color, $light-text-color);
+    border-radius: 0.3em;
+    padding: 1px 5px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
 :focus {
     -moz-outline-style: none;
     outline-style: none;
