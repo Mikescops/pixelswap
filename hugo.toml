@@ -9,6 +9,7 @@ ignoreFiles = ['README.md', 'LICENSE']
 staticDir = ['static']
 
 enableEmoji = true
+summaryLength = 50
 enableRobotsTXT = true
 
 [params]
