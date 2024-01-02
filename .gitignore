@@ -18,3 +18,4 @@ hugo.linux
 
 # Nodejs
 node_modules/
+.frontmatter/
