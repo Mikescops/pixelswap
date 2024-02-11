@@ -13,7 +13,9 @@
 {{- $image_url := site.Params.social_image | absURL -}}
 {{- if  .Params.image -}}
     {{- $image := .Resources.GetMatch .Params.image -}}
-    {{- $image_url = $image.Permalink -}}
+    {{- if $image -}}
+        {{- $image_url = $image.Permalink -}}
+    {{- end -}}
 {{- end -}}
 
 {{- $url := "" -}}

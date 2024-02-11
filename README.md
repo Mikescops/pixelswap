@@ -4,6 +4,11 @@ This repo contains the PixelSwap Blog.
 
 Available at [pixelswap.fr](https://pixelswap.fr/)
 
+## To create a new post
+
+```sh
+hugo new content posts/2024/title-of-post/index.md
+```
 
 ## On Windows
 
@@ -22,4 +27,4 @@ $hugo = $env:APPDATA,'\..\Local\Microsoft\WinGet\Links\hugo.exe' -join ''
 
 ---
 
-All rights reserved. Code may be partially reproduced, content is property of his owner.
+*All rights reserved. Code may be partially reproduced, content is property of his owner.*

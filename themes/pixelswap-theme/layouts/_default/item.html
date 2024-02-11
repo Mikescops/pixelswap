@@ -3,8 +3,12 @@
         class="item"
         {{- if isset .Params "image" -}}
             {{- $image := .Resources.GetMatch .Params.image -}}
-            {{- $image_webp := $image.Fill "542x290 Center webp q100" -}}
-            style="background-image: url({{ $image_webp.RelPermalink }})"
+            {{- if $image -}}
+                {{- $image_webp := $image.Fill "542x290 Center webp q100" -}}
+                style="background-image: url({{ $image_webp.RelPermalink }})"
+            {{- else -}}
+                style="background-color: #f0f0f0;"
+            {{- end -}}
         {{- end -}}
     >
         <div class="item-overlay"></div>
