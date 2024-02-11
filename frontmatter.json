@@ -30,12 +30,14 @@
                     "title": "Content preview",
                     "name": "image",
                     "type": "image",
-                    "isPreviewImage": true
+                    "isPreviewImage": true,
+                    "default": "featured.jpg"
                 },
                 {
                     "title": "Is in draft",
                     "name": "draft",
-                    "type": "draft"
+                    "type": "draft",
+                    "default": false
                 },
                 {
                     "title": "Tags",
@@ -51,7 +53,9 @@
                     "title": "aliases",
                     "name": "aliases",
                     "type": "list",
-                    "default": [],
+                    "default": [
+                        "post/{{slug}}"
+                    ],
                     "hidden": true
                 }
             ]
@@ -62,8 +66,13 @@
     "frontMatter.preview.host": "http://localhost:1313",
     "frontMatter.content.pageFolders": [
         {
-            "title": "content/posts",
-            "path": "[[workspace]]/content"
+            "title": "This year posts",
+            "path": "[[workspace]]/content/posts/{{year}}"
+        },
+        {
+            "title": "Blog Posts",
+            "path": "[[workspace]]/content/posts",
+            "disableCreation": true
         }
     ],
     "frontMatter.framework.startCommand": "hugo serve"
