@@ -21,6 +21,41 @@
         "image": "https://i.discogs.com/8z6hsrndk_8VY9DCKFA0C59dmUQRavhfeIQIzJWx38I/rs:fit/g:sm/q:90/h:558/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDMx/NDk5LTE2NzYwMjgx/OTEtNzYzNi5qcGVn.jpeg"
     },
     {
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "label": "Asylum Records, Asylum Records",
+        "year": 2017,
+        "image": "https://i.discogs.com/MwDo4jxnqX7fug9d7zaghXpsRXIYpLcuYohItSyov_w/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NTM2/Mjc5LTE2OTU2Mjk4/OTEtODE5MS5qcGVn.jpeg"
+    },
+    {
+        "title": "Louise Attaque",
+        "artist": "Louise Attaque",
+        "label": "Barclay",
+        "year": 2018,
+        "image": "https://i.discogs.com/T281VQs8u4lahkECMd4BKfr59dDrmK9C6DF8pnTtfQs/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NjMw/MTY0LTE2NDQ5Mzc0/MjYtMzAwNC5qcGVn.jpeg"
+    },
+    {
+        "title": "Ferrat Chante Aragon",
+        "artist": "Jean Ferrat",
+        "label": "Barclay",
+        "year": 1978,
+        "image": "https://i.discogs.com/XlusORQ3Oes8Ep8M2kuHlEz8HY2m8uHH9qjGPN61vqU/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMjk1/MDItMTU2NTgxNzc5/NS0yODA1LmpwZWc.jpeg"
+    },
+    {
+        "title": "Random Access Memories",
+        "artist": "Daft Punk",
+        "label": "Columbia, Columbia, Sony Music, Sony Music",
+        "year": 2021,
+        "image": "https://i.discogs.com/6qlXA_RhdONEfPqvDA7AoxGLk7aDuLo4qcTacj-Gav4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NzI0/NTg0LTE2ODEyMTcx/MTMtMzIwOC5qcGVn.jpeg"
+    },
+    {
+        "title": "Kind Of Blue",
+        "artist": "Miles Davis",
+        "label": "Columbia, Legacy",
+        "year": 2018,
+        "image": "https://i.discogs.com/RQBiC4ZLKgfWf5zms3rylOMEtmEG3vV7s4hiCG3v5mY/rs:fit/g:sm/q:90/h:609/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDMy/ODE2LTE2OTI2MDY4/OTYtNTQ2My5qcGVn.jpeg"
+    },
+    {
         "title": "Happier Than Ever",
         "artist": "Billie Eilish",
         "label": "Darkroom (4), Interscope Records",
@@ -28,11 +63,39 @@
         "image": "https://i.discogs.com/GwYxoOv5ffsKbT48Ve8vZcgK0JXALZWnPqisNC6On-0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5Njc2/NTk2LTE2Mjc2Mzgy/NTQtNTAyNS5qcGVn.jpeg"
     },
     {
+        "title": "Nevermind",
+        "artist": "Nirvana",
+        "label": "DGC, Sub Pop",
+        "year": 2023,
+        "image": "https://i.discogs.com/9UGhSBbkkSd6-yp51VKlN10aY74TROYwewvidOTqWgI/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTM0/NDk1LTE2OTY5MzQz/NTAtNjAyMC5qcGVn.jpeg"
+    },
+    {
         "title": "AM",
         "artist": "Arctic Monkeys",
         "label": "Domino",
         "year": 2013,
         "image": "https://i.discogs.com/MohCZfatquytAhecVgsR1eyVULp-kPT7ricg83wi0WE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MDQx/NTgtMTM3ODk5NDA1/My03MjEyLmpwZWc.jpeg"
+    },
+    {
+        "title": "Use Your Illusion II",
+        "artist": "Guns N' Roses",
+        "label": "Geffen Records, UMe, Uzi Suicide Record Co.",
+        "year": 2022,
+        "image": "https://i.discogs.com/zAxCriGMxVVQGEkV9Lj0DHCqrV_N_egLTEqNCoZ0RQU/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTI4/ODk4LTE2NzE0MzE0/MTUtNzY2Ny5qcGVn.jpeg"
+    },
+    {
+        "title": "The Golden Age",
+        "artist": "Woodkid",
+        "label": "Green United Music",
+        "year": 2020,
+        "image": "https://i.discogs.com/d01dYx5N9iIAS_c2Q2j4WBsiXZkq7XuI57GspbkVruU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODkx/Nzk0LTE1OTk2ODQz/MzItMTgyMS5qcGVn.jpeg"
+    },
+    {
+        "title": "The Resistance",
+        "artist": "Muse",
+        "label": "Helium 3, Warner Bros. Records",
+        "year": 2022,
+        "image": "https://i.discogs.com/_i-hgAX1dcN_z-Z9xwa5oivrnz1G1EqX5DiOij9vfQA/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MjE2/MzQyLTE2NzczMjA3/MDktMTM0Mi5qcGVn.jpeg"
     },
     {
         "title": "Will Of The People",
@@ -70,11 +133,39 @@
         "image": "https://i.discogs.com/8SwzNwN3-mk0Qx1bUu0e63ojbhCLiMYMe6LnmGsEBng/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NjI4/NTA1LTE2MDg5MjY1/NTgtNjIzOS5qcGVn.jpeg"
     },
     {
+        "title": "Mimi 86",
+        "artist": "Coluche",
+        "label": "Martinez Lederman Productions",
+        "year": 1986,
+        "image": "https://i.discogs.com/_XcIPLk8oa2mW79wx0k2xjM3ohFV-WGatioS9fQPc3w/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MzUy/OS0xMzM4NTU3ODgx/LTQyNTkuanBlZw.jpeg"
+    },
+    {
+        "title": "Pulp Fiction (Music From The Motion Picture)",
+        "artist": "Various",
+        "label": "MCA Records",
+        "year": 2021,
+        "image": "https://i.discogs.com/MJ9y8GJRXWBsdbl3bIbJA7uc8pwKj9l67Z_YK7GEI6E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNTky/MTkwLTE2MzQyNDky/NTYtMTQ1MS5qcGVn.jpeg"
+    },
+    {
+        "title": "Human",
+        "artist": "OneRepublic",
+        "label": "Mosley Music Group, Interscope Records",
+        "year": 2021,
+        "image": "https://i.discogs.com/Q90Xozp3GwTGRSHiAj6vo4DnTxSxUlmuh8uXNGxL_t4/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDM0/ODczLTE2NTYwNjg2/MjMtNDkxNS5qcGVn.jpeg"
+    },
+    {
+        "title": "J'habite En France",
+        "artist": "Michel Sardou",
+        "label": "Philips",
+        "year": 1970,
+        "image": "https://i.discogs.com/6GsH4jo9UCd4bhBtE1SsckLCipC1Y-qnJIBBrkJstQs/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NDU0/MzctMTM0MDQ3NDU5/My00MTkwLmpwZWc.jpeg"
+    },
+    {
         "title": "Gold (Greatest Hits)",
         "artist": "ABBA",
-        "label": "Polar",
-        "year": 2022,
-        "image": "https://i.discogs.com/3hBsUgEGMuxKMCExtrWCd5qMKsPzaGVinuD0KZmkFJ8/rs:fit/g:sm/q:90/h:942/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjM2/NDc5LTE2NzM1NDM2/NDEtNDE3OS5qcGVn.jpeg"
+        "label": "Polar, Polar, Polar, Polar, Polydor, Polydor",
+        "year": 0,
+        "image": "https://i.discogs.com/ti7iaI_M6ngwrVd0IDWoauzqaVtADdOmkeB5yTfUTp8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTM3/Nzg4LTE2NTgyNjgy/OTMtNzgwMC5qcGVn.jpeg"
     },
     {
         "title": "Outrun",
@@ -89,6 +180,13 @@
         "label": "Reprise Records",
         "year": 2009,
         "image": "https://i.discogs.com/iut3CzmJvooJ0uq33QnHP1fyauPraRR8OVoKYGGd0hE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzIz/OTg1LTE2OTcyMzM1/MTctODA2NC5qcGVn.jpeg"
+    },
+    {
+        "title": "American Idiot",
+        "artist": "Green Day",
+        "label": "Reprise Records, Reprise Records",
+        "year": 2004,
+        "image": "https://i.discogs.com/MZK1NpQQ4V2QYjchCOmpc6aZuYJVjfAWfw9c5cAp6zI/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDM0/NzAtMTU3NDI2ODI2/Ni05MDM2LmpwZWc.jpeg"
     },
     {
         "title": "Remember That You Will Die",
@@ -112,11 +210,39 @@
         "image": "https://i.discogs.com/Jf7L3C0SL71TfzMGR9tkxjhqZmQVsDRFkBlVfcLHcyc/rs:fit/g:sm/q:90/h:573/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNjUx/MC0xMzU0MDY0NzEz/LTgwMjMuanBlZw.jpeg"
     },
     {
+        "title": "Greatest Hits",
+        "artist": "Queen",
+        "label": "Virgin EMI Records",
+        "year": 2016,
+        "image": "https://i.discogs.com/k7Q4X_bVGADYJW5-ib7-Hoyl-xNxeog22e0Ufnur9zc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzNzEw/NzItMTQ4MzE4MTU2/My05MjgwLmpwZWc.jpeg"
+    },
+    {
         "title": "Chansons De Noël - French Christmas Songs",
         "artist": "Various",
         "label": "Wagram Music",
         "year": 2020,
         "image": "https://i.discogs.com/4EdzjH8Q84NY0SpibfJztjdUAsMKh3Unp4ENHX8q7FQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzM0/NTI1LTE2MDk1MjU1/ODctMzE4My5qcGVn.jpeg"
+    },
+    {
+        "title": "Absolution",
+        "artist": "Muse",
+        "label": "Warner Bros. Records, Helium 3",
+        "year": 2015,
+        "image": "https://i.discogs.com/02H4CQYdZ7_q5-4yfNb0YXLNYehwfLXlfhOuFvLJod8/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyMjAw/MTctMTYyOTM2ODE4/My03NzM2LmpwZWc.jpeg"
+    },
+    {
+        "title": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "label": "Warner Records",
+        "year": 2021,
+        "image": "https://i.discogs.com/YTQfR6ejbyXtOcBHcePmR_C4NEcX0ftsVVvJ-yFrr2k/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTgz/OTY1LTE2NzM0NTE2/NzgtOTg1MS5qcGVn.jpeg"
+    },
+    {
+        "title": "Black Holes And Revelations",
+        "artist": "Muse",
+        "label": "Warner Records, Helium 3",
+        "year": 2020,
+        "image": "https://i.discogs.com/HP5AssP3bdFoZPDx8OAZXvSiYMFu-vtbCmH5euZQipo/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTk2/MTQxLTE2MDE1ODAx/MTEtNjM1NC5qcGVn.jpeg"
     },
     {
         "title": "Hybrid Theory",
@@ -131,5 +257,12 @@
         "label": "Wichita, UMC",
         "year": 2018,
         "image": "https://i.discogs.com/G5LUdcyPtCq-xxOKWggQphvMHCA7BKE2NDtwgHJzJgo/rs:fit/g:sm/q:90/h:643/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjE5/NDc5LTE1MzkyMDY4/MjItNDI3My5qcGVn.jpeg"
+    },
+    {
+        "title": "Welcome To The Pleasuredome",
+        "artist": "Frankie Goes To Hollywood",
+        "label": "ZTT, UMC",
+        "year": 2020,
+        "image": "https://i.discogs.com/cXhi5gpG6l8BtGynlRLZLHPHYaQxcqxmlhEbTd6zcpk/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NDM4/NjA1LTE2MDgwNjUy/MTQtOTA3Ny5qcGVn.jpeg"
     }
 ]

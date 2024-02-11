@@ -4,14 +4,9 @@
     position: sticky;
     width: 100%;
     min-height: 50px;
-    background: $light-background-color;
+    background: darkMode($light-background-color, $dark-background-color);
     top: 0;
-    margin-top: 10px;
     z-index: 999;
-
-    @include darkMode {
-        background: $dark-background-color;
-    }
 
     .col-12 {
         display: flex;
@@ -29,16 +24,12 @@
     }
 
     .post-title {
-        color: $light-title-color;
+        color: darkMode($light-title-color, $dark-title-color);
         flex: 1 1;
         font-weight: bold;
         margin: 0;
         font-size: 1.8em;
         line-height: initial;
-
-        @include darkMode {
-            color: $dark-title-color;
-        }
     }
 
     .post-lang {
@@ -55,11 +46,7 @@
         border-left: 1px solid #dfdfdf;
         text-decoration: none;
         padding-left: 6px;
-        color: $light-text-color;
-
-        @include darkMode {
-            color: $dark-text-color;
-        }
+        color: darkMode($light-text-color, $dark-text-color);
     }
 }
 
@@ -79,12 +66,8 @@
 .post-container {
     position: relative;
     padding: 0 10px;
-    color: $light-text-color;
+    color: darkMode($light-text-color, $dark-text-color);
     margin-top: 30px;
-
-    @include darkMode {
-        color: $dark-text-color;
-    }
 
     .post-content {
         font-size: 16px;
@@ -98,6 +81,10 @@
         p {
             width: 100%;
             margin-top: 1.25rem !important;
+        }
+
+        ul {
+            width: 100%;
         }
 
         p:first-child {
@@ -115,9 +102,17 @@
         }
 
         img {
-            border-radius: 4px;
+            border-radius: 6px;
             max-width: 100%;
             height: auto !important;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+
+        iframe {
+            border-radius: 6px;
+            max-width: 100%;
             text-align: center;
             display: block;
             margin: 0 auto;
@@ -136,11 +131,7 @@
             margin-left: -18px;
             margin-bottom: 0;
             width: 100%;
-            color: $light-title-color;
-
-            @include darkMode {
-                color: $dark-title-color;
-            }
+            color: darkMode($light-title-color, $dark-title-color);
         }
     }
 

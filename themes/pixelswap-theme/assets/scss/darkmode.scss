@@ -1,0 +1,83 @@
+@media (prefers-color-scheme: dark) {
+    .app {
+        --initial-light-theme: ;
+        --initial-dark-theme: initial;
+        --current-light-theme: ;
+        --current-dark-theme: initial;
+    }
+
+    .switch-dark {
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .app {
+        --initial-light-theme: initial;
+        --initial-dark-theme: ;
+        --current-light-theme: initial;
+        --current-dark-theme: ;
+    }
+
+    .switch-light {
+        display: none;
+    }
+}
+
+#switch-light[type='checkbox']:checked ~ .app {
+    --current-dark-theme: var(--initial-light-theme, initial);
+    --current-light-theme: initial;
+}
+
+#switch-dark[type='checkbox']:checked ~ .app {
+    --current-dark-theme: initial;
+    --current-light-theme: var(--initial-dark-theme, initial);
+}
+
+#switch-light[type='checkbox'],
+#switch-dark[type='checkbox'] {
+    display: none;
+}
+
+@function darkMode($lightValue, $darkValue) {
+    @return var(--current-light-theme, #{$lightValue}) var(--current-dark-theme, #{$darkValue});
+}
+
+.dark-mode-switcher {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 9999;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+    background: darkMode(#ddd, #333);
+    color: darkMode($light-text-color, $dark-text-color);
+
+    &:hover {
+        background: darkMode(#ccc, #555);
+    }
+
+    svg {
+        margin: 8px auto;
+        height: 18px;
+    }
+}
+
+.switch-dark .dark-icon,
+.switch-light .light-icon {
+    display: darkMode(block, none);
+}
+
+.switch-dark .light-icon,
+.switch-light .dark-icon {
+    display: darkMode(none, block);
+}
