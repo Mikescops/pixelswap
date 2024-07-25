@@ -265,3 +265,20 @@ figure.image-caption {
         background-position-x: -200%;
     }
 }
+
+.mermaid {
+    margin: 20px 0;
+    width: 100%;
+
+    .messageText {
+        fill: darkMode(#000, #fff) !important;
+    }
+
+    .messageLine0 {
+        stroke: darkMode(#333, #fff) !important;
+    }
+
+    #arrowhead path {
+        fill: darkMode(#333, #fff) !important;
+    }
+}
