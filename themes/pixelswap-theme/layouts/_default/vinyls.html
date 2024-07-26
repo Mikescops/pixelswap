@@ -14,7 +14,7 @@
                     {{ $vinyls := .Site.Data.vinyls }}
                     {{ range $vinyls }}
                         <div class="vinyl-container">
-                            {{- $image := resources.GetRemote .image }}
+                            {{- $image := resources.Get .image }}
                             {{- $image_webp := $image.Fill "200x200 Center webp q100" }}
                             <div class="vinyl" style="background-image: url('{{ $image_webp.RelPermalink }}')"></div>
 

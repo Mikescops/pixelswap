@@ -25,6 +25,31 @@ const fetchVinyls = async () => {
     }
 };
 
+const fetchImage = async (url) => {
+    const imagePath = `vinyls-cover/${url.split('/').pop()}`;
+    const imagePathInAssets = `assets/${imagePath}`;
+
+    if (fs.existsSync(imagePathInAssets)) {
+        return imagePath;
+    }
+
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`Error: ${response.status} - ${response.statusText}`);
+        }
+
+
+        const buffer = await response.arrayBuffer();
+        fs.writeFileSync(imagePathInAssets, Buffer.from(buffer));
+
+        return imagePath;
+    } catch (error) {
+        console.error('Error fetching image:', error);
+        return null;
+    }
+};
+
 const transformToJSON = (vinyls) => {
     return vinyls.map(vinyl => ({
         title: vinyl.basic_information.title,
@@ -37,6 +62,10 @@ const transformToJSON = (vinyls) => {
 
 const main = async () => {
     const vinyls = await fetchVinyls();
+    for (const vinyl of vinyls) {
+        const imagePath = await fetchImage(vinyl.basic_information.cover_image);
+        vinyl.basic_information.cover_image = imagePath;
+    }
     const vinylsJSON = transformToJSON(vinyls);
     fs.writeFileSync('data/vinyls.json', JSON.stringify(vinylsJSON, null, 4));
     console.log('Vinyls data written to vinyls.json');
