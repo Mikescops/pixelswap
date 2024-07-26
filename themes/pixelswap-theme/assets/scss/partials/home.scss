@@ -209,7 +209,7 @@
     bottom: 0;
     padding: 10px 15px 10px 15px;
     background: rgba(255, 255, 255, 0.85);
-    width: 100%;
+    width: calc(100% - 30px);
 }
 .item-add-content {
     padding: 0 15px 15px 15px;
@@ -266,6 +266,11 @@
     margin: 0;
     margin-bottom: 10px;
     line-height: 1.2em;
+
+    // hide on mobile
+    @media all and (max-width: 618px) {
+        display: none;
+    }
 }
 
 .item-content {
