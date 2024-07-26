@@ -1,5 +1,26 @@
 [
     {
+        "title": "A Weekend In The City",
+        "artist": "Bloc Party",
+        "label": "[pias]",
+        "year": 2024,
+        "image": "https://i.discogs.com/mtRjVvNBfZmfO13WqH33Dlf_tIiq6OUHuEWyXAus-Bk/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMTQy/NDA4LTE3MjAyMDM5/MTItNjg0OS5qcGVn.jpeg"
+    },
+    {
+        "title": "Intimacy",
+        "artist": "Bloc Party",
+        "label": "[pias]",
+        "year": 2024,
+        "image": "https://i.discogs.com/HchspJ0-6RM7JWTumVGl3a3nbT2Deo5w1qreUEorfBc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMTQy/MTY1LTE3MjA0MTY0/NDktNTk5MC5qcGVn.jpeg"
+    },
+    {
+        "title": "Four",
+        "artist": "Bloc Party",
+        "label": "[PIAS] Recordings",
+        "year": 2024,
+        "image": "https://i.discogs.com/_EdDJGmlrAoc4vETvkXuR-oMd_lU8p9VbImioBsyrM0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMTgx/MTM0LTE3MjE3MzY0/MzItOTQ0Ni5qcGVn.jpeg"
+    },
+    {
         "title": "Civilisation",
         "artist": "Orelsan",
         "label": "7th Magnitude, 3ème Bureau, Wagram Music",
@@ -93,7 +114,7 @@
     {
         "title": "The Golden Age",
         "artist": "Woodkid",
-        "label": "Green United Music",
+        "label": "Green United Music, Barclay",
         "year": 2020,
         "image": "https://i.discogs.com/d01dYx5N9iIAS_c2Q2j4WBsiXZkq7XuI57GspbkVruU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODkx/Nzk0LTE1OTk2ODQz/MzItMTgyMS5qcGVn.jpeg"
     },
@@ -242,7 +263,7 @@
         "artist": "Red Hot Chili Peppers",
         "label": "Warner Records",
         "year": 2021,
-        "image": "https://i.discogs.com/YTQfR6ejbyXtOcBHcePmR_C4NEcX0ftsVVvJ-yFrr2k/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTgz/OTY1LTE2NzM0NTE2/NzgtOTg1MS5qcGVn.jpeg"
+        "image": "https://i.discogs.com/TEVjcsNa2bq-0wH8EGkT82rKtcRFZiMZ8-3mAe20WIo/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTgz/OTY1LTE3MTE0NDYx/MTktNDAyOS5qcGVn.jpeg"
     },
     {
         "title": "Black Holes And Revelations",
@@ -264,6 +285,13 @@
         "label": "Wichita, UMC",
         "year": 2018,
         "image": "https://i.discogs.com/G5LUdcyPtCq-xxOKWggQphvMHCA7BKE2NDtwgHJzJgo/rs:fit/g:sm/q:90/h:643/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjE5/NDc5LTE1MzkyMDY4/MjItNDI3My5qcGVn.jpeg"
+    },
+    {
+        "title": "The Highlights",
+        "artist": "The Weeknd",
+        "label": "XO, Republic Records",
+        "year": 2021,
+        "image": "https://i.discogs.com/Rr5yYilyewlSmtr-nof7zd1ypzkKeUrP-oOEO4eRsLw/rs:fit/g:sm/q:90/h:562/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMDM4/MjA5LTE2NDIyNTIx/MjItMzczOC5qcGVn.jpeg"
     },
     {
         "title": "Welcome To The Pleasuredome",

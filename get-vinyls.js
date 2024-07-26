@@ -1,7 +1,6 @@
 require('dotenv').config();
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const fs = require('fs');
-const path = require('path');
 
 const username = 'lokta';
 const apiUrl = `https://api.discogs.com/users/${username}/collection/folders/0/releases`;
@@ -15,7 +14,7 @@ const fetchVinyls = async () => {
         });
 
         if (!response.ok) {
-            throw new Error(`Error: ${response.status}`);
+            throw new Error(`Error: ${response.status} - ${response.statusText}`);
         }
 
         const data = await response.json();
