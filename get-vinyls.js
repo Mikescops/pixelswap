@@ -3,7 +3,7 @@ const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fet
 const fs = require('fs');
 
 const username = 'lokta';
-const apiUrl = `https://api.discogs.com/users/${username}/collection/folders/0/releases`;
+const apiUrl = `https://api.discogs.com/users/${username}/collection/folders/0/releases?per_page=100`;
 
 const fetchVinyls = async () => {
     try {

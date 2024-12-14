@@ -21,6 +21,13 @@
         "image": "vinyls-cover/MzItOTQ0Ni5qcGVn.jpeg"
     },
     {
+        "title": "Surfer Rosa",
+        "artist": "Pixies",
+        "label": "4AD",
+        "year": 2006,
+        "image": "vinyls-cover/MjEtNzU3Mi5qcGVn.jpeg"
+    },
+    {
         "title": "Civilisation",
         "artist": "Orelsan",
         "label": "7th Magnitude, 3ème Bureau, Wagram Music",
@@ -63,6 +70,27 @@
         "image": "vinyls-cover/NS0yODA1LmpwZWc.jpeg"
     },
     {
+        "title": "†",
+        "artist": "Justice (3)",
+        "label": "Because Music, Ed Banger Records",
+        "year": 2007,
+        "image": "vinyls-cover/LmpwZWc.jpeg"
+    },
+    {
+        "title": "Rock Machine",
+        "artist": "La Femme (4)",
+        "label": "Born Bad Records, IDOL (2), Disque Pointu",
+        "year": 2024,
+        "image": "vinyls-cover/NDAtMzA1Ni5qcGVn.jpeg"
+    },
+    {
+        "title": "Black Ice",
+        "artist": "AC/DC",
+        "label": "Columbia, Albert Productions, Sony Music",
+        "year": 2024,
+        "image": "vinyls-cover/NDItMjcyNy5qcGVn.jpeg"
+    },
+    {
         "title": "Random Access Memories",
         "artist": "Daft Punk",
         "label": "Columbia, Columbia, Sony Music, Sony Music",
@@ -81,14 +109,21 @@
         "artist": "Billie Eilish",
         "label": "Darkroom (4), Interscope Records",
         "year": 2021,
-        "image": "vinyls-cover/NTQtNTAyNS5qcGVn.jpeg"
+        "image": "vinyls-cover/NTEtNzQ1NC5qcGVn.jpeg"
     },
     {
         "title": "Nevermind",
         "artist": "Nirvana",
         "label": "DGC, Sub Pop",
         "year": 2023,
-        "image": "vinyls-cover/NTAtNjAyMC5qcGVn.jpeg"
+        "image": "vinyls-cover/NzItOTUwMi5qcGVn.jpeg"
+    },
+    {
+        "title": "Franz Ferdinand",
+        "artist": "Franz Ferdinand",
+        "label": "Domino",
+        "year": 0,
+        "image": "vinyls-cover/Mi5qcGVn.jpeg"
     },
     {
         "title": "Whatever People Say I Am, That's What I'm Not",
@@ -103,6 +138,20 @@
         "label": "Domino",
         "year": 2013,
         "image": "vinyls-cover/My03MjEyLmpwZWc.jpeg"
+    },
+    {
+        "title": "Currents",
+        "artist": "Tame Impala",
+        "label": "Fiction Records, Caroline International, Universal Music",
+        "year": 2021,
+        "image": "vinyls-cover/NTItOTg2NC5qcGVn.jpeg"
+    },
+    {
+        "title": "Trench",
+        "artist": "Twenty One Pilots",
+        "label": "Fueled By Ramen",
+        "year": 2018,
+        "image": "vinyls-cover/NDUtNzk0Mi5qcGVn.jpeg"
     },
     {
         "title": "Use Your Illusion II",
@@ -147,6 +196,20 @@
         "image": "vinyls-cover/MjctOTQ5Ni5qcGVn.jpeg"
     },
     {
+        "title": "Chansons Pour Les Pieds",
+        "artist": "Jean-Jacques Goldman",
+        "label": "JRG, Sony Music",
+        "year": 2019,
+        "image": "vinyls-cover/ODgtNzA3Ny5qcGVn.jpeg"
+    },
+    {
+        "title": "Origins",
+        "artist": "Imagine Dragons",
+        "label": "KIDinaKORNER, Interscope Records",
+        "year": 2018,
+        "image": "vinyls-cover/NDQtNjMzMS5qcGVn.jpeg"
+    },
+    {
         "title": "Night Visions",
         "artist": "Imagine Dragons",
         "label": "KIDinaKORNER, Interscope Records",
@@ -180,6 +243,13 @@
         "label": "Mosley Music Group, Interscope Records",
         "year": 2021,
         "image": "vinyls-cover/MjMtNDkxNS5qcGVn.jpeg"
+    },
+    {
+        "title": "Petit Biscuit",
+        "artist": "Petit Biscuit",
+        "label": "Petit Biscuit Inc.",
+        "year": 2016,
+        "image": "vinyls-cover/NC02MTI5LmpwZWc.jpeg"
     },
     {
         "title": "J'habite En France",
@@ -231,6 +301,20 @@
         "image": "vinyls-cover/NTItNTU5OS5qcGVn.jpeg"
     },
     {
+        "title": "The Complete Collection",
+        "artist": "Kungs",
+        "label": "Universal Music France",
+        "year": 2023,
+        "image": "vinyls-cover/ODMtOTY3OS5qcGVn.jpeg"
+    },
+    {
+        "title": "Getz / Gilberto",
+        "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
+        "label": "Verve Records",
+        "year": 2023,
+        "image": "vinyls-cover/OTQtNjE4Ni5qcGVn.jpeg"
+    },
+    {
         "title": "Un Autre Monde",
         "artist": "Téléphone",
         "label": "Virgin",
@@ -273,11 +357,39 @@
         "image": "vinyls-cover/MTEtNjM1NC5qcGVn.jpeg"
     },
     {
+        "title": "From Zero",
+        "artist": "Linkin Park",
+        "label": "Warner Records, Machine Shop Recordings",
+        "year": 2024,
+        "image": "vinyls-cover/NDEtMjg2NC5qcGVn.jpeg"
+    },
+    {
+        "title": "From Zero",
+        "artist": "Linkin Park",
+        "label": "Warner Records, Machine Shop Recordings",
+        "year": 2024,
+        "image": "vinyls-cover/MjUtMzc2OC5qcGVn.jpeg"
+    },
+    {
+        "title": "Meteora",
+        "artist": "Linkin Park",
+        "label": "Warner Records, Machine Shop Recordings",
+        "year": 2023,
+        "image": "vinyls-cover/ODUtNjY5MS5qcGVn.jpeg"
+    },
+    {
         "title": "Hybrid Theory",
         "artist": "Linkin Park",
         "label": "Warner Records, Machine Shop Recordings",
         "year": 2020,
         "image": "vinyls-cover/NjMtODQ3OS5wbmc.jpeg"
+    },
+    {
+        "title": "Minutes To Midnight",
+        "artist": "Linkin Park",
+        "label": "Warner Records, Machine Shop Recordings",
+        "year": 2020,
+        "image": "vinyls-cover/MTgtNjkwNi5qcGVn.jpeg"
     },
     {
         "title": "Silent Alarm",
