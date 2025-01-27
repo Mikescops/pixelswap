@@ -90,11 +90,11 @@
 }
 
 .item-description {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 400;
-    color: #7d7d7d;
+    color: darkMode($light-text-color, $dark-text-color);
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 1.2em;
 }
 
@@ -125,8 +125,8 @@
     display: block;
     background-color: transparent;
     text-align: center;
-    border: 1px solid darkMode($light-text-color, $dark-text-color);;
-    color: darkMode($light-text-color, $dark-text-color);;
+    border: 1px solid darkMode($light-text-color, $dark-text-color);
+    color: darkMode($light-text-color, $dark-text-color);
     border-top-left-radius: 10px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
