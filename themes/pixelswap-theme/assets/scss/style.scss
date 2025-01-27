@@ -31,6 +31,10 @@ footer {
 p {
     margin-top: 1.25rem;
     padding: 0;
+  
+    a {
+        color: $color-blue;
+    }
 }
 
 pre {
@@ -182,8 +186,8 @@ em {
             color 0.3s;
 
         &:hover {
-            color: #1abc9c;
-            border-color: #1abc9c;
+            color: $color-light-purple;
+            border-color: $color-light-purple;
         }
     }
 }

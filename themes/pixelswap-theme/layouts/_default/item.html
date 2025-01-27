@@ -1,35 +1,24 @@
-<div class="container-item">
-    <div
-        class="item"
-        {{- if isset .Params "image" -}}
-            {{- $image := .Resources.GetMatch .Params.image -}}
-            {{- if $image -}}
-                {{- $image_webp := $image.Fill "542x290 Center webp q100" -}}
-                style="background-image: url({{ $image_webp.RelPermalink }})"
-            {{- else -}}
-                style="background-color: #f0f0f0;"
-            {{- end -}}
+<div class="item">
+    <div class="item-image">
+    {{- if isset .Params "image" -}}
+        {{- $image := .Resources.GetMatch .Params.image -}}
+        {{- if $image -}}
+            {{- $image_webp := $image.Fill "500x250 Center webp q100" -}}
+            <a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">
+                <img src="{{ $image_webp.RelPermalink }}" alt="{{ .LinkTitle }}">
+            </a>
         {{- end -}}
-    >
-        <div class="item-overlay"></div>
+    {{- end -}}
+    </div>
+    <div class="item-content-inner">
+        <a href="{{ .RelPermalink }}" class="item-title" title="{{ .LinkTitle }}">
+            <h2>{{ .LinkTitle }}</h2>
+        </a>
         <div class="item-content">
-            <div class="item-top-content">
-                <div class="item-top-content-inner">
-                    <div class="item-post">
-                        <div class="item-top-title">
-                            <a href="{{ .RelPermalink }}" class="item-title">
-                                <h2>{{ .LinkTitle }}</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item-add-content">
-                <p class="subdescription">{{ .Summary }}</p>
-                <div class="item-add-content-inner">
-                    <div class="section">
-                        <a href="{{ .RelPermalink }}" class="button">Read more</a>
-                    </div>
+            <p class="item-description">{{ .Summary }}</p>
+            <div class="item-add-content-inner">
+                <div class="section">
+                    <a href="{{ .RelPermalink }}" class="button-outline" title="{{ .LinkTitle }}">Read more</a>
                 </div>
             </div>
         </div>
