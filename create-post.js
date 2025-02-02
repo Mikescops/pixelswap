@@ -2,6 +2,8 @@
  * 
  * The script will create a index.md inside this folder with the following content:
  * 
+ * example: node create-post.js "Title"
+ * 
  * +++
 title = "Title"
 slug = 'slug'
