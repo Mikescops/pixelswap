@@ -1,4 +1,3 @@
 {{- $global := resources.Get "js/index.js" }}
-{{- $fontawesome := resources.Get "js/fontawesome.js" }}
-{{- $js := slice $fontawesome $global | resources.Concat "js/bundle.js" }}
+{{- $js := slice $global | resources.Concat "js/bundle.js" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{- $js.Data.Integrity }}" crossorigin="anonymous" async></script>

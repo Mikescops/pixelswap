@@ -29,7 +29,6 @@
         font-weight: bold;
         margin: 0;
         font-size: 1.8em;
-        line-height: initial;
     }
 
     .post-lang {
@@ -80,11 +79,6 @@
 
         p {
             width: 100%;
-            margin-top: 1.25rem !important;
-        }
-
-        ul {
-            width: 100%;
         }
 
         p:first-child {
@@ -99,6 +93,7 @@
             min-width: 100%;
             max-width: 96vw;
             width: fit-content;
+            margin: 0 0 1.5rem 0;
         }
 
         img {
@@ -125,11 +120,9 @@
         h5,
         h6 {
             display: inline-block;
-            line-height: initial;
             border-left: solid 6px $color-purple;
             padding-left: 12px;
             margin-left: -18px;
-            margin-bottom: 0;
             width: 100%;
             color: darkMode($light-title-color, $dark-title-color);
         }

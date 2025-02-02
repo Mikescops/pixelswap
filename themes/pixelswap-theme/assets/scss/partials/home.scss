@@ -6,9 +6,9 @@
     margin-top: 2em;
 
     h1 {
+        color: darkMode(black, white);
         font-weight: normal;
         font-size: 6em;
-        line-height: 1.1em;
         margin: 0;
     }
 
@@ -36,6 +36,7 @@
     flex-wrap: nowrap;
     gap: 60px;
     padding: 40px 0;
+    width: 100%;
 }
 
 .item {
@@ -75,7 +76,6 @@
     text-decoration: none;
     color: darkMode($light-text-color, $dark-text-color);
     font-size: 1em;
-    line-height: 2em;
     font-weight: 400;
 
     transition: all 0.2s ease-in;
@@ -85,7 +85,8 @@
     }
 
     h2 {
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 }
 
@@ -95,7 +96,6 @@
     color: darkMode($light-text-color, $dark-text-color);
     margin: 0;
     margin-bottom: 20px;
-    line-height: 1.2em;
 }
 
 /* Buttons */

@@ -22,12 +22,12 @@
         <input type="checkbox" id="switch-dark" />
         <div class="app">
             <label for="switch-light" class="switch-light">
-                <span class="dark-mode-switcher light-icon"><i class="fas fa-sun"></i></span>
-                <span class="dark-mode-switcher dark-icon"><i class="fas fa-moon"></i></span>
+                <span class="dark-mode-switcher light-icon"><i class="icon">{{ partial "icons/sun-solid.svg" . }}</i></span>
+                <span class="dark-mode-switcher dark-icon"><i class="icon">{{ partial "icons/moon-solid.svg" . }}</i></span>
             </label>
             <label for="switch-dark" class="switch-dark">
-                <span class="dark-mode-switcher dark-icon"><i class="fas fa-sun"></i></span>
-                <span class="dark-mode-switcher light-icon"><i class="fas fa-moon"></i></span>
+                <span class="dark-mode-switcher dark-icon"><i class="icon">{{ partial "icons/sun-solid.svg" . }}</i></span>
+                <span class="dark-mode-switcher light-icon"><i class="icon">{{ partial "icons/moon-solid.svg" . }}</i></span>
             </label>
             {{ block "main" . }}{{ end }}
             {{ partial "footer.html" . }}

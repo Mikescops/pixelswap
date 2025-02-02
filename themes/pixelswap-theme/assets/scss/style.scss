@@ -1,9 +1,16 @@
 html {
-    line-height: 1.7em;
+    line-height: 1.6;
     font-size: 16px;
-    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-display: auto;
     background-color: $dark-background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Reddit Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
 }
 
 .app {
@@ -29,9 +36,6 @@ footer {
 }
 
 p {
-    margin-top: 1.25rem;
-    padding: 0;
-  
     a {
         color: $color-blue;
     }
@@ -45,11 +49,11 @@ pre {
     font-size: 14px !important;
 }
 
-p > code {
+p code, ul code, ol code {
     background-color: darkMode($dark-background-color, $light-background-color);
     color: darkMode($dark-text-color, $light-text-color);
     border-radius: 0.3em;
-    padding: 1px 5px;
+    padding: 1px 3px;
     font-size: 14px;
     white-space: wrap;
 }
@@ -249,6 +253,13 @@ em {
 
 figure.image-caption {
     margin: 0;
+}
+
+.icon svg {
+    display: inline-block;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
 }
 
 /* Effects */

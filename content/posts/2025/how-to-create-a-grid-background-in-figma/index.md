@@ -40,13 +40,11 @@ To export the grid, you’ll need the help of a free plugin called [Layout Grid 
     - Run the Layout Grid Visualizer plugin. It will create a vector version of your layout grid that can be exported with your design.
 
 Here’s an example of how the layout grid looks after using the plugin:
-
 ![figma layout grid vector](layout-grid.png)
 
 ### Final Result
 
 I applied this method to update my LinkedIn profile banner, and I’m quite proud of the result. Here’s how it looks on my [personal LinkedIn profile](https://www.linkedin.com/in/corentinmors/):
-
 ![Corentin Mors LinkedIn Banner](linked-preview.png)
 
 ### Conclusion

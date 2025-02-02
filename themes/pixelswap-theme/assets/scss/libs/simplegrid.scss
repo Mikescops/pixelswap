@@ -28,6 +28,7 @@ h2 {
 
 h3 {
     font-size: 1.375rem;
+
 }
 
 h4 {
@@ -46,12 +47,14 @@ p {
     font-size: 16px;
     font-weight: 200;
     line-height: 1.4;
+    margin: 0 0 1.5rem 0;
 }
 
 pre,
 address {
     overflow-x: auto;
     border-radius: 6px;
+    margin-top: 0 0 1.5rem 0;
 }
 
 figure {
@@ -60,6 +63,22 @@ figure {
 
 li {
     margin-bottom: 1rem;
+
+    p {
+        margin: 0 0 .25rem 0;
+    }
+}
+
+ul, ol {
+    margin: 0 0 1.25rem 1.25rem;
+
+    li {
+        margin-bottom: .25rem;
+    }
+
+    ul, ol {
+        margin: 0 0 .25rem 1.25rem;
+    }
 }
 
 .font-light {
