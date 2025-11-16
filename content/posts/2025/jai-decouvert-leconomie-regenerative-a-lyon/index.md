@@ -82,6 +82,6 @@ Dans le futur, nous souhaitons aussi explorer comment suivre notre empreinte car
 
 ## Conclusion
 
-Je suis très content d'avoir participé à cet évènement. J'ai l'impression d'avoir à pein gratté la couverture d'un livre très épais, mais j'ai déjà beaucoup appris et je suis motivé pour continuer à explorer ces sujets. 
+Je suis très content d'avoir participé à cet évènement. J'ai l'impression d'avoir à peine gratté la couverture d'un livre très épais, mais j'ai déjà beaucoup appris et je suis motivé pour continuer à explorer ces sujets. 
 
 Je vous encourage sincèrement à vous intéresser, non pas seulement à l'écologie, mais à l'économie régénérative dans son ensemble. C'est un vaste sujet, avec beaucoup de nouveaux concepts et néologismes, difficile de faire le tri dans tout ça. Mais c'est aussi une opportunité passionnante de repenser notre manière de vivre et de travailler ensemble pour un avenir plus durable.
