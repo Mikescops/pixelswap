@@ -185,4 +185,21 @@ Here you are you then need to call uploadVideo method from your main file after 
 
 I hope this tutorial is clearer than the documentation provided by Youtube, if you have any question feel free to post them in the comments below!
 
+## Want to skip the OAuth headache?
+
+If you are uploading to multiple platforms, <a href="https://getlate.dev" target="_blank" rel="noopener">Late's API</a> handles authentication and uploads for YouTube, TikTok, Instagram, and 9 other platforms. Here is what the same upload looks like:
+
+```js
+await late.posts.create({
+ profileIds: ["youtube-profile-id"],
+ text: "My description",
+ mediaUrls: ["https://example.com/video.mp4"],
+ platforms: { youtube: { title: "My title" } }
+});
+```
+
+No OAuth setup, no token management, no 100 lines of boilerplate.
+
+===
+
 Background photo for the featured image by [NOAA](https://unsplash.com/@noaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
