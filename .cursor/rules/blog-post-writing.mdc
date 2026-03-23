@@ -1,0 +1,42 @@
+---
+description: Writing workflow for technical blog posts (FR/EN) with local verification
+globs: content/posts/**/*.md
+alwaysApply: false
+---
+
+# Blog Post Writing Workflow
+
+## Technical accuracy first
+
+- Before drafting, verify project-specific commands in-repo (`README.md`, `hugo.toml`, `package.json`, helper scripts).
+- Prefer concrete commands from this repo over generic advice.
+- For this project, use:
+  - `hugo new content/posts/<year>/<slug>/index.md` (or `node create-post.js "Title"`) to create a post.
+  - `hugo serve` to run locally.
+  - `hugo` to build production output.
+- If command behavior is uncertain, state assumptions explicitly and validate with the terminal when possible.
+
+## Post structure
+
+- Start with a short context paragraph: problem, audience, and outcome.
+- Use clear section headers (`## Preparation`, `## Implementation`, `## Verification`, `## Conclusion`).
+- Include runnable snippets and keep setup steps ordered.
+- Add at least one verification section with expected output or checks.
+- End with concise next steps/resources instead of repeating the intro.
+
+## Style guide (English + French)
+
+- Match the language of the post request; do not mix FR and EN in the same paragraph unless explicitly requested.
+- Keep tone practical and direct, as in a developer tutorial.
+- Prefer short sentences, active voice, and concrete verbs.
+- Explain "why" before "how" for major steps.
+- Keep terminology consistent in each language:
+  - EN example: "Run `hugo serve`, then open the local URL and confirm headings/snippets render correctly."
+  - FR example: "Lance `hugo serve`, puis ouvre l'URL locale et vérifie le rendu des sections et des extraits de code."
+
+## Quality checks before finalizing
+
+- Ensure front matter fields are complete (`title`, `slug`, `date`, `tags`, `image`, `draft`).
+- Re-read for grammar/fluency in the target language.
+- Verify commands, file paths, and code blocks are copy-paste safe.
+- Remove filler and redundant conclusions.

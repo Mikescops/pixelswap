@@ -101,7 +101,7 @@
 /* Buttons */
 .button {
     display: block;
-    background-color: $color-blue;
+    background-color: $color-purple;
     text-align: center;
     line-height: 42px;
     font-weight: 700;
@@ -109,7 +109,7 @@
     border-radius: 10px;
     text-decoration: none;
     opacity: 1;
-    border-bottom: 3px solid rgb(10, 134, 218);
+    border-bottom: 3px solid $color-light-purple;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -117,7 +117,7 @@
     transition: all 0.2s ease-in-out;
 
     &:hover {
-        background-color: rgb(10, 134, 218);
+        background-color: $color-light-purple;
     }
 }
 

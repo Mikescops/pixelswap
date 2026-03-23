@@ -21,3 +21,7 @@
         mermaid.initialize({ startOnLoad: true });
     </script>
 {{- end }}
+
+{{- if .Page.Store.Get "hasD2" }}
+    <script type="module" src="{{ "js/d2-render.js" | relURL }}"></script>
+{{- end }}
