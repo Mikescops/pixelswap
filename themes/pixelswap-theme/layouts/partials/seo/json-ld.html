@@ -1,0 +1,114 @@
+{{- /* JSON-LD: WebSite, Organization, Person; on blog posts add BlogPosting + BreadcrumbList */ -}}
+{{- $authorName := "Corentin Mors" -}}
+{{- $authorURL := "https://me.pixelswap.fr/" | absURL -}}
+{{- $sameAs := slice -}}
+{{- with site.Params.author -}}
+    {{- if reflect.IsMap . -}}
+        {{- $authorName = .name | default $authorName -}}
+        {{- with .url }}{{ $authorURL = . | absURL }}{{ end -}}
+        {{- with .same_as }}{{ $sameAs = . }}{{ end -}}
+    {{- else -}}
+        {{- $authorName = printf "%s" . -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $socialRel := site.Params.social_image | default "img/logoss.png" -}}
+{{- $imageURL := $socialRel | absURL -}}
+{{- if and .IsPage .Params.image -}}
+    {{- with .Resources.GetMatch .Params.image -}}
+        {{- $imageURL = .Permalink -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $desc := "" -}}
+{{- with or .Params.description .Summary site.Params.description -}}
+    {{- $desc = . | plainify | htmlUnescape | strings.TrimSpace | truncate 320 -}}
+{{- end -}}
+
+{{- $publisher := dict
+    "@type" "Organization"
+    "name" "PixelSwap"
+    "url" site.Home.Permalink
+    "logo" (dict "@type" "ImageObject" "url" ($socialRel | absURL))
+-}}
+
+{{- $person := dict
+    "@type" "Person"
+    "name" $authorName
+    "url" $authorURL
+-}}
+{{- if gt (len $sameAs) 0 -}}
+    {{- $person = merge $person (dict "sameAs" $sameAs) -}}
+{{- end -}}
+
+{{- $website := dict
+    "@type" "WebSite"
+    "@id" (printf "%s#website" site.Home.Permalink)
+    "name" site.Title
+    "url" site.Home.Permalink
+    "description" ((site.Params.description | default "") | plainify | strings.TrimSpace)
+    "publisher" (dict "@id" (printf "%s#organization" site.Home.Permalink))
+    "inLanguage" (slice "en-US" "fr-FR")
+-}}
+
+{{- $orgWithID := merge $publisher (dict "@id" (printf "%s#organization" site.Home.Permalink)) -}}
+
+{{- $graph := slice $orgWithID $person $website -}}
+
+{{- if and (eq .Kind "page") (eq .Section "posts") -}}
+    {{- $contentLang := "en" -}}
+    {{- with lower (or .Params.post_lang .Params.lang "") -}}
+        {{- $contentLang = . -}}
+    {{- end -}}
+    {{- $inLang := cond (eq $contentLang "fr") "fr-FR" "en-US" -}}
+
+    {{- $articleDesc := $desc -}}
+    {{- if not $articleDesc -}}
+        {{- $articleDesc = .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 320 -}}
+    {{- end -}}
+
+    {{- $images := slice $imageURL -}}
+    {{- with .Params.image -}}
+        {{- with $.Resources.GetMatch . -}}
+            {{- $images = slice .Permalink -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- $wordCount := .WordCount -}}
+    {{- $blogPosting := dict
+        "@type" "BlogPosting"
+        "@id" (printf "%s#article" .Permalink)
+        "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+        "headline" .Title
+        "url" .Permalink
+        "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+        "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+        "author" $person
+        "publisher" (dict "@id" (printf "%s#organization" site.Home.Permalink))
+        "image" $images
+        "inLanguage" $inLang
+        "wordCount" $wordCount
+    -}}
+    {{- if $articleDesc -}}
+        {{- $blogPosting = merge $blogPosting (dict "description" $articleDesc) -}}
+    {{- end -}}
+    {{- with .Params.tags -}}
+        {{- $keywords := delimit . ", " -}}
+        {{- $blogPosting = merge $blogPosting (dict "keywords" $keywords) -}}
+    {{- end -}}
+
+    {{- $entries := site.GetPage "section" "posts" -}}
+    {{- $homeLabel := cond (eq $contentLang "fr") "Accueil" "Blog" -}}
+    {{- $entriesLabel := "Articles" -}}
+
+    {{- $bcItems := slice
+        (dict "@type" "ListItem" "position" 1 "name" $homeLabel "item" site.Home.Permalink)
+        (dict "@type" "ListItem" "position" 2 "name" $entriesLabel "item" $entries.Permalink)
+        (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)
+    -}}
+    {{- $breadcrumb := dict "@type" "BreadcrumbList" "itemListElement" $bcItems -}}
+
+    {{- $graph = $graph | append $blogPosting $breadcrumb -}}
+{{- end -}}
+
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

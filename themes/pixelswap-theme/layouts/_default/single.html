@@ -3,6 +3,10 @@
     {{- $homeTitle := cond (eq $postLang "fr") "Accueil" "Go home" -}}
     {{- $authorPrefix := cond (eq $postLang "fr") "Par Corentin, " "By Corentin, " -}}
     {{- $backToHome := cond (eq $postLang "fr") "Retourner a l'accueil" "Go back to the homepage" -}}
+    {{- $crumbHome := cond (eq $postLang "fr") "Accueil" "Home" -}}
+    {{- $crumbEntries := "Articles" -}}
+    {{- $breadcrumbLabel := cond (eq $postLang "fr") "Fil d'Ariane" "Breadcrumb" -}}
+    {{- $entriesPage := site.GetPage "section" "posts" -}}
     <div class="post-topbar">
         <div class="container container-shrinked">
             <div class="row">
@@ -36,10 +40,25 @@
                         {{- $image := .Resources.GetMatch .Params.image }}
                         {{- if $image }}
                             {{- $image_webp := $image.Fill "1300x600 Center webp q100" }}
-                            <img class="featured-image" src="{{ $image_webp.RelPermalink }}" alt="{{ .Title }}" />
+                            {{- $featAlt := .Params.image_alt | default .Title -}}
+                            <img class="featured-image" src="{{ $image_webp.RelPermalink }}" alt="{{ $featAlt }}" loading="lazy" decoding="async" />
                         {{- end }}
                     {{- end }}
                 </div>
+
+                <nav class="post-breadcrumb" aria-label="{{ $breadcrumbLabel }}">
+                    <ol class="post-breadcrumb__list">
+                        <li class="post-breadcrumb__item">
+                            <a class="post-breadcrumb__link" href="{{ "" | relURL }}">{{ $crumbHome }}</a>
+                        </li>
+                        <li class="post-breadcrumb__item">
+                            <a class="post-breadcrumb__link" href="{{ $entriesPage.RelPermalink }}">{{ $crumbEntries }}</a>
+                        </li>
+                        <li class="post-breadcrumb__item post-breadcrumb__item--current" aria-current="page">
+                            <span class="post-breadcrumb__current" title="{{ .Title }}">{{ .Title }}</span>
+                        </li>
+                    </ol>
+                </nav>
 
                 <div class="post-container" itemscope itemtype="https://schema.org/BlogPosting">
                     <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />

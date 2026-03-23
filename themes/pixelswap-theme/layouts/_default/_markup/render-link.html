@@ -1,11 +1,19 @@
+{{- $dest := .Destination | safeURL -}}
+{{- $target := "" -}}
+{{- $rel := "" -}}
+{{- if strings.HasPrefix $dest "http" -}}
+    {{- $target = "_blank" -}}
+    {{- $rel = "noopener noreferrer" -}}
+{{- end -}}
 <a
-    href="{{ .Destination | safeURL }}"
+    href="{{ $dest }}"
     {{ with .Title }}
         title="{{ . }}"
     {{ else }}
         title="{{ .Text | safeHTML }}"
     {{ end }}
-    {{ if strings.HasPrefix .Destination "http" }}target="_blank" rel="nofollow noopener"{{ end }}
+    {{- if $target }} target="{{ $target }}"{{ end -}}
+    {{- if $rel }} rel="{{ $rel }}"{{ end -}}
 >
-    {{ .Text | safeHTML }}</a
->
+    {{- .Text | safeHTML -}}
+</a>

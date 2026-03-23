@@ -63,6 +63,84 @@
     width: 100%;
 }
 
+/* Breadcrumb — inline “sentence” flow (natural wrap), minimal chrome */
+.post-breadcrumb {
+    max-width: 70ch;
+    width: 100%;
+    margin: 1rem auto 0;
+    padding: 0 10px;
+}
+
+.post-breadcrumb__list {
+    margin: 0;
+    padding: 0.55rem 0 0.85rem;
+    list-style: none;
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    letter-spacing: 0.015em;
+    color: darkMode(rgba($light-text-color, 0.72), rgba($dark-text-color, 0.8));
+    border-bottom: 1px solid darkMode(rgba(23, 43, 77, 0.1), rgba(255, 255, 255, 0.1));
+    background: none;
+    box-shadow: none;
+}
+
+.post-breadcrumb__item {
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+    &:not(:last-child)::after {
+        content: '\203A';
+        speak: never;
+        margin: 0 0.4em;
+        opacity: 0.4;
+        font-weight: 300;
+        font-size: 0.95em;
+        color: darkMode($light-text-color, $dark-text-color);
+    }
+}
+
+.post-breadcrumb__link {
+    display: inline;
+    color: darkMode($light-title-color, $dark-title-color);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: color 0.12s ease, text-decoration-color 0.12s ease;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.2em;
+
+    &:hover {
+        color: $color-blue;
+        text-decoration-color: rgba(58, 160, 255, 0.55);
+    }
+
+    &:focus-visible {
+        outline: 2px solid $color-blue;
+        outline-offset: 2px;
+    }
+}
+
+.post-breadcrumb__item--current {
+    display: inline;
+}
+
+.post-breadcrumb__current {
+    display: inline;
+    font-weight: 600;
+    color: darkMode($light-title-color, $dark-title-color);
+    /* Slight emphasis without a second “card” */
+    background: linear-gradient(
+        to top,
+        darkMode(rgba(144, 86, 216, 0.12), rgba(144, 86, 216, 0.22)) 0 35%,
+        transparent 35% 100%
+    );
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding: 0 0.06em;
+}
+
 .post-container {
     position: relative;
     padding: 0 10px;

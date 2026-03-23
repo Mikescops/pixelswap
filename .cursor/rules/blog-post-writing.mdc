@@ -36,7 +36,7 @@ alwaysApply: false
 
 ## Quality checks before finalizing
 
-- Ensure front matter fields are complete (`title`, `slug`, `date`, `tags`, `image`, `draft`).
+- Ensure front matter fields are complete (`title`, `slug`, `date`, `description`, `post_lang` `en`|`fr`, `tags`, `image`, optional `image_alt`, `draft`).
 - Re-read for grammar/fluency in the target language.
 - Verify commands, file paths, and code blocks are copy-paste safe.
 - Remove filler and redundant conclusions.

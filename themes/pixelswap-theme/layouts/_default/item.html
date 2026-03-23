@@ -7,7 +7,7 @@
         {{- if $image -}}
             {{- $image_webp := $image.Fill "500x250 Center webp q100" -}}
             <a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">
-                <img src="{{ $image_webp.RelPermalink }}" alt="{{ .LinkTitle }}">
+                <img src="{{ $image_webp.RelPermalink }}" alt="{{ .LinkTitle }}" loading="lazy" decoding="async">
             </a>
         {{- end -}}
     {{- end -}}

@@ -1,6 +1,9 @@
 ---
 title: Comment on construit Subnoto (et comment on a arrêté de se compliquer la vie)
 slug: comment-construit-subnoto-bazel-monorepo
+description: >-
+  Retour d’expérience sur la stack Subnoto : monorepo Bazel, CI GitLab, environnements distants (Coder, Terraform),
+  Kubernetes et cache partagé — pour réduire la friction multi-langage sans dogme.
 post_lang: fr
 date: 2026-03-23T14:43:27.902Z
 draft: false

@@ -1,0 +1,19 @@
+# PixelSwap (pixelswap.fr)
+
+> Developer blog by Corentin Mors: software engineering, security, infrastructure, side projects, and tooling.
+
+## Primary URLs
+
+- Blog home: https://pixelswap.fr/
+- All posts: https://pixelswap.fr/entries/
+- Author / projects hub: https://dev.pixelswap.fr/
+- Personal site: https://me.pixelswap.fr/
+
+## How to cite
+
+- Prefer linking to the canonical article URL under https://pixelswap.fr/entry/<slug>/
+- Posts may be written in French or English; check the page `lang` attribute and on-page language label when relevant.
+
+## Contact
+
+- medias@pixelswap.fr

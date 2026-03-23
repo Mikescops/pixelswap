@@ -27,11 +27,42 @@
                     "isPublishDate": true
                 },
                 {
+                    "title": "Meta description (SEO)",
+                    "name": "description",
+                    "type": "string",
+                    "description": "Plain-text summary for search & social (~150–160 characters)."
+                },
+                {
+                    "title": "Post language",
+                    "name": "post_lang",
+                    "type": "string",
+                    "default": "en",
+                    "description": "ISO 639-1 code: en or fr (hreflang + html lang)."
+                },
+                {
                     "title": "Content preview",
                     "name": "image",
                     "type": "image",
                     "isPreviewImage": true,
                     "default": "featured.jpg"
+                },
+                {
+                    "title": "Featured image alt text",
+                    "name": "image_alt",
+                    "type": "string",
+                    "description": "Short accessible description; defaults to title if empty."
+                },
+                {
+                    "title": "Canonical URL (optional)",
+                    "name": "canonical",
+                    "type": "string",
+                    "description": "Override canonical if republished elsewhere."
+                },
+                {
+                    "title": "Last modified (optional)",
+                    "name": "lastmod",
+                    "type": "datetime",
+                    "description": "Override last modified; Git is used when unset."
                 },
                 {
                     "title": "Is in draft",
