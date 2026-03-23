@@ -40,11 +40,14 @@ if (fs.existsSync(filePath)) {
 const fileContent = `+++
 title = "${title}"
 slug = '${slug}'
+description = ''
+post_lang = en
 aliases = ['/post/${slug}']
 date = '${date}'
 draft = false
 tags = []
 image = 'featured.jpeg'
+image_alt = ''
 +++
 `;
 

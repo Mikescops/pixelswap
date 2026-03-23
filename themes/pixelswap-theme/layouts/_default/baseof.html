@@ -1,14 +1,20 @@
+{{- $htmlLang := or site.Language.LanguageCode site.Language.Lang -}}
+{{- if and (eq .Kind "page") (eq .Section "posts") -}}
+    {{- with or .Params.post_lang .Params.lang -}}
+        {{- $htmlLang = lower . -}}
+    {{- end -}}
+{{- end -}}
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ $htmlLang }}"
     dir="{{ or site.Language.LanguageDirection `ltr` }}"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ $htmlLang }}"
     dir="{{ or site.Language.LanguageDirection `ltr` }}"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ $htmlLang }}"
     dir="{{ or site.Language.LanguageDirection `ltr` }}"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html
     class="no-js"
-    lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+    lang="{{ $htmlLang }}"
     dir="{{ or site.Language.LanguageDirection `ltr` }}"
 >
     <!--<![endif]-->

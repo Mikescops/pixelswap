@@ -1,6 +1,6 @@
 {{- $image := .Page.Resources.GetMatch .Destination -}}
 
-{{- $default := printf "<img src=\"%s\"alt=\"%s\" title=\"%s\" />" (.Destination | safeURL) $.PlainText $.Title -}}
+{{- $default := printf `<img src="%s" alt="%s" loading="lazy" decoding="async" />` (.Destination | safeURL) ($.PlainText | default " ") -}}
 
 {{- if $image -}}
     {{- if (strings.HasSuffix $image.Name ".gif") -}}
@@ -26,8 +26,12 @@
         <figure class="image-caption">
             <img
                 src="{{ $image.RelPermalink }}"
-                alt="{{ $.PlainText }}"
-                title="{{ $.Title }}"
+                alt="{{ $.PlainText | default ` ` }}"
+                {{ with $.Title }}title="{{ . }}"{{ end }}
+                width="{{ $image.Width }}"
+                height="{{ $image.Height }}"
+                loading="lazy"
+                decoding="async"
                 {{- if gt (len $srcset) 0 -}}
                     {{- (printf " srcset=\"%s\"" (delimit $srcset ", ")) | safeHTMLAttr -}}
                     {{- (printf " sizes=\"%s\"" (delimit $sizestag ", ")) | safeHTMLAttr -}}

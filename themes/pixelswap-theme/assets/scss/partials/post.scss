@@ -29,6 +29,7 @@
         font-weight: bold;
         margin: 0;
         font-size: 1.8em;
+        line-height: 1.2;
     }
 
     .post-lang {
@@ -62,6 +63,84 @@
     width: 100%;
 }
 
+/* Breadcrumb — inline “sentence” flow (natural wrap), minimal chrome */
+.post-breadcrumb {
+    max-width: 70ch;
+    width: 100%;
+    margin: 1rem auto 0;
+    padding: 0 10px;
+}
+
+.post-breadcrumb__list {
+    margin: 0;
+    padding: 0.55rem 0 0.85rem;
+    list-style: none;
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    letter-spacing: 0.015em;
+    color: darkMode(rgba($light-text-color, 0.72), rgba($dark-text-color, 0.8));
+    border-bottom: 1px solid darkMode(rgba(23, 43, 77, 0.1), rgba(255, 255, 255, 0.1));
+    background: none;
+    box-shadow: none;
+}
+
+.post-breadcrumb__item {
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+    &:not(:last-child)::after {
+        content: '\203A';
+        speak: never;
+        margin: 0 0.4em;
+        opacity: 0.4;
+        font-weight: 300;
+        font-size: 0.95em;
+        color: darkMode($light-text-color, $dark-text-color);
+    }
+}
+
+.post-breadcrumb__link {
+    display: inline;
+    color: darkMode($light-title-color, $dark-title-color);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: color 0.12s ease, text-decoration-color 0.12s ease;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.2em;
+
+    &:hover {
+        color: $color-blue;
+        text-decoration-color: rgba(58, 160, 255, 0.55);
+    }
+
+    &:focus-visible {
+        outline: 2px solid $color-blue;
+        outline-offset: 2px;
+    }
+}
+
+.post-breadcrumb__item--current {
+    display: inline;
+}
+
+.post-breadcrumb__current {
+    display: inline;
+    font-weight: 600;
+    color: darkMode($light-title-color, $dark-title-color);
+    /* Slight emphasis without a second “card” */
+    background: linear-gradient(
+        to top,
+        darkMode(rgba(144, 86, 216, 0.12), rgba(144, 86, 216, 0.22)) 0 35%,
+        transparent 35% 100%
+    );
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding: 0 0.06em;
+}
+
 .post-container {
     position: relative;
     padding: 0 10px;
@@ -69,9 +148,12 @@
     margin-top: 30px;
 
     .post-content {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 1.72;
+        max-width: 70ch;
+        width: 100%;
         padding: 0 10px;
-        margin-bottom: 20px;
+        margin: 0 auto 28px;
 
         display: flex;
         flex-flow: column;
@@ -79,6 +161,11 @@
 
         p {
             width: 100%;
+            margin: 0 0 1.15rem 0;
+            /* simplegrid sets global p { font-size: 16px } — align body copy with .post-content (18px) and lists (1em) */
+            font-size: inherit;
+            line-height: inherit;
+            font-weight: 400;
         }
 
         p:first-child {
@@ -87,6 +174,23 @@
 
         a {
             color: $color-blue;
+            text-decoration: underline;
+            text-decoration-thickness: 1.5px;
+            text-underline-offset: 2px;
+        }
+
+        ul,
+        ol {
+            width: 100%;
+            font-size: 1em;
+            margin: 0 0 1.2rem 1.4rem;
+            padding-left: 0.4rem;
+        }
+
+        li {
+            font-size: 1em;
+            margin-bottom: 0.45rem;
+            line-height: 1.6;
         }
 
         .highlight {
@@ -125,6 +229,63 @@
             margin-left: -18px;
             width: 100%;
             color: darkMode($light-title-color, $dark-title-color);
+            line-height: 1.28;
+            scroll-margin-top: 84px;
+        }
+
+        h2,
+        h3 {
+            margin-top: 2.1rem;
+            margin-bottom: 0.9rem;
+        }
+
+        blockquote {
+            width: 100%;
+            font-family: inherit;
+            font-size: 1em;
+            line-height: 1.7;
+            margin: 1.6rem 0;
+            padding: 0.75rem 1rem;
+            border-left: solid 4px $color-purple;
+            border-radius: 0 8px 8px 0;
+            background: darkMode(rgba(123, 34, 156, 0.08), rgba(198, 99, 240, 0.12));
+        }
+
+        blockquote p {
+            margin: 0;
+        }
+
+        .d2-diagram {
+            width: 100%;
+            margin: 1.5rem 0;
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid darkMode(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.12));
+            background: darkMode(rgba(0, 0, 0, 0.02), rgba(255, 255, 255, 0.04));
+            box-sizing: border-box;
+        }
+
+        .d2-diagram .d2-output {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .d2-diagram .d2-output.is-clickable {
+            cursor: zoom-in;
+        }
+
+        .d2-diagram .d2-output svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .d2-diagram .d2-error {
+            margin: 0.75rem 0 0;
+            color: #c0392b;
+            font-size: 0.95em;
         }
     }
 
@@ -134,10 +295,22 @@
 
     .post-extra {
         padding: 0 10px;
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid darkMode(rgba(0, 0, 0, 0.08), rgba(255, 255, 255, 0.12));
     }
 }
 
 @media all and (max-width: 618px) {
+    .container,
+    .container.container-shrinked {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 14px;
+        padding-right: 14px;
+        box-sizing: border-box;
+    }
+
     .post-topbar {
         position: relative;
 
@@ -145,9 +318,142 @@
             width: auto;
             margin: 0;
         }
+
+        .post-title {
+            font-size: 1.95rem;
+            line-height: 1.15;
+        }
+    }
+
+    .post-container {
+        padding: 0;
+    }
+
+    .post-container .post-content {
+        font-size: 16px;
+        line-height: 1.68;
+        max-width: 100%;
+        padding: 0;
     }
 
     .profile-picture {
         display: none;
+    }
+}
+
+body.d2-modal-open {
+    overflow: hidden;
+}
+
+.d2-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.d2-modal[hidden] {
+    display: none;
+}
+
+.d2-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: radial-gradient(circle at 50% 10%, rgba(37, 37, 46, 0.55), rgba(10, 10, 14, 0.82));
+    backdrop-filter: blur(6px);
+}
+
+.d2-modal-content {
+    position: relative;
+    z-index: 1;
+    flex: 0 0 auto;
+    margin: 0 auto;
+    width: 96vw;
+    max-width: 1320px;
+    max-height: 92vh;
+    border-radius: 16px;
+    background: darkMode(#ffffff, #1d2125);
+    border: 1px solid darkMode(rgba(20, 20, 28, 0.12), rgba(255, 255, 255, 0.14));
+    box-shadow:
+        0 30px 90px rgba(0, 0, 0, 0.45),
+        0 4px 18px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    animation: d2-modal-in 0.18s ease-out;
+}
+
+.d2-modal-close {
+    z-index: 2;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    border: 1px solid darkMode(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.26));
+    border-radius: 999px;
+    background: darkMode(#ffffff, #2c3340);
+    color: darkMode(#111111, #ffffff);
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
+    transition: all 0.2s ease;
+}
+
+.d2-modal-close:hover {
+    transform: scale(1.04);
+    background: darkMode(#f7f7f7, #3a4250);
+}
+
+.d2-modal-viewer {
+    max-height: calc(92vh - 8px);
+    overflow: auto;
+    padding: 48px 20px 20px;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    color: darkMode(rgba(0, 0, 0, 1), rgba(255, 255, 255, 1));
+    background: darkMode(rgba(255, 255, 255, 1), #1d2125);
+    box-sizing: border-box;
+}
+
+.d2-modal-viewer svg {
+    display: block;
+    margin: 0 auto;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+}
+
+@media all and (max-width: 900px) {
+    .d2-modal {
+        padding: 10px;
+    }
+
+    .d2-modal-content {
+        width: 100%;
+        max-width: 100%;
+        max-height: 94vh;
+        border-radius: 12px;
+    }
+
+    .d2-modal-viewer {
+        padding: 44px 12px 14px;
+        max-height: calc(94vh - 8px);
+    }
+}
+
+@keyframes d2-modal-in {
+    from {
+        transform: translateY(8px) scale(0.985);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
     }
 }

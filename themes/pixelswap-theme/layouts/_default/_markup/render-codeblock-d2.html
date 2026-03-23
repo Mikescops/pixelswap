@@ -1,0 +1,5 @@
+<div class="d2-diagram" data-d2="{{ .Inner | base64Encode }}">
+    <div class="d2-output" role="img" aria-busy="true" aria-label="Schema"></div>
+    <p class="d2-error" hidden></p>
+</div>
+{{ .Page.Store.Set "hasD2" true }}

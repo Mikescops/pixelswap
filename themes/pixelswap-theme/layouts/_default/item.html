@@ -1,11 +1,13 @@
 <div class="item">
+    {{- $itemLang := lower (.Params.post_lang | default (.Params.lang | default (substr .Lang 0 2))) -}}
+    {{- $readMore := cond (eq $itemLang "fr") "Lire l'article" "Read more" -}}
     <div class="item-image">
     {{- if isset .Params "image" -}}
         {{- $image := .Resources.GetMatch .Params.image -}}
         {{- if $image -}}
             {{- $image_webp := $image.Fill "500x250 Center webp q100" -}}
             <a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">
-                <img src="{{ $image_webp.RelPermalink }}" alt="{{ .LinkTitle }}">
+                <img src="{{ $image_webp.RelPermalink }}" alt="{{ .LinkTitle }}" loading="lazy" decoding="async">
             </a>
         {{- end -}}
     {{- end -}}
@@ -15,10 +17,10 @@
             <h2>{{ .LinkTitle }}</h2>
         </a>
         <div class="item-content">
-            <p class="item-description">{{ .Summary }}</p>
+            <p class="item-description">{{ .Summary | plainify }}</p>
             <div class="item-add-content-inner">
                 <div class="section">
-                    <a href="{{ .RelPermalink }}" class="button-outline" title="{{ .LinkTitle }}">Read more</a>
+                    <a href="{{ .RelPermalink }}" class="button-outline" title="{{ .LinkTitle }}">{{ $readMore }}</a>
                 </div>
             </div>
         </div>

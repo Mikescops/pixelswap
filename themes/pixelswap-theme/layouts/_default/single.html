@@ -1,4 +1,12 @@
 {{ define "main" }}
+    {{- $postLang := lower (.Params.post_lang | default (.Params.lang | default (substr .Lang 0 2))) -}}
+    {{- $homeTitle := cond (eq $postLang "fr") "Accueil" "Go home" -}}
+    {{- $authorPrefix := cond (eq $postLang "fr") "Par Corentin, " "By Corentin, " -}}
+    {{- $backToHome := cond (eq $postLang "fr") "Retourner a l'accueil" "Go back to the homepage" -}}
+    {{- $crumbHome := cond (eq $postLang "fr") "Accueil" "Home" -}}
+    {{- $crumbEntries := "Articles" -}}
+    {{- $breadcrumbLabel := cond (eq $postLang "fr") "Fil d'Ariane" "Breadcrumb" -}}
+    {{- $entriesPage := site.GetPage "section" "posts" -}}
     <div class="post-topbar">
         <div class="container container-shrinked">
             <div class="row">
@@ -12,13 +20,13 @@
                         class="profile-picture"
                     />
 
-                    <h2 class="post-title">{{ .Title }}</h2>
+                    <h1 class="post-title" itemprop="headline">{{ .Title }}</h1>
 
                     <div class="options">
-                        <a class="icon-home" title="Go home" href="{{ "" | relURL }}">
+                        <a class="icon-home" title="{{ $homeTitle }}" href="{{ "" | relURL }}">
                             <i class="icon">{{ partial "icons/house-solid.svg" . }}</i>
                         </a>
-                        <span class="post-lang">EN</span>
+                        <span class="post-lang">{{ upper $postLang }}</span>
                     </div>
                 </div>
             </div>
@@ -32,19 +40,36 @@
                         {{- $image := .Resources.GetMatch .Params.image }}
                         {{- if $image }}
                             {{- $image_webp := $image.Fill "1300x600 Center webp q100" }}
-                            <img class="featured-image" src="{{ $image_webp.RelPermalink }}" alt="{{ .Title }}" />
+                            {{- $featAlt := .Params.image_alt | default .Title -}}
+                            <img class="featured-image" src="{{ $image_webp.RelPermalink }}" alt="{{ $featAlt }}" loading="lazy" decoding="async" />
                         {{- end }}
                     {{- end }}
                 </div>
 
-                <div class="post-container">
-                    <div class="post-content">{{ .Content }}</div>
+                <nav class="post-breadcrumb" aria-label="{{ $breadcrumbLabel }}">
+                    <ol class="post-breadcrumb__list">
+                        <li class="post-breadcrumb__item">
+                            <a class="post-breadcrumb__link" href="{{ "" | relURL }}">{{ $crumbHome }}</a>
+                        </li>
+                        <li class="post-breadcrumb__item">
+                            <a class="post-breadcrumb__link" href="{{ $entriesPage.RelPermalink }}">{{ $crumbEntries }}</a>
+                        </li>
+                        <li class="post-breadcrumb__item post-breadcrumb__item--current" aria-current="page">
+                            <span class="post-breadcrumb__current" title="{{ .Title }}">{{ .Title }}</span>
+                        </li>
+                    </ol>
+                </nav>
+
+                <div class="post-container" itemscope itemtype="https://schema.org/BlogPosting">
+                    <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+                    <meta itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
+                    <article class="post-content" itemprop="articleBody">{{ .Content }}</article>
 
                     <div class="post-extra">
                         <h6 class="record-footer">
                             {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
                             {{- $dateHuman := .Date | time.Format ":date_long" }}
-                            By Corentin, <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+                            {{ $authorPrefix }}<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
                         </h6>
 
                         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
@@ -52,7 +77,7 @@
 
                         <br />
 
-                        <a href="{{ "" | relURL }}" class="button">Go back to the homepage</a>
+                        <a href="{{ "" | relURL }}" class="button">{{ $backToHome }}</a>
 
                         <br />
 
@@ -69,7 +94,7 @@
                                 data-emit-metadata="0"
                                 data-input-position="top"
                                 data-theme="preferred_color_scheme"
-                                data-lang="en"
+                                data-lang="{{ $postLang }}"
                                 data-loading="lazy"
                                 crossorigin="anonymous"
                                 async

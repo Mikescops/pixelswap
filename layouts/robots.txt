@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Common AI / research crawlers (permissive by default; tighten if needed)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: {{ site.BaseURL }}sitemap.xml
