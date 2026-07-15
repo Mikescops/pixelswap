@@ -7,10 +7,17 @@
         <i class="icon" aria-hidden="true">{{ partial "icons/folder-tree-solid.svg" . }}</i>
         <span>Dev</span>
     </a>
-    <a href="/vinyls" class="home-links__item">
-        <i class="icon" aria-hidden="true">{{ partial "icons/record-vinyl-solid.svg" . }}</i>
-        <span>Vinyls</span>
-    </a>
+    {{- if .IsHome -}}
+        <a href="/vinyls" class="home-links__item">
+            <i class="icon" aria-hidden="true">{{ partial "icons/record-vinyl-solid.svg" . }}</i>
+            <span>Vinyls</span>
+        </a>
+    {{- else -}}
+        <a href="{{ "" | relURL }}" class="home-links__item">
+            <i class="icon" aria-hidden="true">{{ partial "icons/house-solid.svg" . }}</i>
+            <span>Blog</span>
+        </a>
+    {{- end -}}
     <span class="home-links__divider" aria-hidden="true"></span>
     <a href="https://www.threads.net/@corentin.mrs" class="home-links__item" target="_blank" rel="noopener noreferrer">
         <i class="icon" aria-hidden="true">{{ partial "icons/threads-brands-solid.svg" . }}</i>
