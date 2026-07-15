@@ -4,7 +4,7 @@
   "description": "Helper Node Module",
   "main": "index.js",
   "scripts": {
-    "build": "hugo --minify && pagefind --site public",
+    "build": "./build.sh",
     "serve": "hugo serve --disableFastRender",
     "preview": "npm run build && npx serve public",
     "pagefind": "pagefind --site public",

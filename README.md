@@ -4,6 +4,26 @@ This repo contains the PixelSwap Blog.
 
 Available at [pixelswap.fr](https://pixelswap.fr/)
 
+## Cloudflare Pages
+
+Production search depends on Pagefind running after Hugo. In **Workers & Pages → your project → Settings → Builds & deployments**, use:
+
+| Setting                | Value                     |
+| ---------------------- | ------------------------- |
+| Build command          | `npm ci && npm run build` |
+| Build output directory | `public`                  |
+
+Also set environment variables (Production and Preview):
+
+- `HUGO_VERSION`: Hugo Extended version used locally (for example `0.145.0`)
+- `NODE_VERSION`: `22` (or your local Node major version)
+
+If you prefer not to install Node dependencies in CI, this also works:
+
+```sh
+hugo --minify && npx -y pagefind --site public
+```
+
 ## Development
 
 Build the site and generate the [Pagefind](https://pagefind.app/) search index:
@@ -48,4 +68,4 @@ $hugo = $env:APPDATA,'\..\Local\Microsoft\WinGet\Links\hugo.exe' -join ''
 
 ---
 
-*All rights reserved. Code may be partially reproduced, content is property of his owner.*
+_All rights reserved. Code may be partially reproduced, content is property of his owner._
