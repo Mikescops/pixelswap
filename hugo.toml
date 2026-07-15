@@ -22,17 +22,32 @@ weight = 1
 title = 'PixelSwap | Blog by Corentin'
 
 [languages.en.params]
-description = "A blog about development, security, creations with a grain of fun."
+description = "Developer blog by Corentin Mors (France): software engineering, security, infrastructure, and side projects — in English and French."
 social_image = "img/logoss.png"
 twitter_site = "@mikescops"
 
 [languages.en.params.seo]
 default_og_locale = "en_US"
 french_og_locale = "fr_FR"
+geo_region = "FR"
+geo_placename = "France"
+geo_position = "47.0;2.0"
+icbm = "47.0, 2.0"
+llms_txt = "/llms.txt"
+llms_full_txt = "/llms-full.txt"
+
+[languages.en.params.seo.llm]
+tagline = "Bilingual developer blog by Corentin Mors — software, security, infrastructure, and creation."
+topics = "software engineering, web development, cybersecurity, DevOps, Hugo, Node.js, passkeys, infrastructure, France, English, French"
 
 [languages.en.params.author]
 name = "Corentin Mors"
 url = "https://me.pixelswap.fr/"
+job_title = "Co-founder & CTO"
+works_for = "Subnoto"
+works_for_url = "https://subnoto.com"
+nationality = "FR"
+home_country = "France"
 same_as = [
   "https://dev.pixelswap.fr/",
   "https://me.pixelswap.fr/",

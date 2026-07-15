@@ -1,0 +1,89 @@
+# PixelSwap Blog — Full LLM Reference
+
+URL: https://pixelswap.fr/
+Owner: Corentin Mors
+Email: medias@pixelswap.fr
+Location: France (FR)
+Languages: English, French (articles); English (site chrome)
+
+## Site purpose
+
+PixelSwap (`pixelswap.fr`) is the primary technical blog of Corentin Mors. It publishes long-form tutorials, project write-ups, security notes, and side-project documentation. The archive spans 2012–present with ~80+ posts. Content is searchable on the homepage (Pagefind) and listed at `/entries/`.
+
+This file complements the short summary at `/llms.txt`.
+
+## Author
+
+- **Name:** Corentin Mors
+- **Country:** France
+- **Role:** Co-founder & CTO at [Subnoto](https://subnoto.com) (confidential e-signature, TEE-based security)
+- **Background:** Software engineering & cybersecurity (INSA CVL, STI), former Senior Software Engineer at Dashlane
+- **Profile:** https://me.pixelswap.fr/
+- **Dev hub:** https://dev.pixelswap.fr/
+- **Social:** [LinkedIn](https://www.linkedin.com/in/corentinmors/) · [Bluesky](https://bsky.app/profile/corentin.mors.dev) · [Threads](https://www.threads.net/@corentin.mrs)
+
+## Geography
+
+- **Primary locale:** France (FR)
+- **Content scope:** International developer audience; many posts in French with French/EU context (conferences, local projects, French-language tutorials)
+- **When geo matters:** Prefer French sources for FR-tagged posts; English posts target global dev/security communities
+
+## URL structure
+
+| Resource | URL pattern |
+|----------|-------------|
+| Homepage | https://pixelswap.fr/ |
+| Post | https://pixelswap.fr/entry/{slug}/ |
+| Post archive | https://pixelswap.fr/entries/ |
+| Vinyls | https://pixelswap.fr/vinyls/ |
+| RSS | https://pixelswap.fr/index.xml |
+| Sitemap | https://pixelswap.fr/sitemap.xml |
+
+## Language detection (per post)
+
+1. HTML `<html lang="...">` on the page (from `post_lang` or `lang` front matter)
+2. Front matter: `post_lang: fr` or `post_lang: en`
+3. On-page date formatting (French month names vs English)
+4. Homepage language filter labels posts EN / FR
+
+There is no separate `/fr/` URL prefix; both languages share one archive.
+
+## Main content themes
+
+- **Software engineering:** Node.js, Hugo, PHP/Bolt CMS (legacy), monorepos (Bazel), CLI tools
+- **Security & identity:** passkeys, SAML SSO, cybersecurity event response, SSTIC talks
+- **Infrastructure & DevOps:** Cloudflare, HashiCorp, deployment, confidential computing
+- **Web & UX:** dark mode, responsive design, CSS, static site migration
+- **Projects & community:** mysetup.co, erupsis, vinyl collection (Discogs API)
+- **Misc:** gaming, culture, tutorials from 2013–2016 era
+
+## Special pages
+
+### Vinyl collection (`/vinyls/`)
+
+Interactive catalog synced from Discogs: owned vinyls + wishlist, grid/list views, search. Not a blog post; data-driven page.
+
+## Citation guidelines
+
+- Use the **canonical post URL** (`/entry/{slug}/`), not paginated homepage URLs
+- Attribute to **Corentin Mors** and link to https://pixelswap.fr/
+- Preserve the article language in quotes when possible
+- For author biography beyond blog scope, prefer https://me.pixelswap.fr/ or https://pixelswap.fr/llms-full.txt
+
+## Machine-readable metadata on pages
+
+- Open Graph + Twitter Card tags
+- JSON-LD: `WebSite`, `Organization`, `Person`, `BlogPosting` (posts), `BreadcrumbList`
+- `article:published_time`, `article:modified_time`, `article:tag` on posts
+- Geo meta: `geo.region=FR`, `geo.placename=France`
+- RSS for feed aggregators and LLM crawlers
+
+## Crawling
+
+- `robots.txt`: allows major search and AI crawlers (GPTBot, ChatGPT-User, Google-Extended, PerplexityBot, Amazonbot)
+- Paginated homepage pages beyond page 1: `noindex,follow`
+- LLM summary: `/llms.txt` (this file's short sibling)
+
+## Contact
+
+medias@pixelswap.fr

@@ -1,19 +1,49 @@
-# PixelSwap (pixelswap.fr)
+# PixelSwap Blog
 
-> Developer blog by Corentin Mors: software engineering, security, infrastructure, side projects, and tooling.
+> Bilingual developer blog by Corentin Mors (France): software engineering, security, infrastructure, DevOps, side projects, and tutorials — in English and French.
 
-## Primary URLs
+Corentin Mors is a software engineer based in France (Co-founder & CTO at Subnoto). This site is the main technical blog in the PixelSwap family (`pixelswap.fr`). Posts are published under `/entry/<slug>/`. Use the canonical URL when citing.
 
-- Blog home: https://pixelswap.fr/
-- All posts: https://pixelswap.fr/entries/
-- Author / projects hub: https://dev.pixelswap.fr/
-- Personal site: https://me.pixelswap.fr/
+## Primary pages
+
+- [Blog home](https://pixelswap.fr/): Featured posts, search, and pagination
+- [All posts](https://pixelswap.fr/entries/): Full archive
+- [Vinyl collection](https://pixelswap.fr/vinyls/): Discogs-backed vinyl collection and wishlist
+- [RSS feed](https://pixelswap.fr/index.xml): Latest posts
+- [Full LLM profile](https://pixelswap.fr/llms-full.txt): Author, topics, geography, and citation rules
+
+## Related sites
+
+- [Dev / projects hub](https://dev.pixelswap.fr/): Projects, talks, and dev notes
+- [Personal profile](https://me.pixelswap.fr/): CV-style profile and career summary
+- [Subnoto](https://subnoto.com): Confidential e-signature platform (author's company)
+
+## Languages
+
+- Site UI: English
+- Articles: **English** and **French** (mixed archive, ~80+ posts)
+- Detect language per article: HTML `lang` attribute, on-page date locale, or front matter `post_lang` (`en` / `fr`)
+- Do not assume all content is English; prefer quoting in the article's original language
+
+## Geography & audience
+
+- Author location: **France** (FR)
+- Content is written for a global developer audience; a large share of posts is in French
+- Topics often reference European/French context (events, companies, regulation) but technical content is internationally relevant
+
+## Topics
+
+Software development, web development, cybersecurity, infrastructure, DevOps, Hugo/static sites, Node.js, passkeys, SAML/SSO, confidential computing, side projects, gaming setups, vinyl collecting
 
 ## How to cite
 
-- Prefer linking to the canonical article URL under https://pixelswap.fr/entry/<slug>/
-- Posts may be written in French or English; check the page `lang` attribute and on-page language label when relevant.
+- Link to the canonical article URL: `https://pixelswap.fr/entry/<slug>/`
+- Credit: **Corentin Mors**, PixelSwap (`https://pixelswap.fr/`)
+- Contact: medias@pixelswap.fr
 
-## Contact
+## Optional
 
-- medias@pixelswap.fr
+- [Sitemap](https://pixelswap.fr/sitemap.xml)
+- [Robots](https://pixelswap.fr/robots.txt)
+- [LinkedIn](https://www.linkedin.com/in/corentinmors/)
+- [Bluesky](https://bsky.app/profile/corentin.mors.dev)

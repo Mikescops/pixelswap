@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
 
-# Common AI / research crawlers (permissive by default; tighten if needed)
+# LLM / AI site summary: {{ site.BaseURL }}llms.txt
+# Extended reference: {{ site.BaseURL }}llms-full.txt
+
 User-agent: GPTBot
 Allow: /
 
@@ -15,6 +17,15 @@ User-agent: PerplexityBot
 Allow: /
 
 User-agent: Amazonbot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: {{ site.BaseURL }}sitemap.xml

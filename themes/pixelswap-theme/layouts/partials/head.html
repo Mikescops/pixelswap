@@ -65,9 +65,11 @@
     {{- end -}}
 {{- end -}}
 
-{{- $keywords := "blog, development, infrastructure, security, creation, pixelswap" -}}
+{{- $keywords := "blog, development, infrastructure, security, creation, pixelswap, France, English, French" -}}
 {{- if .Params.tags -}}
     {{- $keywords = delimit .Params.tags ", " -}}
+{{- else if eq .Layout "vinyls" -}}
+    {{- $keywords = "vinyl, discogs, music collection, wishlist, Corentin Mors, France" -}}
 {{- end -}}
 
 {{- $ogType := cond .IsHome "website" (cond (and (eq .Kind "page") (eq .Section "posts")) "article" "website") -}}
@@ -83,10 +85,37 @@
 
 <meta name="robots" content="{{ $robots }}" />
 <meta name="author" content="{{ $authorMeta }}" />
+<meta http-equiv="content-language" content="{{ $contentLang }}" />
 
 <title>{{ $title }}</title>
 
 <link rel="canonical" href="{{ $canonical }}" />
+<link rel="author" href="{{ $authorArticleURL }}" />
+{{- with site.Params.seo.llms_txt -}}
+    <link rel="alternate" type="text/plain" title="LLM site summary" href="{{ . | absURL }}" />
+{{- end -}}
+{{- with site.Params.seo.llms_full_txt -}}
+    <link rel="alternate" type="text/plain" title="LLM full reference" href="{{ . | absURL }}" />
+{{- end -}}
+
+{{- with site.Params.seo.geo_region -}}
+    <meta name="geo.region" content="{{ . }}" />
+{{- end -}}
+{{- with site.Params.seo.geo_placename -}}
+    <meta name="geo.placename" content="{{ . }}" />
+{{- end -}}
+{{- with site.Params.seo.geo_position -}}
+    <meta name="geo.position" content="{{ . }}" />
+{{- end -}}
+{{- with site.Params.seo.icbm -}}
+    <meta name="ICBM" content="{{ . }}" />
+{{- end -}}
+{{- if .IsHome -}}
+    <meta name="language" content="English, French" />
+    {{- with site.Params.seo.llm.topics -}}
+        <meta name="subject" content="{{ . }}" />
+    {{- end -}}
+{{- end -}}
 
 {{- /* hreflang: Hugo translations + manual alternates map + self */ -}}
 {{- range .Translations -}}
@@ -142,6 +171,10 @@
     <meta property="article:published_time" content="{{ .Date.Format `2006-01-02T15:04:05Z07:00` }}" />
     <meta property="article:modified_time" content="{{ .Lastmod.Format `2006-01-02T15:04:05Z07:00` }}" />
     <meta property="article:author" content="{{ $authorArticleURL }}" />
+    <meta property="article:section" content="Blog" />
+    {{- range .Params.tags -}}
+        <meta property="article:tag" content="{{ . }}" />
+    {{- end -}}
     <meta itemprop="wordCount" content="{{ .WordCount }}" />
 {{- else if .IsPage -}}
     <meta itemprop="wordCount" content="{{ .WordCount }}" />

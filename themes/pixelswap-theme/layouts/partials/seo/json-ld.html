@@ -1,12 +1,22 @@
-{{- /* JSON-LD: WebSite, Organization, Person; on blog posts add BlogPosting + BreadcrumbList */ -}}
+{{- /* JSON-LD: WebSite, Organization, Person; posts → BlogPosting; home → Blog; vinyls → CollectionPage */ -}}
 {{- $authorName := "Corentin Mors" -}}
 {{- $authorURL := "https://me.pixelswap.fr/" | absURL -}}
+{{- $authorJobTitle := "" -}}
+{{- $worksForName := "" -}}
+{{- $worksForURL := "" -}}
+{{- $authorNationality := "FR" -}}
+{{- $authorCountry := "France" -}}
 {{- $sameAs := slice -}}
 {{- with site.Params.author -}}
     {{- if reflect.IsMap . -}}
         {{- $authorName = .name | default $authorName -}}
         {{- with .url }}{{ $authorURL = . | absURL }}{{ end -}}
         {{- with .same_as }}{{ $sameAs = . }}{{ end -}}
+        {{- with .job_title }}{{ $authorJobTitle = . }}{{ end -}}
+        {{- with .works_for }}{{ $worksForName = . }}{{ end -}}
+        {{- with .works_for_url }}{{ $worksForURL = . | absURL }}{{ end -}}
+        {{- with .nationality }}{{ $authorNationality = . }}{{ end -}}
+        {{- with .home_country }}{{ $authorCountry = . }}{{ end -}}
     {{- else -}}
         {{- $authorName = printf "%s" . -}}
     {{- end -}}
@@ -25,18 +35,33 @@
     {{- $desc = . | plainify | htmlUnescape | strings.TrimSpace | truncate 320 -}}
 {{- end -}}
 
+{{- $orgLocation := dict
+    "@type" "Place"
+    "name" $authorCountry
+    "address" (dict "@type" "PostalAddress" "addressCountry" (site.Params.seo.geo_region | default "FR"))
+-}}
+
 {{- $publisher := dict
     "@type" "Organization"
     "name" "PixelSwap"
     "url" site.Home.Permalink
     "logo" (dict "@type" "ImageObject" "url" ($socialRel | absURL))
+    "location" $orgLocation
 -}}
 
 {{- $person := dict
     "@type" "Person"
     "name" $authorName
     "url" $authorURL
+    "nationality" (dict "@type" "Country" "name" $authorCountry)
+    "homeLocation" $orgLocation
 -}}
+{{- if $authorJobTitle -}}
+    {{- $person = merge $person (dict "jobTitle" $authorJobTitle) -}}
+{{- end -}}
+{{- if and $worksForName $worksForURL -}}
+    {{- $person = merge $person (dict "worksFor" (dict "@type" "Organization" "name" $worksForName "url" $worksForURL)) -}}
+{{- end -}}
 {{- if gt (len $sameAs) 0 -}}
     {{- $person = merge $person (dict "sameAs" $sameAs) -}}
 {{- end -}}
@@ -54,6 +79,38 @@
 {{- $orgWithID := merge $publisher (dict "@id" (printf "%s#organization" site.Home.Permalink)) -}}
 
 {{- $graph := slice $orgWithID $person $website -}}
+
+{{- if .IsHome -}}
+    {{- $blog := dict
+        "@type" "Blog"
+        "@id" (printf "%s#blog" site.Home.Permalink)
+        "name" site.Title
+        "url" site.Home.Permalink
+        "description" ((site.Params.description | default "") | plainify | strings.TrimSpace)
+        "publisher" (dict "@id" (printf "%s#organization" site.Home.Permalink))
+        "author" $person
+        "inLanguage" (slice "en-US" "fr-FR")
+        "isPartOf" (dict "@id" (printf "%s#website" site.Home.Permalink))
+    -}}
+    {{- with site.GetPage "section" "posts" -}}
+        {{- $blog = merge $blog (dict "mainEntityOfPage" .Permalink) -}}
+    {{- end -}}
+    {{- $graph = $graph | append $blog -}}
+{{- end -}}
+
+{{- if eq .Layout "vinyls" -}}
+    {{- $collection := dict
+        "@type" "CollectionPage"
+        "@id" (printf "%s#collection" .Permalink)
+        "name" .Title
+        "url" .Permalink
+        "description" ($desc | default "Vinyl record collection and Discogs wishlist by Corentin Mors.")
+        "inLanguage" "en-US"
+        "isPartOf" (dict "@id" (printf "%s#website" site.Home.Permalink))
+        "author" $person
+    -}}
+    {{- $graph = $graph | append $collection -}}
+{{- end -}}
 
 {{- if and (eq .Kind "page") (eq .Section "posts") -}}
     {{- $contentLang := "en" -}}
@@ -88,13 +145,15 @@
         "image" $images
         "inLanguage" $inLang
         "wordCount" $wordCount
+        "articleSection" "Blog"
+        "isPartOf" (dict "@id" (printf "%s#blog" site.Home.Permalink))
     -}}
     {{- if $articleDesc -}}
         {{- $blogPosting = merge $blogPosting (dict "description" $articleDesc) -}}
     {{- end -}}
     {{- with .Params.tags -}}
         {{- $keywords := delimit . ", " -}}
-        {{- $blogPosting = merge $blogPosting (dict "keywords" $keywords) -}}
+        {{- $blogPosting = merge $blogPosting (dict "keywords" $keywords "about" .) -}}
     {{- end -}}
 
     {{- $entries := site.GetPage "section" "posts" -}}
