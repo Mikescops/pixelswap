@@ -4,7 +4,28 @@ This repo contains the PixelSwap Blog.
 
 Available at [pixelswap.fr](https://pixelswap.fr/)
 
-## To create a new post
+## Development
+
+Build the site and generate the [Pagefind](https://pagefind.app/) search index:
+
+```sh
+npm install
+npm run build
+```
+
+Preview the production build locally (includes search):
+
+```sh
+npm run preview
+```
+
+For Hugo live reload without search, use:
+
+```sh
+npm run serve
+```
+
+To create a new post:
 
 ```sh
 hugo new content posts/2024/title-of-post/index.md

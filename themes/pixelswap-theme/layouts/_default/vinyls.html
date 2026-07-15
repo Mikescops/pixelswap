@@ -1,44 +1,95 @@
 {{ define "main" }}
+    {{- $vinyls := .Site.Data.vinyls | default slice -}}
+    {{- $wishlist := .Site.Data.wishlist | default slice -}}
+    {{- $collectionCount := len $vinyls -}}
+    {{- $wishlistCount := len $wishlist -}}
+
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <a href="{{ "" | relURL }}"><img class="pixelswap-logo" src="/img/logoss.png" alt="PixelSwap" /></a>
-                <h3 class="slogan">
-                    Corentin's vinyls
-                    <i class="icon">{{ partial "icons/record-vinyl-solid.svg" . }}</i>
-                </h3>
-                <br />
-                <br />
+                <header class="vinyls-header home-title">
+                    <h1>
+                        <span class="home-heading-brand">Vinyls</span>
+                        <span class="home-heading-name">Corentin's collection</span>
+                    </h1>
+                    <p class="home-subtitle">
+                        {{ $collectionCount }} records and {{ $wishlistCount }} wishlist items synced from Discogs — hover a disc to spin it
+                    </p>
+                    {{ partial "home-links.html" . }}
+                </header>
 
-                <div class="vinyl-grid">
-                    {{ $vinyls := .Site.Data.vinyls }}
-                    {{ range $vinyls }}
-                        <div class="vinyl-container">
-                            {{- $image := resources.Get .image }}
-                            {{- $image_webp := $image.Fill "200x200 Center webp q100" }}
-                            <div class="vinyl" style="background-image: url('{{ $image_webp.RelPermalink }}')"></div>
-
-                            <svg class="title" viewBox="0 0 100 100" width="250" height="250">
-                                <defs>
-                                    <path
-                                        id="circle"
-                                        d="
-                                            M 45, 45
-                                            m -37, 5
-                                            a 37,37 0 1,1 84,0
-                                            a 37,37 0 1,1 -84,0"
-                                    />
-                                </defs>
-                                <text font-size="8">
-                                    <textPath xlink:href="#circle">
-                                        {{ .title }} -
-                                        {{ .artist }}
-                                    </textPath>
-                                </text>
-                            </svg>
-                        </div>
-                    {{ end }}
+                <div class="vinyls-toolbar posts-toolbar">
+                    <div class="posts-search vinyls-search">
+                        <label class="posts-search__label" for="vinyls-search-input">Search vinyls</label>
+                        <span class="posts-search__icon" aria-hidden="true">
+                            <i class="icon">{{ partial "icons/magnifying-glass-solid.svg" . }}</i>
+                        </span>
+                        <input
+                            type="search"
+                            id="vinyls-search-input"
+                            class="posts-search__input"
+                            placeholder="Search by title, artist, label, genre…"
+                            autocomplete="off"
+                            spellcheck="false"
+                        />
+                    </div>
+                    <div class="vinyls-source-filter posts-lang-filter" role="group" aria-label="Filter by source">
+                        <button
+                            type="button"
+                            class="vinyls-source-filter__btn posts-lang-filter__btn is-active"
+                            data-source="collection"
+                            aria-pressed="true"
+                        >
+                            Collection ({{ $collectionCount }})
+                        </button>
+                        <button
+                            type="button"
+                            class="vinyls-source-filter__btn posts-lang-filter__btn"
+                            data-source="wishlist"
+                            aria-pressed="false"
+                            {{- if eq $wishlistCount 0 }} disabled title="Run npm run sync-vinyls to fetch your wishlist"{{- end -}}
+                        >
+                            Wishlist ({{ $wishlistCount }})
+                        </button>
+                    </div>
+                    <div class="vinyls-view-filter posts-lang-filter" role="group" aria-label="View mode">
+                        <button
+                            type="button"
+                            class="vinyls-view-filter__btn posts-lang-filter__btn is-active"
+                            data-view="grid"
+                            aria-pressed="true"
+                            title="Grid view"
+                        >
+                            <i class="icon" aria-hidden="true">{{ partial "icons/grid-solid.svg" . }}</i>
+                            <span>Grid</span>
+                        </button>
+                        <button
+                            type="button"
+                            class="vinyls-view-filter__btn posts-lang-filter__btn"
+                            data-view="list"
+                            aria-pressed="false"
+                            title="List view"
+                        >
+                            <i class="icon" aria-hidden="true">{{ partial "icons/list-solid.svg" . }}</i>
+                            <span>List</span>
+                        </button>
+                    </div>
                 </div>
+
+                <p class="posts-status vinyls-status" id="vinyls-status" aria-live="polite">{{ $collectionCount }} records</p>
+
+                <div class="vinyls-collection" id="vinyls-collection" data-view="grid" data-source="collection">
+                    <div class="vinyls-items" id="vinyls-items">
+                        {{- range $index, $vinyl := $vinyls -}}
+                            {{ partial "vinyl-item.html" (dict "vinyl" $vinyl "index" $index "source" "collection") }}
+                        {{- end -}}
+                        {{- range $index, $vinyl := $wishlist -}}
+                            {{ partial "vinyl-item.html" (dict "vinyl" $vinyl "index" (add $collectionCount $index) "source" "wishlist") }}
+                        {{- end -}}
+                    </div>
+                </div>
+
+                <p class="vinyls-empty" id="vinyls-empty" hidden>No records match your search.</p>
             </div>
         </div>
     </div>

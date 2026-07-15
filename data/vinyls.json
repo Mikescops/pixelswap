@@ -1,415 +1,5917 @@
 [
     {
+        "release_id": 31142408,
+        "discogs_url": "https://www.discogs.com/release/31142408",
         "title": "A Weekend In The City",
         "artist": "Bloc Party",
         "label": "[pias]",
+        "catno": "PIASC1092LPX",
         "year": 2024,
-        "image": "vinyls-cover/MTItNjg0OS5qcGVn.jpeg"
+        "country": "Worldwide",
+        "released": "2024-07-05",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock",
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Song For Clay (Disappear Here)",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Hunting For Witches",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Waiting For The 7:18",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "The Prayer",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Uniform",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "On",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Where Is Home?",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Kreuzberg",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "I Still Remember",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Sunday",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "SRXT",
+                "duration": ""
+            }
+        ],
+        "notes": "℗ 2024 & © 2007 Bloc Party under exclusive license to [pias] Recordings Limited.\nManufactured in the EU.\n\n2024 Reissue.\n\n\n\n\n\n\n",
+        "image": "vinyls-cover/MTItNjg0OS5qcGVn.jpeg",
+        "date_added": "2024-07-26T00:59:33-07:00"
     },
     {
+        "release_id": 31142165,
+        "discogs_url": "https://www.discogs.com/release/31142165",
         "title": "Intimacy",
         "artist": "Bloc Party",
         "label": "[pias]",
+        "catno": "PIASC1093LPX",
         "year": 2024,
-        "image": "vinyls-cover/NDktNTk5MC5qcGVn.jpeg"
+        "country": "Worldwide",
+        "released": "2024-07-05",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock",
+            "Electro"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Ares",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Mercury",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Halo",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Biko",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Trojan Horse",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "Signs",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "One Month Off",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Zephyrus",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Talons",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Better Than Heaven",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Ion Square",
+                "duration": ""
+            }
+        ],
+        "notes": "℗ 2024 & © 2008 Bloc Party under exclusive license to [pias] Recordings Limited.\nManufactured in the EU.\n\n2024 Reissue.\n\n— Production locations:\nJacknife Lee sessions recorded at The Garage in Kent.\nPaul Epworth sessions recorded at The Pool, Miloco, London.\nChoral and brass parts recorded at Olympic Studios, London. \nMixed at Assault and Battery, London.\nMastered at Electric Mastering, London.\n\"Ion Square\" contains elements from the poem \"I Carry Your Heart With Me\".",
+        "image": "vinyls-cover/NDktNTk5MC5qcGVn.jpeg",
+        "date_added": "2024-07-26T00:59:06-07:00"
     },
     {
+        "release_id": 31181134,
+        "discogs_url": "https://www.discogs.com/release/31181134",
         "title": "Four",
         "artist": "Bloc Party",
         "label": "[PIAS] Recordings",
+        "catno": "PIASC1094LPX",
         "year": 2024,
-        "image": "vinyls-cover/MzItOTQ0Ni5qcGVn.jpeg"
+        "country": "Worldwide",
+        "released": "2024-07-00",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "So He Begins To Lie",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "3x3",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Octopus",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Real Talk",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Kettling",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "Day Four",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Coliseum",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "V.A.L.I.S.",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Team A",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Truth",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "The Healing",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "We Are Not Good People",
+                "duration": ""
+            }
+        ],
+        "notes": "2024 reissue on sun yellow vinyl.\n\nU.K. release date was 19th July 2024",
+        "image": "vinyls-cover/MzItOTQ0Ni5qcGVn.jpeg",
+        "date_added": "2024-07-26T00:58:34-07:00"
     },
     {
+        "release_id": 32999334,
+        "discogs_url": "https://www.discogs.com/release/32999334",
+        "title": "III",
+        "artist": "Last Train",
+        "label": "[pias], Last Train Productions",
+        "catno": "LTP003, LTP003",
+        "year": 2025,
+        "country": "Europe",
+        "released": "2025-01-31",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Vinyl",
+            "LP",
+            "Etched",
+            "All Media",
+            "Album"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Home",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "The Plan",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "How Does It Feel?",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "All to Blame",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "This is Me Trying",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Revenge",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "One By One",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "You've Ruined Everything",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "I Hate You",
+                "duration": ""
+            }
+        ],
+        "notes": "Side D is etched.\n\nRunouts : the \"L̶T̶P̶0̶0̶3̶ # Ben.S PIASLL236LP #\" strings are etched, the rest is stamped\n\nOn back cover :\nMade in the Czech Republic",
+        "image": "vinyls-cover/MDgtMzYxMS5qcGVn.jpeg",
+        "date_added": "2026-07-15T07:16:53-07:00"
+    },
+    {
+        "release_id": 25891672,
+        "discogs_url": "https://www.discogs.com/release/25891672",
         "title": "Surfer Rosa",
         "artist": "Pixies",
         "label": "4AD",
+        "catno": "CAD 803",
         "year": 2006,
-        "image": "vinyls-cover/MjEtNzU3Mi5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2006",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Indie Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Bone Machine",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Break My Body",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Something Against You",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Broken Face",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Gigantic",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "River Euphrates",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Where Is My Mind?",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Cactus",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Tony's Theme",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Oh My Golly!",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Vamos",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "I'm Amazed",
+                "duration": ""
+            },
+            {
+                "position": "B7",
+                "title": "Brick Is Red",
+                "duration": ""
+            }
+        ],
+        "notes": "Repress of [r=2109418]\n\nComes with full original artwork including thick printed inner sleeve.\n\nRecorded and Mixed at Q-Division, Boston, Massachusetts, U.S.A.\nArt Direction and Design: [...] at 23 Envelope.\n\nOn inner sleeve:\nPrinted in E.U.\n\nOn B-side label:\n℗ & © 1988 4·A·D\nCAD 803\nPrinted in England",
+        "image": "vinyls-cover/MjEtNzU3Mi5qcGVn.jpeg",
+        "date_added": "2024-11-29T05:44:14-08:00"
     },
     {
+        "release_id": 21261970,
+        "discogs_url": "https://www.discogs.com/release/21261970",
         "title": "Civilisation",
         "artist": "Orelsan",
         "label": "7th Magnitude, 3ème Bureau, Wagram Music",
+        "catno": "3407866, 3407866, 3407866",
         "year": 2021,
-        "image": "vinyls-cover/OTctOTMwMy5qcGVn.jpeg"
+        "country": "France",
+        "released": "2021",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Hip Hop"
+        ],
+        "styles": [
+            "Conscious",
+            "Pop Rap"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Shonen",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "La Quête",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Du Propre",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Bébéboa",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Rêve Mieux",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Seul Avec Du Monde Autour",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Manifeste",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "L'odeur De L'essence",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Jour Meilleur",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "Baise Le Monde",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Casseurs Flowters Infinity",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Dernier Verre",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Ensemble",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "Athéna",
+                "duration": ""
+            },
+            {
+                "position": "D4",
+                "title": "Civilisation",
+                "duration": ""
+            }
+        ],
+        "notes": "Gatefold sleeve",
+        "image": "vinyls-cover/OTctOTMwMy5qcGVn.jpeg",
+        "date_added": "2023-12-03T04:45:41-08:00"
     },
     {
+        "release_id": 367750,
+        "discogs_url": "https://www.discogs.com/release/367750",
         "title": "Synchronicity",
         "artist": "The Police",
         "label": "A&M Records",
+        "catno": "AMLX 63735",
         "year": 1983,
-        "image": "vinyls-cover/LTExNDcuanBlZw.jpeg"
+        "country": "UK",
+        "released": "1983-06-17",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "New Wave",
+            "Pop Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Synchronicity I",
+                "duration": "3:23"
+            },
+            {
+                "position": "A2",
+                "title": "Walking In Your Footsteps",
+                "duration": "3:35"
+            },
+            {
+                "position": "A3",
+                "title": "O My God",
+                "duration": "4:00"
+            },
+            {
+                "position": "A4",
+                "title": "Mother",
+                "duration": "3:03"
+            },
+            {
+                "position": "A5",
+                "title": "Miss Gradenko",
+                "duration": "2:00"
+            },
+            {
+                "position": "A6",
+                "title": "Synchronicity II",
+                "duration": "5:04"
+            },
+            {
+                "position": "B1",
+                "title": "Every Breath You Take",
+                "duration": "4:13"
+            },
+            {
+                "position": "B2",
+                "title": "King Of Pain",
+                "duration": "4:59"
+            },
+            {
+                "position": "B3",
+                "title": "Wrapped Around Your Finger",
+                "duration": "5:12"
+            },
+            {
+                "position": "B4",
+                "title": "Tea In The Sahara",
+                "duration": "4:11"
+            }
+        ],
+        "notes": "\"Printed in England\" on the spine of the sleeve.\n\"Made in England\" is printed on the centre labels of the vinyl record.\n\"Original sound recording made by A&M Records Ltd. MCPS/BIEM\" also on the centre labels.\nRecorded at Air Studios, Montserrat and Le Studio, Quebec.\n\nThe album's original cover artwork was available in 36 variations, with different arrangements of the colour stripes and showing different photographs of the band members, which they took themselves.\n\nThe format of the runouts is as follows:\nSide A: 'SP-3735-A-INT-#', 'RL' and 'M1 SF1 SM#' are etched, everything else appears stamped.\nSide B: 'SP-3735-B-INT #' and 'M1SF1 SM#' are etched, everything else appears stamped.\nBoth runouts contain the Europadisk logo, which is the initials EDP in a circle and also the A&M Mastering Studios trumpet [🎺] logo.",
+        "image": "vinyls-cover/LTExNDcuanBlZw.jpeg",
+        "date_added": "2023-12-03T04:42:25-08:00"
     },
     {
+        "release_id": 26031499,
+        "discogs_url": "https://www.discogs.com/release/26031499",
         "title": "Discovery",
         "artist": "Daft Punk",
         "label": "ADA (6)",
+        "catno": "0190296617164",
         "year": 2022,
-        "image": "vinyls-cover/OTEtNzYzNi5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2022",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Electronic"
+        ],
+        "styles": [
+            "Disco",
+            "House",
+            "Electro",
+            "French House"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "One More Time",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Aerodynamic",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Digital Love",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Harder, Better, Faster, Stronger",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Crescendolls",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Nightvision",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Superheroes",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "High Life",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Something About Us",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "Voyager",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Veridis Quo",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Short Circuit",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Face To Face",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "Too Long",
+                "duration": ""
+            }
+        ],
+        "notes": "Distributed exclusively by Warner Music France / ADA France. ℗ & © 2001 Daft Life Ltd. All rights of the producer & of the owner of the records work reserved. Unauthorized copying, public performance broadcasting hiring or rental of this recording is prohibited.\n\nGlossy outer sides of the gatefold and inner sleeves.\n\n0190296617164. Made in Poland\n\nRunouts are etched.\n",
+        "image": "vinyls-cover/OTEtNzYzNi5qcGVn.jpeg",
+        "date_added": "2023-12-03T04:39:48-08:00"
     },
     {
+        "release_id": 17536279,
+        "discogs_url": "https://www.discogs.com/release/17536279",
         "title": "Hotel California",
         "artist": "Eagles",
         "label": "Asylum Records, Asylum Records",
+        "catno": "RRM1-1084, 8122796161",
         "year": 2017,
-        "image": "vinyls-cover/OTEtODE5MS5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2017",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Country Rock",
+            "Folk Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Hotel California",
+                "duration": "6:30"
+            },
+            {
+                "position": "A2",
+                "title": "New Kid In Town",
+                "duration": "5:04"
+            },
+            {
+                "position": "A3",
+                "title": "Life In The Fast Lane",
+                "duration": "4:46"
+            },
+            {
+                "position": "A4",
+                "title": "Wasted Time",
+                "duration": "4:55"
+            },
+            {
+                "position": "B1",
+                "title": "Wasted Time (Reprise)",
+                "duration": "1:22"
+            },
+            {
+                "position": "B2",
+                "title": "Victim Of Love",
+                "duration": "4:11"
+            },
+            {
+                "position": "B3",
+                "title": "Pretty Maids All In A Row",
+                "duration": "4:05"
+            },
+            {
+                "position": "B4",
+                "title": "Try And Love Again",
+                "duration": "5:10"
+            },
+            {
+                "position": "B5",
+                "title": "The Last Resort",
+                "duration": "7:25"
+            }
+        ],
+        "notes": "LP is pressed on 180 gram vinyl. Includes a replica of the full color poster of the band, by Norman Seeff, from the original album.\n\n[Back cover]\n℗ & © 1976 Elektra/Asylum Records for the U.S. and WEA International Inc. for the world outside of the U.S.  All Rights Reserved.\nMarketed by Warner Strategic Marketing, a Warner Music Group Company. Made in the Netherlands. LC02982 \n\n[Record labels]\n℗ © 1976 Elektra/Asylum Records for the U.S. and WEA International Inc. for the world outside of the U.S. ... Marketed by Warner Strategic Marketing, a Warner Music Group Company. Made in EU. LC02982 \n\n[Cat #s]\nRRM1-1084 - on spine, on inner sleeve top left, record labels\n8122796161 - on bottom of post production barcode sticker \n\n[Differentiation and identification]\nMost obvious differences from [r6623165] are (i) the \"Made in the Netherlands\" at the bottom of the rear cover of this release vs. \"Made in the EU\" on the other, and (ii) the matrix information is different, indicating a different pressing, cut by Chris Bellman rather than Bernie Grundman.\nTracks A3 and B2 Joe Walsh's Guitar credits are misspelt as \"Guiter\" on the inner sleeve song credits.\n\nRunouts are partially etched/stamped.",
+        "image": "vinyls-cover/OTEtODE5MS5qcGVn.jpeg",
+        "date_added": "2023-12-24T14:53:56-08:00"
     },
     {
+        "release_id": 17630164,
+        "discogs_url": "https://www.discogs.com/release/17630164",
         "title": "Louise Attaque",
         "artist": "Louise Attaque",
         "label": "Barclay",
+        "catno": "067 507 1",
         "year": 2018,
-        "image": "vinyls-cover/MjYtMzAwNC5qcGVn.jpeg"
+        "country": "France",
+        "released": "2018",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Rock",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Pop Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Amours",
+                "duration": "1:56"
+            },
+            {
+                "position": "A2",
+                "title": "J'T'Emmène Au Vent",
+                "duration": "3:05"
+            },
+            {
+                "position": "A3",
+                "title": "Ton Invitation",
+                "duration": "2:39"
+            },
+            {
+                "position": "A4",
+                "title": "La Brune",
+                "duration": "1:55"
+            },
+            {
+                "position": "A5",
+                "title": "Les Nuits Parisiennes",
+                "duration": "2:32"
+            },
+            {
+                "position": "A6",
+                "title": "L'Imposture",
+                "duration": "2:24"
+            },
+            {
+                "position": "A7",
+                "title": "Savoir",
+                "duration": "1:46"
+            },
+            {
+                "position": "A8",
+                "title": "Arrache-Moi",
+                "duration": "2:01"
+            },
+            {
+                "position": "B1",
+                "title": "Léa",
+                "duration": "3:18"
+            },
+            {
+                "position": "B2",
+                "title": "Fatigante",
+                "duration": "2:51"
+            },
+            {
+                "position": "B3",
+                "title": "Tes Yeux Se Moquent",
+                "duration": "3:09"
+            },
+            {
+                "position": "B4",
+                "title": "Vous Avez L'Heure",
+                "duration": "2:26"
+            },
+            {
+                "position": "B5",
+                "title": "Toute Cette Histoire",
+                "duration": "5:27"
+            },
+            {
+                "position": "B6",
+                "title": "Cracher Nos Souhaits",
+                "duration": "3:26"
+            }
+        ],
+        "notes": "This release does NOT include a voucher for downloading the MP3 version of the Album.\nThere isn't any Back To Black sticker on the plastic wrap.\n\nInnersleeve with lyrics\nInnersleeve number: 067 507 1\n\nRunouts :\nThe \"MPO/LA 004400 6750712 A/B\" strings are handwritten, the rest is etched",
+        "image": "vinyls-cover/MjYtMzAwNC5qcGVn.jpeg",
+        "date_added": "2024-01-02T04:15:42-08:00"
     },
     {
+        "release_id": 3229502,
+        "discogs_url": "https://www.discogs.com/release/3229502",
         "title": "Ferrat Chante Aragon",
         "artist": "Jean Ferrat",
         "label": "Barclay",
+        "catno": "90 259",
         "year": 1978,
-        "image": "vinyls-cover/NS0yODA1LmpwZWc.jpeg"
+        "country": "France",
+        "released": "1978",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Chanson"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Un Jour, Un Jour",
+                "duration": "4:55"
+            },
+            {
+                "position": "A2",
+                "title": "Le Malheur D'aimer",
+                "duration": "3:09"
+            },
+            {
+                "position": "A3",
+                "title": "Les Poètes",
+                "duration": "4:04"
+            },
+            {
+                "position": "A4",
+                "title": "Nous Dormirons Ensemble",
+                "duration": "2:19"
+            },
+            {
+                "position": "A5",
+                "title": "C'est Si Peu Dire Que Je T'aime",
+                "duration": "2:50"
+            },
+            {
+                "position": "B1",
+                "title": "J'entends, J'entends",
+                "duration": "3:17"
+            },
+            {
+                "position": "B2",
+                "title": "Que Serais-Je Sans Toi",
+                "duration": "3:08"
+            },
+            {
+                "position": "B3",
+                "title": "Robert Le Diable",
+                "duration": "4:55"
+            },
+            {
+                "position": "B4",
+                "title": "Au Bout De Mon Age",
+                "duration": "2:23"
+            },
+            {
+                "position": "B5",
+                "title": "Heureux Celui Qui Meurt D'aimer",
+                "duration": "3:09"
+            }
+        ],
+        "notes": "Recorded June 1971. \nGatefold sleeve, containing booklet with lyrics.\n\nPrinted on back cover:\nPrinted in France - Imp. Glory - 92602 Asnières\n\nPrinted on label (réédition means reissue):\n℗ 1974 BARCLAY\n℗ 1978 réédition\nMADE IN FRANCE\n",
+        "image": "vinyls-cover/NS0yODA1LmpwZWc.jpeg",
+        "date_added": "2023-12-24T12:54:04-08:00"
     },
     {
+        "release_id": 998281,
+        "discogs_url": "https://www.discogs.com/release/998281",
         "title": "†",
         "artist": "Justice (3)",
         "label": "Because Music, Ed Banger Records",
+        "catno": "BEC5772110, BEC5772110",
         "year": 2007,
-        "image": "vinyls-cover/LmpwZWc.jpeg"
+        "country": "Europe",
+        "released": "2007-06-00",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Stereo"
+        ],
+        "genres": [
+            "Electronic"
+        ],
+        "styles": [
+            "Electro House",
+            "French House"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Genesis",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Let There Be Light",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "D.A.N.C.E.",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Newjack",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Phantom",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "Phantom Pt II",
+                "duration": ""
+            },
+            {
+                "position": "C7",
+                "title": "Valentine",
+                "duration": ""
+            },
+            {
+                "position": "C8",
+                "title": "Tthhee Ppaarrttyy",
+                "duration": ""
+            },
+            {
+                "position": "C9",
+                "title": "DVNO",
+                "duration": ""
+            },
+            {
+                "position": "D10",
+                "title": "Stress",
+                "duration": ""
+            },
+            {
+                "position": "D11",
+                "title": "Waters Of Nazareth",
+                "duration": ""
+            },
+            {
+                "position": "D12",
+                "title": "One Minute To Midnight",
+                "duration": ""
+            }
+        ],
+        "notes": "Issued in a gatefold sleeve. Printed inner sleeves.\nSome copies came with fold-out poster.\n\nReissued in 2021, see [r22463917], with new laser etched MPO logos and specific MPO numbers in the runout areas.\n\n℗&© 2007 Ed Banger Records under exclusive license to Because Music.\n\nMastered by Nilesh Patel at The Exchange, London.\nRecorded in Paris by Jus†ice. \n\nTrack positions are listed sequentially, as they are on the release.\n\n#4 contains a sample of \"You Make Me Wanna Wiggle\" by Brothers Johnson\n#5 contains a sample of \"Tenebrae\" by Goblin\n#10 contains a sample of \"Night On A Disco Mountain\" by David Shire\n",
+        "image": "vinyls-cover/LmpwZWc.jpeg",
+        "date_added": "2024-09-17T14:08:27-07:00"
     },
     {
+        "release_id": 32175270,
+        "discogs_url": "https://www.discogs.com/release/32175270",
         "title": "Rock Machine",
         "artist": "La Femme (4)",
         "label": "Born Bad Records, IDOL (2), Disque Pointu",
+        "catno": "BB182LP, IDOLLP148, ZOD 014",
         "year": 2024,
-        "image": "vinyls-cover/NDAtMzA1Ni5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2024-10-11",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Synth-pop",
+            "New Wave",
+            "Disco",
+            "Punk"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Clover Paradise",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Venus",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Ciao Paris",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Love Is Over",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Waiting In The Dark",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "My Generation",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Sweet Babe",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Yeah Baby",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "I Believe In Rock And Roll",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "I Gonna Make A Hit",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "White Night",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "Goodbye Tonight",
+                "duration": ""
+            },
+            {
+                "position": "B7",
+                "title": "Amazing",
+                "duration": ""
+            }
+        ],
+        "notes": "same cover as the french version but different barcode\n\nsame barcode as the us-version but not made in the us\n\nAn unknown number of signed copies of this edition were pre-sold on FNAC web store.",
+        "image": "vinyls-cover/NDAtMzA1Ni5qcGVn.jpeg",
+        "date_added": "2024-11-29T05:43:23-08:00"
     },
     {
+        "release_id": 31836080,
+        "discogs_url": "https://www.discogs.com/release/31836080",
         "title": "Black Ice",
         "artist": "AC/DC",
         "label": "Columbia, Albert Productions, Sony Music",
+        "catno": "19658873431, 19658873431, 19658873431",
         "year": 2024,
-        "image": "vinyls-cover/NDItMjcyNy5qcGVn.jpeg"
+        "country": "Worldwide",
+        "released": "2024-09-27",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Special Edition",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Hard Rock",
+            "Blues Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Rock N Roll Train",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Skies On Fire",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Big Jack",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Anything Goes",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "War Machine",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Smash N Grab",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Spoilin' For A Fight",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Wheels",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "Decibel",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Stormy May Day",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "She Likes Rock N Roll",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Money Made",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Rock N Roll Dream",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Rocking All The Way",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "Black Ice",
+                "duration": ""
+            }
+        ],
+        "notes": "50th Anniversary special edition as 180 gram gold nugget vinyl.\nComes with a printed inner sleeve and includes a print (30x30 cm) with brand new AC/DC anniversary artwork.\nThere are two hype stickers on the outer film on the front.\n\nHoused in an embossed gatefold sleeve, the red elements to the front are embossed. The sleeve is gloss black intercut with a highly intricate matte patterning.\n\n[Printed on inside gatefold cover:]\n[...]\nRecorded at the Warehouse Studio, Vancouver, B.C., Canada.\nMastered by George Marino at Sterling Sound, NYC.\n[...]\n© & ℗ 2008 Leidseplein Presse B.V.\n[...]\nMade in the EU.\n\n[Printed on artwork:]\nReverse side photo by Michael Putland archive. 19658873411-11\n\n[Printed on label side B & D:]\n© 2008, 2024 Leidseplein Presse B.V.\n\nRunouts are stamped, 88697383771 and the geometric marks are etched.\nPressing plant and lacquer cut identified based on the runout areas.\n\n[Additional information about the faintly inscribed geometric marks:]\nIn the runouts \"24△\", \"2+=\", \"2ΛV\", \"4l+\", \"2l△\", \"2=1\", \"2+T\", \"T14\" are mirrored.",
+        "image": "vinyls-cover/NDItMjcyNy5qcGVn.jpeg",
+        "date_added": "2024-11-29T05:44:47-08:00"
     },
     {
+        "release_id": 26724584,
+        "discogs_url": "https://www.discogs.com/release/26724584",
         "title": "Random Access Memories",
         "artist": "Daft Punk",
         "label": "Columbia, Columbia, Sony Music, Sony Music",
+        "catno": "88883716861, 88883 71686 1, 88883716861, 88883 71686 1",
         "year": 2021,
-        "image": "vinyls-cover/MTMtMzIwOC5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2021",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress",
+            "Stereo"
+        ],
+        "genres": [
+            "Electronic",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Disco",
+            "Funk",
+            "Synth-pop",
+            "Electro"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Give Life Back To Music",
+                "duration": "4:35"
+            },
+            {
+                "position": "A2",
+                "title": "The Game Of Love",
+                "duration": "5:22"
+            },
+            {
+                "position": "A3",
+                "title": "Giorgio By Moroder",
+                "duration": "9:04"
+            },
+            {
+                "position": "B1",
+                "title": "Within",
+                "duration": "3:48"
+            },
+            {
+                "position": "B2",
+                "title": "Instant Crush",
+                "duration": "5:37"
+            },
+            {
+                "position": "B3",
+                "title": "Lose Yourself To Dance",
+                "duration": "5:53"
+            },
+            {
+                "position": "C1",
+                "title": "Touch",
+                "duration": "8:18"
+            },
+            {
+                "position": "C2",
+                "title": "Get Lucky",
+                "duration": "6:09"
+            },
+            {
+                "position": "C3",
+                "title": "Beyond",
+                "duration": "4:50"
+            },
+            {
+                "position": "D1",
+                "title": "Motherboard",
+                "duration": "5:41"
+            },
+            {
+                "position": "D2",
+                "title": "Fragments Of Time",
+                "duration": "4:39"
+            },
+            {
+                "position": "D3",
+                "title": "Doin' It Right",
+                "duration": "4:11"
+            },
+            {
+                "position": "D4",
+                "title": "Contact",
+                "duration": "6:23"
+            }
+        ],
+        "notes": "Back cover legal statement:\n© 2013 & ℗ 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music\nEntertainment, Distributed by Sony Music Entertainment, Sony Music Entertainment International Services GmbH,\nPO Box 510, 33311 Gütersloh, Germany. Columbia is the exclusive trademark of Sony Music Entertainment.\nAll trademarks and logos are protected. Made in the EU. LC00162 / 88883 71686 1\n\nBooklet:\n[includes detailed credits & complete lyrics to each track]\n\nSongs published by:\nTrack A1: Imagem Music for the world excluding France, Daft Music / Because Music for France, XLC Music (BMI), Miss Mittie Music (BMI)\nTrack A2: Imagem Music for the world excluding France, Daft Music / Because Music for France\nTrack A3: Imagem Music for the world excluding France, Daft Music / Because Music for France, Giorgio Moroder Publishing (ASCAP)\nTrack B1: Imagem Music for the world excluding France, Daft Music / Because Music for France, EMI Music Publishing\nTrack B2: Imagem Music for the world excluding France, Daft Music / Because Music for France, Julian Casablancas Publishing (ASCAP) for North America & Warner/Chappell Music Publishing Limited for rest of the world. Julian Casablancas appears courtesy of Rough Trade / RCA Records\nTrack B3: Imagem Music for the world excluding France, Daft Music / Because Music for France, XLC Music (BMI), EMI April Music, Inc. obo itself and More Water From Nazareth (ASCAP)\nTrack C1: Imagem Music for the world excluding France, Daft Music / Because Music for France, Sunset Squid Music, Kazz Song, Inc\nTrack C2: Imagem Music for the world excluding France, Daft Music / Because Music for France, XLC Music (BMI), EMI April Music, Inc. obo itself and More Water From Nazareth (ASCAP)\nTrack C3: Imagem Music for the world excluding France, Daft Music / Because Music for France, Sunset Squid Music, Kazz Song, Inc.\nTrack D1: Imagem Music for the world excluding France, Daft Music / Because Music for France\nTrack D2: Imagem Music for the world excluding France, Daft Music / Because Music for France, Todd Imperatrice (ASCAP)\nTrack D3: Imagem Music for the world excluding France, Daft Music / Because Music for France, Panda Lennox (ASCAP) published by Chrysalis. Panda Bear appears courtesy of Domino Records\nTrack D4: Imagem Music for the world excluding France, Daft Music / Because Music for France, Stephane Queme, Perfect Pitch Music Publishing (ASCAP). Contains a sample from The Sherbs recording \"We Ride Tonight\" produced under license from Liberation Music Pty Ltd and used by courtesy of Atlantic Recording Corp. under license from Rhino Entertainment Company, a Warner Music Group Company. Contains audio from the Apollo 17 mission used by courtesy of NASA and Capt. Eugene Cernan.\n\nLabels:\n© 2013 and ℗ 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment [...] Made in the EU / BIEM/GEMA / LC00162 / 88883 71686 1",
+        "image": "vinyls-cover/MTMtMzIwOC5qcGVn.jpeg",
+        "date_added": "2023-12-24T14:54:45-08:00"
     },
     {
+        "release_id": 28032816,
+        "discogs_url": "https://www.discogs.com/release/28032816",
         "title": "Kind Of Blue",
         "artist": "Miles Davis",
         "label": "Columbia, Legacy",
+        "catno": "19075883491, 19075883491",
         "year": 2018,
-        "image": "vinyls-cover/OTYtNTQ2My5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2018",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Stereo"
+        ],
+        "genres": [
+            "Jazz"
+        ],
+        "styles": [
+            "Modal"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "So What",
+                "duration": "8:56"
+            },
+            {
+                "position": "A2",
+                "title": "Freddie Freeloader",
+                "duration": "9:32"
+            },
+            {
+                "position": "A3",
+                "title": "Blue In Green",
+                "duration": "5:27"
+            },
+            {
+                "position": "B1",
+                "title": "All Blues",
+                "duration": "11:34"
+            },
+            {
+                "position": "B2",
+                "title": "Flamenco Sketches",
+                "duration": "9:32"
+            }
+        ],
+        "notes": "Runouts are etched except -60698- which is stamped.\n\nSame barcode as [r12656600], different runouts.\n\n©1959, 2015 Sony Music Entertainment on back cover.\n\n©1959, 2018 Columbia Records, a division of Sony Music Entertainment on labels.\n\nMade in the EU.\n\nPoly inner sleeve.\n",
+        "image": "vinyls-cover/OTYtNTQ2My5qcGVn.jpeg",
+        "date_added": "2024-01-02T04:14:07-08:00"
     },
     {
+        "release_id": 19676596,
+        "discogs_url": "https://www.discogs.com/release/19676596",
         "title": "Happier Than Ever",
         "artist": "Billie Eilish",
         "label": "Darkroom (4), Interscope Records",
+        "catno": "B0033778-01, B0033778-01",
         "year": 2021,
-        "image": "vinyls-cover/NTEtNzQ1NC5qcGVn.jpeg"
+        "country": "USA & Europe",
+        "released": "2021-07-30",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Stereo"
+        ],
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Getting Older",
+                "duration": "4:04"
+            },
+            {
+                "position": "A2",
+                "title": "I Didn't Change My Number",
+                "duration": "2:38"
+            },
+            {
+                "position": "A3",
+                "title": "Billie Bossa Nova",
+                "duration": "3:16"
+            },
+            {
+                "position": "A4",
+                "title": "My Future",
+                "duration": "3:30"
+            },
+            {
+                "position": "B5",
+                "title": "Oxytocin",
+                "duration": "3:30"
+            },
+            {
+                "position": "B6",
+                "title": "Goldwing",
+                "duration": "2:31"
+            },
+            {
+                "position": "B7",
+                "title": "Lost Cause",
+                "duration": "3:32"
+            },
+            {
+                "position": "B8",
+                "title": "Halley's Comet",
+                "duration": "3:54"
+            },
+            {
+                "position": "C9",
+                "title": "Not My Responsibility",
+                "duration": "3:47"
+            },
+            {
+                "position": "C10",
+                "title": "Overheated",
+                "duration": "3:34"
+            },
+            {
+                "position": "C11",
+                "title": "Everybody Dies",
+                "duration": "3:26"
+            },
+            {
+                "position": "C12",
+                "title": "Your Power",
+                "duration": "4:05"
+            },
+            {
+                "position": "D13",
+                "title": "NDA",
+                "duration": "3:15"
+            },
+            {
+                "position": "D14",
+                "title": "Therefore I Am",
+                "duration": "2:53"
+            },
+            {
+                "position": "D15",
+                "title": "Happier Than Ever",
+                "duration": "4:58"
+            },
+            {
+                "position": "D16",
+                "title": "Male Fantasy",
+                "duration": "3:14"
+            }
+        ],
+        "notes": "100% Black Recycled Vinyl\nTracks numbered sequentially from 1 to 16. ",
+        "image": "vinyls-cover/NTEtNzQ1NC5qcGVn.jpeg",
+        "date_added": "2023-12-03T04:44:12-08:00"
     },
     {
+        "release_id": 28534495,
+        "discogs_url": "https://www.discogs.com/release/28534495",
         "title": "Nevermind",
         "artist": "Nirvana",
         "label": "DGC, Sub Pop",
+        "catno": "00720642442517, 00720642442517",
         "year": 2023,
-        "image": "vinyls-cover/NzItOTUwMi5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2023",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Grunge"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Smells Like Teen Spirit",
+                "duration": "5:00"
+            },
+            {
+                "position": "A2",
+                "title": "In Bloom",
+                "duration": "4:13"
+            },
+            {
+                "position": "A3",
+                "title": "Come As You Are",
+                "duration": "3:38"
+            },
+            {
+                "position": "A4",
+                "title": "Breed",
+                "duration": "3:03"
+            },
+            {
+                "position": "A5",
+                "title": "Lithium",
+                "duration": "4:16"
+            },
+            {
+                "position": "A6",
+                "title": "Polly",
+                "duration": "2:56"
+            },
+            {
+                "position": "B1",
+                "title": "Territorial Pissings",
+                "duration": "2:22"
+            },
+            {
+                "position": "B2",
+                "title": "Drain You",
+                "duration": "3:43"
+            },
+            {
+                "position": "B3",
+                "title": "Lounge Act",
+                "duration": "2:35"
+            },
+            {
+                "position": "B4",
+                "title": "Stay Away",
+                "duration": "3:30"
+            },
+            {
+                "position": "B5",
+                "title": "On A Plain",
+                "duration": "3:12"
+            },
+            {
+                "position": "B6",
+                "title": "Something In The Way",
+                "duration": "3:43"
+            }
+        ],
+        "notes": "Bottom back of sleeve:\n℗ 1991 Geffen Records. © 1991 Geffen Records. All Rights of the producer and the owner of the work reproduced reserved. Unauthorized copying, reproduction, hiring, lending, public performance and broadcasting prohibited.\nMade in the EU. LC 07266. 00720642442517. Universal International Music B.V. Gerrit Van Der Veenlaan 4, 3743 DN, Netherlands. Universal International Music B.V. Gerrit Van Der Veenlaan 4, 3743 DN, Netherlands.\n\nComes with a printed inner sleeve, containing credits.\n\n\"Made in France\" sticker on shrink wrap rear side.\n\nMPO logos with sequences are laser-etched, the rest of the runouts is hand-etched.",
+        "image": "vinyls-cover/NzItOTUwMi5qcGVn.jpeg",
+        "date_added": "2023-12-26T05:58:53-08:00"
     },
     {
+        "release_id": 2506916,
+        "discogs_url": "https://www.discogs.com/release/2506916",
         "title": "Franz Ferdinand",
         "artist": "Franz Ferdinand",
         "label": "Domino",
+        "catno": "WIGLP136",
         "year": 0,
-        "image": "vinyls-cover/Mi5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Repress"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Indie Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Jacqueline",
+                "duration": "3:49"
+            },
+            {
+                "position": "A2",
+                "title": "Tell Her Tonight",
+                "duration": "2:17"
+            },
+            {
+                "position": "A3",
+                "title": "Take Me Out",
+                "duration": "3:57"
+            },
+            {
+                "position": "A4",
+                "title": "The Dark Of The Matinée",
+                "duration": "4:03"
+            },
+            {
+                "position": "A5",
+                "title": "Auf Achse",
+                "duration": "4:19"
+            },
+            {
+                "position": "B1",
+                "title": "Cheating On You",
+                "duration": "2:36"
+            },
+            {
+                "position": "B2",
+                "title": "This Fire",
+                "duration": "4:14"
+            },
+            {
+                "position": "B3",
+                "title": "Darts Of Pleasure",
+                "duration": "2:59"
+            },
+            {
+                "position": "B4",
+                "title": "Michael",
+                "duration": "3:21"
+            },
+            {
+                "position": "B5",
+                "title": "Come On Home",
+                "duration": "3:46"
+            },
+            {
+                "position": "B6",
+                "title": "40'",
+                "duration": "3:24"
+            }
+        ],
+        "notes": "The sleeve of this release is not embossed.\n\nComes with colour printed photo/lyric inner sleeve.  Track durations not stated in release.\n\nAll songs (...) (copyright control)\n\n℗2004 Domino Recording Co Ltd\n©2004 Domino Recording Co Ltd\nMade in the EU\n\nSimilar releases:\n[url=https://www.discogs.com/release/384933]384933[/url]: The sleeve is embossed. Portal Space pressing.\n[url=https://www.discogs.com/release/13203901]13203901[/url]: The sleeve is embossed. Optimal Media GmbH pressing\n[url=https://www.discogs.com/release/5953541]5953541[/url]: The sleeve is not embossed. Optimal Media GmbH pressing\n\n",
+        "image": "vinyls-cover/Mi5qcGVn.jpeg",
+        "date_added": "2024-11-29T05:45:57-08:00"
     },
     {
+        "release_id": 7057116,
+        "discogs_url": "https://www.discogs.com/release/7057116",
         "title": "Whatever People Say I Am, That's What I'm Not",
         "artist": "Arctic Monkeys",
         "label": "Domino",
+        "catno": "WIGLP162",
         "year": 2013,
-        "image": "vinyls-cover/MC03MjY1LmpwZWc.jpeg"
+        "country": "UK & Europe",
+        "released": "2013",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "The View From The Afternoon",
+                "duration": "3:38"
+            },
+            {
+                "position": "A2",
+                "title": "I Bet You Look Good On The Dancefloor",
+                "duration": "2:53"
+            },
+            {
+                "position": "A3",
+                "title": "Fake Tales Of San Francisco",
+                "duration": "2:56"
+            },
+            {
+                "position": "A4",
+                "title": "Dancing Shoes",
+                "duration": "2:22"
+            },
+            {
+                "position": "A5",
+                "title": "You Probably Couldn't See For The Lights But You Were Staring Straight At Me",
+                "duration": "2:10"
+            },
+            {
+                "position": "A6",
+                "title": "Still Take You Home",
+                "duration": "2:50"
+            },
+            {
+                "position": "B1",
+                "title": "Riot Van",
+                "duration": "2:12"
+            },
+            {
+                "position": "B2",
+                "title": "Red Light Indicates Doors Are Secured",
+                "duration": "2:22"
+            },
+            {
+                "position": "B3",
+                "title": "Mardy Bum",
+                "duration": "2:26"
+            },
+            {
+                "position": "B4",
+                "title": "Perhaps Vampires Is A Bit Strong But..",
+                "duration": "4:25"
+            },
+            {
+                "position": "B5",
+                "title": "When The Sun Goes Down",
+                "duration": "3:17"
+            },
+            {
+                "position": "B6",
+                "title": "From The Ritz To The Rubble",
+                "duration": "3:11"
+            },
+            {
+                "position": "B7",
+                "title": "A Certain Romance",
+                "duration": "5:27"
+            }
+        ],
+        "notes": "Recorded at The Chapel Studio, Lincolnshire and 2 Fly Studio, Sheffield.\nB3: Recorded at Telstar Studios, Munich.\n\nMixed at Olympic Studios, London.\n\nAll songs EMI Music Publishing Ltd.\n℗&©2006 Domino Recording Co. Ltd.\nOriginal Sound Recording made by Domino Recording Co. Ltd.\nMade in the E.U.\n\nIncludes printed dust sleeve with photos and credits.\n\nHeavy weight vinyl.\n\nThe [url=https://www.discogs.com/Arctic-Monkeys-Whatever-People-Say-I-Am-Thats-What-Im-Not/release/612972]first EU pressing[/url], had stamped matrix numbers only: there were not hand-etched data.\nThe [url=https://www.discogs.com/release/8644845]transitional EU pressing[/url] had a stamped runout on Side A and a hand-etched one on Side B.",
+        "image": "vinyls-cover/MC03MjY1LmpwZWc.jpeg",
+        "date_added": "2024-02-25T03:04:05-08:00"
     },
     {
+        "release_id": 4904158,
+        "discogs_url": "https://www.discogs.com/release/4904158",
         "title": "AM",
         "artist": "Arctic Monkeys",
         "label": "Domino",
+        "catno": "WIGLP317",
         "year": 2013,
-        "image": "vinyls-cover/My03MjEyLmpwZWc.jpeg"
+        "country": "US",
+        "released": "2013-09-09",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock",
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Do I Wanna Know?",
+                "duration": "4:32"
+            },
+            {
+                "position": "A2",
+                "title": "R U Mine?",
+                "duration": "3:20"
+            },
+            {
+                "position": "A3",
+                "title": "One For The Road",
+                "duration": "3:26"
+            },
+            {
+                "position": "A4",
+                "title": "Arabella",
+                "duration": "3:27"
+            },
+            {
+                "position": "A5",
+                "title": "I Want It All",
+                "duration": "3:04"
+            },
+            {
+                "position": "A6",
+                "title": "No.1 Party Anthem",
+                "duration": "4:03"
+            },
+            {
+                "position": "B1",
+                "title": "Mad Sounds",
+                "duration": "3:35"
+            },
+            {
+                "position": "B2",
+                "title": "Fireside",
+                "duration": "3:01"
+            },
+            {
+                "position": "B3",
+                "title": "Why'd You Only Call Me When You're High?",
+                "duration": "2:42"
+            },
+            {
+                "position": "B4",
+                "title": "Snap Out Of It ",
+                "duration": "3:12"
+            },
+            {
+                "position": "B5",
+                "title": "Knee Socks",
+                "duration": "4:17"
+            },
+            {
+                "position": "B6",
+                "title": "I Wanna Be Yours",
+                "duration": "3:04"
+            }
+        ],
+        "notes": "Pressed on 180 gram heavyweight vinyl. Includes double-sided insert with lyrics and digital album download card.\r\nGatefold sleeve\r\n\r\nWIGLP317 Made in the U.S.A.\r\n℗&© 2013 Domino Recording Co. Ltd. \r\n55 Washington St. #742 Brooklyn, NY 11201",
+        "image": "vinyls-cover/My03MjEyLmpwZWc.jpeg",
+        "date_added": "2023-12-03T04:41:06-08:00"
     },
     {
+        "release_id": 2056202,
+        "discogs_url": "https://www.discogs.com/release/2056202",
+        "title": "Envole-Moi",
+        "artist": "Jean-Jacques Goldman",
+        "label": "Epic",
+        "catno": "EPCA 12-4111",
+        "year": 1984,
+        "country": "Europe",
+        "released": "1984",
+        "formats": [
+            "Vinyl",
+            "12\"",
+            "45 RPM",
+            "Maxi-Single"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Pop Rock",
+            "Chanson"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A",
+                "title": "Envole-Moi",
+                "duration": "5:07"
+            },
+            {
+                "position": "B1",
+                "title": "Envole-Moi",
+                "duration": "3:40"
+            },
+            {
+                "position": "B2",
+                "title": "Dors Bébé Dors",
+                "duration": "3:23"
+            }
+        ],
+        "notes": "",
+        "image": "vinyls-cover/NC0zNzE5LmpwZWc.jpeg",
+        "date_added": "2026-02-04T07:02:54-08:00"
+    },
+    {
+        "release_id": 21977083,
+        "discogs_url": "https://www.discogs.com/release/21977083",
         "title": "Currents",
         "artist": "Tame Impala",
         "label": "Fiction Records, Caroline International, Universal Music",
+        "catno": "4730367-7, 4730367-7, 4730367-7",
         "year": 2021,
-        "image": "vinyls-cover/NTItOTg2NC5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2021",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock",
+            "Psychedelic Rock",
+            "Synth-pop"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Let It Happen",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Nangs",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "The Moment",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Yes I'm Changing",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Eventually",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Gossip",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "The Less I Know The Better",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Past Life",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "Disciples",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Cause I'm A Man",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Reality In Motion",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Love/Paranoia",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "New Person, Same Old Mistakes",
+                "duration": ""
+            }
+        ],
+        "notes": "2021 reissue for EU. \n\nOn back:\n℗ & © 2015 Modular Recordings Pty, Under exclusive license to Universal Music Australia Pty Ltd. BIEM/SDRM. Made in EU. 473067-7\n\nOn label:\nSide D: 473067-9\nSide B: 473067-8\n\nIncludes download code.",
+        "image": "vinyls-cover/NTItOTg2NC5qcGVn.jpeg",
+        "date_added": "2024-12-14T04:41:52-08:00"
     },
     {
+        "release_id": 22081384,
+        "discogs_url": "https://www.discogs.com/release/22081384",
         "title": "Trench",
         "artist": "Twenty One Pilots",
         "label": "Fueled By Ramen",
+        "catno": "573985-1",
         "year": 2018,
-        "image": "vinyls-cover/NDUtNzk0Mi5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2018-05-10",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Hip Hop",
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Jumpsuit",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Levitate",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Morph",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "My Blood",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Chlorine",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Smithereens",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Neon Gravestones",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "The Hype",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Nico And The Niners",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "Cut My Lip",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Bandito",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Pet Cheetah",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Legend",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "Leave The City",
+                "duration": ""
+            }
+        ],
+        "notes": "Gatefold Jacket \nNo Digital Download ",
+        "image": "vinyls-cover/NDUtNzk0Mi5qcGVn.jpeg",
+        "date_added": "2024-12-14T04:34:30-08:00"
     },
     {
+        "release_id": 25128898,
+        "discogs_url": "https://www.discogs.com/release/25128898",
         "title": "Use Your Illusion II",
         "artist": "Guns N' Roses",
         "label": "Geffen Records, UMe, Uzi Suicide Record Co.",
+        "catno": "00602445117314, 00602445117314, 00602445117314",
         "year": 2022,
-        "image": "vinyls-cover/MTUtNzY2Ny5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2022-11-11",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Rock & Roll",
+            "Hard Rock",
+            "Classic Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Civil War",
+                "duration": "7:36"
+            },
+            {
+                "position": "A2",
+                "title": "14 Years",
+                "duration": "4:17"
+            },
+            {
+                "position": "A3",
+                "title": "Yesterdays",
+                "duration": "3:13"
+            },
+            {
+                "position": "A4",
+                "title": "Knockin' On Heaven's Door",
+                "duration": "5:36"
+            },
+            {
+                "position": "B1",
+                "title": "Get In The Ring",
+                "duration": "5:29"
+            },
+            {
+                "position": "B2",
+                "title": "Shotgun Blues",
+                "duration": "3:23"
+            },
+            {
+                "position": "B3",
+                "title": "Breakdown",
+                "duration": "6:58"
+            },
+            {
+                "position": "C1",
+                "title": "Pretty Tied Up",
+                "duration": "4:46"
+            },
+            {
+                "position": "C2",
+                "title": "Locomotive",
+                "duration": "8:42"
+            },
+            {
+                "position": "C3",
+                "title": "So Fine",
+                "duration": "4:09"
+            },
+            {
+                "position": "D1",
+                "title": "Estranged",
+                "duration": "9:20"
+            },
+            {
+                "position": "D2",
+                "title": "You Could Be Mine",
+                "duration": "5:48"
+            },
+            {
+                "position": "D3",
+                "title": "Don't Cry (Alt. Lyrics)",
+                "duration": "4:42"
+            },
+            {
+                "position": "D4",
+                "title": "My World",
+                "duration": "1:22"
+            }
+        ],
+        "notes": "Universal Music International address printed on bottom back cover.  Different catalog number from the US version.\n\nFrom the insert: \"Reissue supervised by Jeff Fura. Remastered by Ted Jensen at Sterling Sound from 192Khz / 24-Bit original stereo analogue transfers.\"\n\n\"Made in Germany\" sticker on the back.\n\nMade in EU\n\nRunout D, variant 2: 8 crossed out 8̶\n\nRunouts variant 4: \"1+↿\", \"3IX\", \"▽+1 \" and \"1+△ \" are mirrored.",
+        "image": "vinyls-cover/MTUtNzY2Ny5qcGVn.jpeg",
+        "date_added": "2024-01-02T04:12:05-08:00"
     },
     {
+        "release_id": 15891794,
+        "discogs_url": "https://www.discogs.com/release/15891794",
         "title": "The Golden Age",
         "artist": "Woodkid",
         "label": "Green United Music, Barclay",
+        "catno": "none, none",
         "year": 2020,
-        "image": "vinyls-cover/MzItMTgyMS5qcGVn.jpeg"
+        "country": "France",
+        "released": "2020-09-04",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop",
+            "Baroque Pop",
+            "Neo-Classical",
+            "Art Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "The Golden Age",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Run Boy Run",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "The Great Escape",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Boat Song",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "I Love You",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "The Shore",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "Ghost Lights",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Shadows",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "Stabat Mater",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Conquest Of Spaces",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Falling",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Where I Live",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "Iron",
+                "duration": ""
+            },
+            {
+                "position": "D4",
+                "title": "The Other Side",
+                "duration": ""
+            }
+        ],
+        "notes": "Comes in rigid slightly laminated gatefold cover with printed lyrics inside. Glossy print on front and back.\nWhite inner sleeves, holes to show the labels.\n\n[Rear cover]\n℗ & © 2013 Green United Music",
+        "image": "vinyls-cover/MzItMTgyMS5qcGVn.jpeg",
+        "date_added": "2024-01-02T04:13:17-08:00"
     },
     {
+        "release_id": 26216342,
+        "discogs_url": "https://www.discogs.com/release/26216342",
         "title": "The Resistance",
         "artist": "Muse",
         "label": "Helium 3, Warner Bros. Records",
+        "catno": "0825646865475, 0825646865475",
         "year": 2022,
-        "image": "vinyls-cover/MDktMTM0Mi5qcGVn.jpeg"
+        "country": "UK & Europe",
+        "released": "2022",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Symphonic Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Uprising",
+                "duration": "5:03"
+            },
+            {
+                "position": "A2",
+                "title": "Resistance",
+                "duration": "5:47"
+            },
+            {
+                "position": "A3",
+                "title": "Undisclosed Desires",
+                "duration": "3:56"
+            },
+            {
+                "position": "B1",
+                "title": "United States of Eurasia (+Collateral Damage)",
+                "duration": "5:48"
+            },
+            {
+                "position": "B2",
+                "title": "Guiding Light",
+                "duration": "4:13"
+            },
+            {
+                "position": "C1",
+                "title": "Unnatural Selection",
+                "duration": "6:55"
+            },
+            {
+                "position": "C2",
+                "title": "MK Ultra",
+                "duration": "4:06"
+            },
+            {
+                "position": "C3",
+                "title": "I Belong to You (+Mon Course S'Ouvre a ta Voix)",
+                "duration": "5:39"
+            },
+            {
+                "position": "D1",
+                "title": "Exogenesis: Symphony Part 1 (Overture)",
+                "duration": "4:18"
+            },
+            {
+                "position": "D2",
+                "title": "Exogenesis: Symphony Part 2 (Cross-Pollination)",
+                "duration": "3:56"
+            },
+            {
+                "position": "D3",
+                "title": "Exogenesis: Symphony Part 3 (Redemption)",
+                "duration": "4:37"
+            }
+        ],
+        "notes": "This reissue was pressed in 2022 according to MPO numbers in runouts.",
+        "image": "vinyls-cover/MDktMTM0Mi5qcGVn.jpeg",
+        "date_added": "2024-01-02T04:11:41-08:00"
     },
     {
+        "release_id": 24246320,
+        "discogs_url": "https://www.discogs.com/release/24246320",
         "title": "Will Of The People",
         "artist": "Muse",
         "label": "Helium 3, Warner Records",
+        "catno": "0190296383861, 0190296383861",
         "year": 2022,
-        "image": "vinyls-cover/NDEtNzk2MS5qcGVn.jpeg"
+        "country": "Worldwide",
+        "released": "2022-08-26",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Will Of The People",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Compliance",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Liberation",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Won’t Stand Down",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Ghosts (How Can I Move On)",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "You Make Me Feel Like It’s Halloween",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Kill Or Be Killed",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Verona",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Euphoria",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "We Are Fucking Fucked",
+                "duration": ""
+            }
+        ],
+        "notes": "Standard black vinyl pressing with hype sticker on shrink.\nIncludes a printed inner sleeve with lyrics, credits and a photo of the band.\n\nOn back cover track B5 has a censored title \"We Are F—king F—ked\", while the full track title is presented on the inner sleeve.\n\nOn back cover, label side A & inner sleeve:\nA Warner Records UK release. ℗ & © 2022 Muse under exclusive license to Warner Music UK Limited.\nMade in Germany.\n\nOn inner sleeve:\nAll songs written Matthew Bellamy ©2022 Globalist Industries LLP\n\nRunout information:\n\"1△\" and \"1T\" of runout variant 2 are mirrored.",
+        "image": "vinyls-cover/NDEtNzk2MS5qcGVn.jpeg",
+        "date_added": "2023-12-03T04:45:08-08:00"
     },
     {
+        "release_id": 9674565,
+        "discogs_url": "https://www.discogs.com/release/9674565",
         "title": "Guardians Of The Galaxy Awesome Mix Vol. 1",
         "artist": "Various",
         "label": "Hollywood Records",
+        "catno": "050087316419",
         "year": 0,
-        "image": "vinyls-cover/Ny0zODIyLmpwZWc.jpeg"
+        "country": "Europe",
+        "released": "",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Compilation",
+            "Repress",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock",
+            "Funk / Soul",
+            "Pop",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Classic Rock",
+            "Pop Rock",
+            "Soundtrack",
+            "Power Pop",
+            "Soul",
+            "Soft Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Hooked On A Feeling",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Go All The Way",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Spirit In The Sky",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Moonage Daydream",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Fooled Around And Fell In Love",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "I Want You Back",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "I'm Not In Love",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Come And Get Your Love",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Cherry Bomb",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Escape (The Piña Colada Song)",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "O-o-h Child",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "Ain't No Mountain High Enough",
+                "duration": ""
+            }
+        ],
+        "notes": "Repress has two known variants of marketing stickers.  One released in a shrink-wrapped cover with a large black sticker on the shrink-wrap.  Other variant identical to the original press with small brown sticker on the top right of cover.\nCan be differentiated from the original press by the missing \"www.gzvinyl.com\" etching in the runout.\nMade in the EU.\n\n- Track A3 is not featured in film.\n- Runouts are all machined etched.\n-  ©2014 Marvel Ⓟ2014 Marvel Music Inc. (on back cover, under the Hollywood Records and Marvel logos). ",
+        "image": "vinyls-cover/Ny0zODIyLmpwZWc.jpeg",
+        "date_added": "2023-12-03T04:44:43-08:00"
     },
     {
+        "release_id": 29283898,
+        "discogs_url": "https://www.discogs.com/release/29283898",
+        "title": "The Complete Collection",
+        "artist": "Kungs",
+        "label": "Island Def Jam",
+        "catno": "586063-4",
+        "year": 2023,
+        "country": "France",
+        "released": "2023",
+        "formats": [
+            "Vinyl",
+            "12\"",
+            "45 RPM",
+            "Compilation",
+            "Stereo"
+        ],
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Dance-pop",
+            "Electro House",
+            "Deep House",
+            "Tropical House"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "This Girl",
+                "duration": "3:16"
+            },
+            {
+                "position": "A2",
+                "title": "Don't You Know",
+                "duration": "3:05"
+            },
+            {
+                "position": "A3",
+                "title": "I Feel So Bad",
+                "duration": "3:24"
+            },
+            {
+                "position": "B1",
+                "title": "Never Going Home",
+                "duration": "2:50"
+            },
+            {
+                "position": "B2",
+                "title": "Lipstick",
+                "duration": "3:02"
+            },
+            {
+                "position": "B3",
+                "title": "Clap Your Hands",
+                "duration": "3:10"
+            },
+            {
+                "position": "B4",
+                "title": "Substitution",
+                "duration": "3:01"
+            }
+        ],
+        "notes": "Music by Kungs & Friends.\n2016 to 2023\n\n(P) & (C) 2023 Val Production, under exclusive license to Island Def Jam, a Universal Music France label\n\nMade in E.U.\n\nPackaging: plastic sleeve with info sticker on back, and \"Made In Czech Republic\" sticker on front.\n\nLabel has been derived from copyright.\nPositions on Side B are printed as 4, 5, 6, 7",
+        "image": "vinyls-cover/ODMtOTY3OS5qcGVn.jpeg",
+        "date_added": "2024-12-14T04:43:37-08:00"
+    },
+    {
+        "release_id": 10581403,
+        "discogs_url": "https://www.discogs.com/release/10581403",
         "title": "ELO's Greatest Hits",
         "artist": "Electric Light Orchestra",
         "label": "Jet Records",
+        "catno": "FZ 36310",
         "year": 1979,
-        "image": "vinyls-cover/MjctOTQ5Ni5qcGVn.jpeg"
+        "country": "US",
+        "released": "1979",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Compilation"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Pop Rock",
+            "Symphonic Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Evil Woman",
+                "duration": "4:10"
+            },
+            {
+                "position": "A2",
+                "title": "Livin' Thing",
+                "duration": "3:31"
+            },
+            {
+                "position": "A3",
+                "title": "Can't Get It Out Of My Head",
+                "duration": "4:22"
+            },
+            {
+                "position": "A4",
+                "title": "Showdown",
+                "duration": "3:51"
+            },
+            {
+                "position": "A5",
+                "title": "Turn To Stone",
+                "duration": "3:46"
+            },
+            {
+                "position": "A6",
+                "title": "Rockaria!",
+                "duration": "3:12"
+            },
+            {
+                "position": "B1",
+                "title": "Sweet Talkin' Woman",
+                "duration": "3:47"
+            },
+            {
+                "position": "B2",
+                "title": "Telephone Line",
+                "duration": "4:37"
+            },
+            {
+                "position": "B3",
+                "title": "Ma-Ma-Ma Belle",
+                "duration": "3:35"
+            },
+            {
+                "position": "B4",
+                "title": "Strange Magic",
+                "duration": "4:07"
+            },
+            {
+                "position": "B5",
+                "title": "Mr. Blue Sky",
+                "duration": "5:05"
+            }
+        ],
+        "notes": "",
+        "image": "vinyls-cover/MjctOTQ5Ni5qcGVn.jpeg",
+        "date_added": "2023-12-18T02:27:01-08:00"
     },
     {
+        "release_id": 13149763,
+        "discogs_url": "https://www.discogs.com/release/13149763",
         "title": "Chansons Pour Les Pieds",
         "artist": "Jean-Jacques Goldman",
         "label": "JRG, Sony Music",
+        "catno": "19075873121, 19075873121",
         "year": 2019,
-        "image": "vinyls-cover/ODgtNzA3Ny5qcGVn.jpeg"
+        "country": "France",
+        "released": "2019-02-01",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+        ],
+        "genres": [
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Chanson"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Ensemble",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Et L'On N'Y Peut Rien",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Une Poussière",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "La Pluie",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Tournent Les Violons",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Un Goût Sur Tes Lèvres",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "Si Je T'Avais Pas",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "C'Est Pas Vrai",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "The Quo's In Town Tonite",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Je Voudrais Vous Revoir",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Les P'tits Chapeaux",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "Les Choses",
+                "duration": ""
+            }
+        ],
+        "notes": "For the first time on vinyl.\n\nIncluded 4 booklets of which 2 containing lyrics.\n\nFabriqué en U.E.",
+        "image": "vinyls-cover/MTEtNzMyNS5qcGVn.jpeg",
+        "date_added": "2024-12-14T04:28:23-08:00"
     },
     {
+        "release_id": 12957180,
+        "discogs_url": "https://www.discogs.com/release/12957180",
         "title": "Origins",
         "artist": "Imagine Dragons",
         "label": "KIDinaKORNER, Interscope Records",
+        "catno": "00602577167959, 00602577167959",
         "year": 2018,
-        "image": "vinyls-cover/NDQtNjMzMS5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2018-12-21",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Natural ",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Boomerang",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Machine",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Cool Out",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Bad Liar",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "West Coast",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Zero",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Bullet In A Gun",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "Digital",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Only",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "Stuck",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Love",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Birds",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Burn Out",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "Real Life",
+                "duration": ""
+            }
+        ],
+        "notes": "",
+        "image": "vinyls-cover/NDQtNjMzMS5qcGVn.jpeg",
+        "date_added": "2024-11-29T05:42:53-08:00"
     },
     {
+        "release_id": 5537191,
+        "discogs_url": "https://www.discogs.com/release/5537191",
         "title": "Night Visions",
         "artist": "Imagine Dragons",
         "label": "KIDinaKORNER, Interscope Records",
+        "catno": "602537158904, 602537158904",
         "year": 2014,
-        "image": "vinyls-cover/My00NjgyLmpwZWc.jpeg"
+        "country": "Europe",
+        "released": "2014-03-31",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Pop Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Radioactive",
+                "duration": "3:06"
+            },
+            {
+                "position": "A2",
+                "title": "Tiptoe",
+                "duration": "3:13"
+            },
+            {
+                "position": "A3",
+                "title": "It's Time",
+                "duration": "3:57"
+            },
+            {
+                "position": "A4",
+                "title": "Demons",
+                "duration": "2:55"
+            },
+            {
+                "position": "A5",
+                "title": "On Top Of The World",
+                "duration": "3:09"
+            },
+            {
+                "position": "A6",
+                "title": "Amsterdam",
+                "duration": "4:01"
+            },
+            {
+                "position": "B1",
+                "title": "Hear Me",
+                "duration": "3:52"
+            },
+            {
+                "position": "B2",
+                "title": "Every Night",
+                "duration": "3:35"
+            },
+            {
+                "position": "B3",
+                "title": "Bleeding Out",
+                "duration": "3:41"
+            },
+            {
+                "position": "B4",
+                "title": "Underdog",
+                "duration": "3:26"
+            },
+            {
+                "position": "B5",
+                "title": "Nothing Left To Say / Rocks",
+                "duration": "8:56"
+            }
+        ],
+        "notes": "℗© 2014 Interscope Records, a division of UMG Recordings Inc.\nMade in E.U.\n\nSome copies have a sticker on the shrinkwrap at the back that says \"Made in Germany\".\n\nIn the runouts, \"3715890\" is hand-etched and the rest is stamped.\nIn variant 1, '2' is stamped over '1'\nIn variant 5, '3=⟂' are 'T10' are hand-etched\nIn variant 6, '1⟂' is hand-etched & mirrored",
+        "image": "vinyls-cover/My00NjgyLmpwZWc.jpeg",
+        "date_added": "2023-12-03T06:45:10-08:00"
     },
     {
+        "release_id": 16628505,
+        "discogs_url": "https://www.discogs.com/release/16628505",
         "title": "Noël Vintage",
         "artist": "Various",
         "label": "Legacy",
+        "catno": "19439757371",
         "year": 2020,
-        "image": "vinyls-cover/NTgtNjIzOS5qcGVn.jpeg"
+        "country": "France",
+        "released": "2020-10-02",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Compilation"
+        ],
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Chanson",
+            "Holiday"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Let It Snow! Let It Snow! Let It Snow! (Single Version)",
+                "duration": "2:35"
+            },
+            {
+                "position": "A2",
+                "title": "It's The Most Wonderful Time Of The Year",
+                "duration": "2:29"
+            },
+            {
+                "position": "A3",
+                "title": "Sleigh Ride",
+                "duration": "3:01"
+            },
+            {
+                "position": "A4",
+                "title": "Silver Bells",
+                "duration": "2:22"
+            },
+            {
+                "position": "A5",
+                "title": "Here Comes Santa Claus (Right Down Santa Claus Lane)",
+                "duration": "1:54"
+            },
+            {
+                "position": "A6",
+                "title": "The Little Drummer Boy",
+                "duration": "2:32"
+            },
+            {
+                "position": "A7",
+                "title": "Santa Claus Is Comin' To Town",
+                "duration": "2:33"
+            },
+            {
+                "position": "A8",
+                "title": "I'll Be Home For Christmas",
+                "duration": "2:27"
+            },
+            {
+                "position": "B1",
+                "title": "Joy To The World",
+                "duration": "3:01"
+            },
+            {
+                "position": "B2",
+                "title": "Feliz Navidad",
+                "duration": "3:02"
+            },
+            {
+                "position": "B3",
+                "title": "Blue Christmas",
+                "duration": "2:06"
+            },
+            {
+                "position": "B4",
+                "title": "Jingle Bells",
+                "duration": "1:41"
+            },
+            {
+                "position": "B5",
+                "title": "Silent Night, Holy Night",
+                "duration": "5:06"
+            },
+            {
+                "position": "B6",
+                "title": "Christmas Is Coming",
+                "duration": "1:38"
+            }
+        ],
+        "notes": "",
+        "image": "vinyls-cover/NTgtNjIzOS5qcGVn.jpeg",
+        "date_added": "2023-12-12T12:02:40-08:00"
     },
     {
+        "release_id": 683529,
+        "discogs_url": "https://www.discogs.com/release/683529",
         "title": "Mimi 86",
         "artist": "Coluche",
         "label": "Martinez Lederman Productions",
+        "catno": "2406711",
         "year": 1986,
-        "image": "vinyls-cover/LTQyNTkuanBlZw.jpeg"
+        "country": "France",
+        "released": "1986",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Non-Music"
+        ],
+        "styles": [
+            "Monolog",
+            "Comedy"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "P. C. - G. T.",
+                "duration": "4:11"
+            },
+            {
+                "position": "A2",
+                "title": "Medecins Sans Diplômes",
+                "duration": "3:34"
+            },
+            {
+                "position": "A3",
+                "title": "Les Discourts En Disent Long (Silence On Mange Pour Vous)",
+                "duration": "3:37"
+            },
+            {
+                "position": "A4",
+                "title": "La Politesse",
+                "duration": "3:50"
+            },
+            {
+                "position": "A5",
+                "title": "Y S'foutent Bien De Notre Gueule",
+                "duration": "5:34"
+            },
+            {
+                "position": "B1",
+                "title": "Le Chômeur",
+                "duration": "6:25"
+            },
+            {
+                "position": "B2",
+                "title": "L'administration",
+                "duration": "1:56"
+            },
+            {
+                "position": "B3",
+                "title": "Le Sida",
+                "duration": "2:54"
+            },
+            {
+                "position": "B4",
+                "title": "Jean-Marie",
+                "duration": "2:48"
+            },
+            {
+                "position": "B5",
+                "title": "La Pute",
+                "duration": "3:50"
+            },
+            {
+                "position": "B6",
+                "title": "La Lettre À La Sécu",
+                "duration": "1:07"
+            }
+        ],
+        "notes": "Mixed at Studio Emi Pathé Marconi, Boulogne",
+        "image": "vinyls-cover/LTQyNTkuanBlZw.jpeg",
+        "date_added": "2023-12-24T12:51:39-08:00"
     },
     {
+        "release_id": 20592190,
+        "discogs_url": "https://www.discogs.com/release/20592190",
         "title": "Pulp Fiction (Music From The Motion Picture)",
         "artist": "Various",
         "label": "MCA Records",
+        "catno": "MCA-11103",
         "year": 2021,
-        "image": "vinyls-cover/NTYtMTQ1MS5qcGVn.jpeg"
+        "country": "Worldwide",
+        "released": "2021",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Compilation",
+            "Reissue"
+        ],
+        "genres": [
+            "Rock",
+            "Funk / Soul",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Surf",
+            "Rock & Roll",
+            "Dialogue",
+            "Soul",
+            "Soundtrack",
+            "Funk"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1a",
+                "title": "Pumpkin And Honey Bunney",
+                "duration": "0:11"
+            },
+            {
+                "position": "A1b",
+                "title": "Misirlou",
+                "duration": "2:16"
+            },
+            {
+                "position": "A2",
+                "title": "Royale With Cheese",
+                "duration": "1:43"
+            },
+            {
+                "position": "A3",
+                "title": "Jungle Boogie",
+                "duration": "3:05"
+            },
+            {
+                "position": "A4",
+                "title": "Let's Stay Together",
+                "duration": "3:15"
+            },
+            {
+                "position": "A5",
+                "title": "Bustin' Surfboards",
+                "duration": "2:27"
+            },
+            {
+                "position": "A6",
+                "title": "Lonesome Town",
+                "duration": "2:13"
+            },
+            {
+                "position": "A7",
+                "title": "Son Of A Preacher Man",
+                "duration": "2:26"
+            },
+            {
+                "position": "A8a",
+                "title": "Zed's Dead, Baby",
+                "duration": "0:12"
+            },
+            {
+                "position": "A8b",
+                "title": "Bullwinkle Part II",
+                "duration": "2:18"
+            },
+            {
+                "position": "B1a",
+                "title": "Jack Rabbit Slims Twist Contest",
+                "duration": "0:32"
+            },
+            {
+                "position": "B1b",
+                "title": "You Never Can Tell",
+                "duration": "2:40"
+            },
+            {
+                "position": "B2",
+                "title": "Girl, You'll Be A Woman Soon",
+                "duration": "3:10"
+            },
+            {
+                "position": "B3",
+                "title": "If Love Is A Red Dress (Hang Me In Rags)",
+                "duration": "4:55"
+            },
+            {
+                "position": "B4a",
+                "title": "Bring Out The Gimp",
+                "duration": "0:08"
+            },
+            {
+                "position": "B4b",
+                "title": "Comanche",
+                "duration": "2:04"
+            },
+            {
+                "position": "B5",
+                "title": "Flowers On The Wall",
+                "duration": "2:23"
+            },
+            {
+                "position": "B6",
+                "title": "Personality Goes A Long Way",
+                "duration": "1:01"
+            },
+            {
+                "position": "B7",
+                "title": "Surf Rider",
+                "duration": "3:19"
+            },
+            {
+                "position": "B8",
+                "title": "Ezekiel 25:17",
+                "duration": "0:52"
+            }
+        ],
+        "notes": "[sticker on shrink]\nMade in Poland. \n\n2021 reissue. Different matrix numbers from earlier US pressings.\n\nRunouts are etched.",
+        "image": "vinyls-cover/NTYtMTQ1MS5qcGVn.jpeg",
+        "date_added": "2024-01-17T03:05:40-08:00"
     },
     {
+        "release_id": 20434873,
+        "discogs_url": "https://www.discogs.com/release/20434873",
         "title": "Human",
         "artist": "OneRepublic",
         "label": "Mosley Music Group, Interscope Records",
+        "catno": "00602508358128, 00602508358128",
         "year": 2021,
-        "image": "vinyls-cover/MjMtNDkxNS5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2021-10-01",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Soft Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Run",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Distance",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Someday",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Didn't I",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Rescue Me",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "Savior",
+                "duration": ""
+            },
+            {
+                "position": "B7",
+                "title": "Take Care Of You",
+                "duration": ""
+            },
+            {
+                "position": "B8",
+                "title": "Forgot About You",
+                "duration": ""
+            },
+            {
+                "position": "B9",
+                "title": "Somebody To Love",
+                "duration": ""
+            },
+            {
+                "position": "B10",
+                "title": "Wanted",
+                "duration": ""
+            },
+            {
+                "position": "B11",
+                "title": "Take It Out On Me",
+                "duration": ""
+            },
+            {
+                "position": "B12",
+                "title": "Better Days",
+                "duration": ""
+            },
+            {
+                "position": "B13",
+                "title": "Lose Somebody",
+                "duration": ""
+            }
+        ],
+        "notes": "Gatefold Cover.\n\nMade in the EU.\n\nTrack numbers sequentially from 1 to 13. ",
+        "image": "vinyls-cover/MjMtNDkxNS5qcGVn.jpeg",
+        "date_added": "2023-12-29T07:41:06-08:00"
     },
     {
+        "release_id": 8991367,
+        "discogs_url": "https://www.discogs.com/release/8991367",
         "title": "Petit Biscuit",
         "artist": "Petit Biscuit",
         "label": "Petit Biscuit Inc.",
+        "catno": "none",
         "year": 2016,
-        "image": "vinyls-cover/NC02MTI5LmpwZWc.jpeg"
+        "country": "France",
+        "released": "2016-09-16",
+        "formats": [
+            "Vinyl",
+            "12\"",
+            "33 ⅓ RPM",
+            "EP"
+        ],
+        "genres": [
+            "Electronic"
+        ],
+        "styles": [
+            "Downtempo"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Once Again",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Sunset Lover",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Jungle",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Full Moon",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Iceland",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Open Your Eyes",
+                "duration": ""
+            }
+        ],
+        "notes": "Might include an adhered signed post-it slip.",
+        "image": "vinyls-cover/NC02MTI5LmpwZWc.jpeg",
+        "date_added": "2024-12-14T04:45:32-08:00"
     },
     {
+        "release_id": 2445437,
+        "discogs_url": "https://www.discogs.com/release/2445437",
         "title": "J'habite En France",
         "artist": "Michel Sardou",
         "label": "Philips",
+        "catno": "6311 056",
         "year": 1970,
-        "image": "vinyls-cover/My00MTkwLmpwZWc.jpeg"
+        "country": "France",
+        "released": "1970",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Stereo"
+        ],
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Chanson"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "J'habite En France",
+                "duration": "2:56"
+            },
+            {
+                "position": "A2",
+                "title": "Petit",
+                "duration": "2:50"
+            },
+            {
+                "position": "A3",
+                "title": "Monsieur Le Président De France",
+                "duration": "2:50"
+            },
+            {
+                "position": "A4",
+                "title": "America America",
+                "duration": "3:40"
+            },
+            {
+                "position": "A5",
+                "title": "Restera-t-il Encore?",
+                "duration": "2:51"
+            },
+            {
+                "position": "A6",
+                "title": "Et Mourir De Plaisir",
+                "duration": "2:50"
+            },
+            {
+                "position": "B1",
+                "title": "Les Dimanches",
+                "duration": "2:22"
+            },
+            {
+                "position": "B2",
+                "title": "Auprès De Ma Tombe",
+                "duration": "2:45"
+            },
+            {
+                "position": "B3",
+                "title": "Les Ricains",
+                "duration": "2:25"
+            },
+            {
+                "position": "B4",
+                "title": "La Neige",
+                "duration": "3:52"
+            },
+            {
+                "position": "B5",
+                "title": "Quelques Mots D'amour",
+                "duration": "2:49"
+            },
+            {
+                "position": "B6",
+                "title": "Les Bals Populaires",
+                "duration": "2:30"
+            }
+        ],
+        "notes": "Made in France",
+        "image": "vinyls-cover/My00MTkwLmpwZWc.jpeg",
+        "date_added": "2023-12-24T12:46:52-08:00"
     },
     {
+        "release_id": 6525560,
+        "discogs_url": "https://www.discogs.com/release/6525560",
+        "title": "2 - Les Amoureux Des Bancs Publics",
+        "artist": "Georges Brassens",
+        "label": "Philips, Philips",
+        "catno": "9 101 044, 9101 044",
+        "year": 0,
+        "country": "France",
+        "released": "",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Compilation",
+            "Reissue"
+        ],
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Chanson"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Les Amoureux Des Bancs Publics",
+                "duration": "3:03"
+            },
+            {
+                "position": "A2",
+                "title": "Brave Margot",
+                "duration": "3:22"
+            },
+            {
+                "position": "A3",
+                "title": "Pauvre Martin",
+                "duration": "1:36"
+            },
+            {
+                "position": "A4",
+                "title": "La Première Fille",
+                "duration": "2:30"
+            },
+            {
+                "position": "A5",
+                "title": "La Cane De Jeanne",
+                "duration": "1:22"
+            },
+            {
+                "position": "A6",
+                "title": "Je Suis Un Voyou",
+                "duration": "2:40"
+            },
+            {
+                "position": "B1",
+                "title": "J'ai Rendez-vous Avec Vous",
+                "duration": "2:02"
+            },
+            {
+                "position": "B2",
+                "title": "Le Vent",
+                "duration": "1:09"
+            },
+            {
+                "position": "B3",
+                "title": "Il N'y A Pas D'amour Heureux",
+                "duration": "2:28"
+            },
+            {
+                "position": "B4",
+                "title": "La Mauvaise Herbe",
+                "duration": "2:51"
+            },
+            {
+                "position": "B5",
+                "title": "Le Mauvais Sujet Repenti",
+                "duration": "2:30"
+            },
+            {
+                "position": "B6",
+                "title": "P... De Toi",
+                "duration": "2:44"
+            }
+        ],
+        "notes": "\nA1, A2, A5, B1 to B3 ℗ 1953 Phonogram S.A.\nA3, A4, A6, B4 to B6 ℗ 1954 Phonogram S.A.\n([url=https://www.discogs.com/Georges-Brassens-2-Les-Amoureux-Des-Bancs-Publics/release/5851668#]This similar release[/url] has no Phonogram S.A. mention on labels).\n\nLate 70s / early 80s reissue due to price code, 'CIDIS' in runout side A and cat#.\n",
+        "image": "vinyls-cover/MC01Mjg5LmpwZWc.jpeg",
+        "date_added": "2026-02-04T07:05:01-08:00"
+    },
+    {
+        "release_id": 23937788,
+        "discogs_url": "https://www.discogs.com/release/23937788",
         "title": "Gold (Greatest Hits)",
         "artist": "ABBA",
         "label": "Polar, Polar, Polar, Polar, Polydor, Polydor",
+        "catno": "0600753511060, 535 110-6, 535 110-7, 535 110-8, 535 110-7, 535 110-8",
         "year": 0,
-        "image": "vinyls-cover/OTMtNzgwMC5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+        ],
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Europop",
+            "Disco"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Dancing Queen",
+                "duration": "3:49"
+            },
+            {
+                "position": "A2",
+                "title": "Knowing Me, Knowing You",
+                "duration": "4:01"
+            },
+            {
+                "position": "A3",
+                "title": "Take A Chance On Me",
+                "duration": "4:01"
+            },
+            {
+                "position": "A4",
+                "title": "Mamma Mia",
+                "duration": "3:32"
+            },
+            {
+                "position": "A5",
+                "title": "Lay All Your Love On Me",
+                "duration": "4:32"
+            },
+            {
+                "position": "B1",
+                "title": "Super Trouper",
+                "duration": "4:10"
+            },
+            {
+                "position": "B2",
+                "title": "I Have A Dream",
+                "duration": "4:43"
+            },
+            {
+                "position": "B3",
+                "title": "The Winner Takes It All",
+                "duration": "4:54"
+            },
+            {
+                "position": "B4",
+                "title": "Money, Money, Money",
+                "duration": "3:05"
+            },
+            {
+                "position": "B5",
+                "title": "S.O.S.",
+                "duration": "3:19"
+            },
+            {
+                "position": "C1",
+                "title": "Chiquitita",
+                "duration": "5:26"
+            },
+            {
+                "position": "C2",
+                "title": "Fernando",
+                "duration": "4:10"
+            },
+            {
+                "position": "C3",
+                "title": "Voulez Vous",
+                "duration": "5:05"
+            },
+            {
+                "position": "C4",
+                "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+                "duration": "4:46"
+            },
+            {
+                "position": "D1",
+                "title": "Does Your Mother Know",
+                "duration": "3:14"
+            },
+            {
+                "position": "D2",
+                "title": "One Of Us",
+                "duration": "3:53"
+            },
+            {
+                "position": "D3",
+                "title": "The Name Of The Game",
+                "duration": "4:50"
+            },
+            {
+                "position": "D4",
+                "title": "Thank You For The Music",
+                "duration": "3:51"
+            },
+            {
+                "position": "D5",
+                "title": "Waterloo",
+                "duration": "2:42"
+            }
+        ],
+        "notes": "This compilation ℗ & © 1992 Polar Music International AB\nMade in the EU. \n\nReissue of the original 1992 release (original barcode, different runouts/matrix).\n\nThis has a slightly different runout than the other 40th anniversary release [r=5896538]:\n- This release has no \"www.gzvinyl.com\" \n- Side C starts with string \"5351106-A\" (should be 5351106-C).\n\nRunouts are stamped.",
+        "image": "vinyls-cover/OTMtNzgwMC5qcGVn.jpeg",
+        "date_added": "2023-12-29T12:01:13-08:00"
     },
     {
+        "release_id": 11860171,
+        "discogs_url": "https://www.discogs.com/release/11860171",
+        "title": "Sweet Dreams (Are Made Of This)",
+        "artist": "Eurythmics",
+        "label": "RCA",
+        "catno": "19075811611",
+        "year": 2018,
+        "country": "Europe",
+        "released": "2018-04-13",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+        ],
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Synth-pop"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Love Is A Stranger",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "I've Got An Angel",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Wrap It Up",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "I Could Give You (A Mirror)",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "The Walk",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Sweet Dreams (Are Made Of This)",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Jennifer",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "This Is The House",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Somebody Told Me",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "This City Never Sleeps",
+                "duration": ""
+            }
+        ],
+        "notes": "Includes download code for 24 bit WAV files of [r=12833598] and MP3 files of [r=12833619].\n\nComes with a lyric color inner sleeve.\n\nA3 * Featuring Guest Vocalist, courtesy of Scritti Politti and Rough Trade Records\n\nMade in the EU.\nA1, A2, A5, B4, B5: Arnakata Music Ltd. / Warner Bros. Music Ltd. / Logo Songs Ltd.\nA3: Warner Bros. Music Ltd. / Copyright Control\nA4, B1, B2, B3: Sunbury Music Ltd.\n\n[Side A label]\n℗ 1982 (1 and 5), 1983 (2, 3, and 4) RCA Ltd.\n\n[Side B label]\n℗ 1982 (3), 1983 (1, 2, 4, 5) RCA Ltd.\n\nCatalog # printed on back of sleeve:\nRCALP 6063\n(PL 25447)\n\ncassette  RCAK 6063 \n\nthanks to edward de bono\nthanks to jack steven",
+        "image": "vinyls-cover/NjMtOTkzNC5qcGVn.jpeg",
+        "date_added": "2025-12-26T04:34:56-08:00"
+    },
+    {
+        "release_id": 4318822,
+        "discogs_url": "https://www.discogs.com/release/4318822",
         "title": "Outrun",
         "artist": "Kavinsky",
         "label": "Record Makers",
+        "catno": "REC86",
         "year": 2013,
-        "image": "vinyls-cover/MC05OTUwLmpwZWc.jpeg"
+        "country": "France",
+        "released": "2013-02-25",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Electronic"
+        ],
+        "styles": [
+            "Electro",
+            "Downtempo"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Prelude",
+                "duration": "1:54"
+            },
+            {
+                "position": "A2",
+                "title": "Blizzard",
+                "duration": "3:27"
+            },
+            {
+                "position": "A3",
+                "title": "ProtoVision",
+                "duration": "3:26"
+            },
+            {
+                "position": "A4",
+                "title": "Odd Look",
+                "duration": "4:49"
+            },
+            {
+                "position": "A5",
+                "title": "Rampage",
+                "duration": "2:55"
+            },
+            {
+                "position": "A6",
+                "title": "Suburbia",
+                "duration": "3:28"
+            },
+            {
+                "position": "A7",
+                "title": "Testarossa Autodrive",
+                "duration": "3:37"
+            },
+            {
+                "position": "B1",
+                "title": "Nightcall",
+                "duration": "4:18"
+            },
+            {
+                "position": "B2",
+                "title": "Deadcruiser",
+                "duration": "3:33"
+            },
+            {
+                "position": "B3",
+                "title": "Grand Canyon",
+                "duration": "3:12"
+            },
+            {
+                "position": "B4",
+                "title": "First Blood",
+                "duration": "3:04"
+            },
+            {
+                "position": "B5",
+                "title": "Roadgame",
+                "duration": "3:44"
+            },
+            {
+                "position": "B6",
+                "title": "Endless",
+                "duration": "2:59"
+            }
+        ],
+        "notes": "Side A ends with a locked groove.",
+        "image": "vinyls-cover/MC05OTUwLmpwZWc.jpeg",
+        "date_added": "2023-12-03T04:43:03-08:00"
     },
     {
-        "title": "Rumours",
-        "artist": "Fleetwood Mac",
-        "label": "Reprise Records",
-        "year": 2021,
-        "image": "vinyls-cover/MTctODA2NC5qcGVn.jpeg"
-    },
-    {
+        "release_id": 1203470,
+        "discogs_url": "https://www.discogs.com/release/1203470",
         "title": "American Idiot",
         "artist": "Green Day",
         "label": "Reprise Records, Reprise Records",
+        "catno": "9362-48777-1, 48777-1",
         "year": 2004,
-        "image": "vinyls-cover/Ni05MDM2LmpwZWc.jpeg"
+        "country": "Europe",
+        "released": "2004-10-04",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Punk",
+            "Pop Rock",
+            "Pop Punk",
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "American Idiot",
+                "duration": "2:54"
+            },
+            {
+                "position": "B3",
+                "title": "Holiday",
+                "duration": "3:52"
+            },
+            {
+                "position": "B4",
+                "title": "Boulevard Of Broken Dreams",
+                "duration": "4:20"
+            },
+            {
+                "position": "B5",
+                "title": "Are We The Waiting",
+                "duration": "2:42"
+            },
+            {
+                "position": "B6",
+                "title": "St. Jimmy",
+                "duration": "2:54"
+            },
+            {
+                "position": "C7",
+                "title": "Give Me Novacaine",
+                "duration": "3:25"
+            },
+            {
+                "position": "C8",
+                "title": "She's A Rebel",
+                "duration": "2:00"
+            },
+            {
+                "position": "C9",
+                "title": "Extraordinary Girl",
+                "duration": "3:34"
+            },
+            {
+                "position": "C10",
+                "title": "Letterbomb",
+                "duration": "4:06"
+            },
+            {
+                "position": "C11",
+                "title": "Wake Me Up When September Ends",
+                "duration": "4:44"
+            },
+            {
+                "position": "D13",
+                "title": "Whatsername",
+                "duration": "4:12"
+            }
+        ],
+        "notes": "Double gatefold sleeve. Tracks listed sequentially. Features lyrics in the inner artwork.\nFirst catalog number from packaging, second one from labels.\nNo full credits present. Mastering and pressing credits adapted from runouts.\n\nBack:\nReprise Records, A Warner Music Group Company.\n© ℗ 2004 Reprise Records for the U.S. and WEA International Inc. for the world outside the U.S.\nManufactured in the E.U.\n\nSimilar to the US release [r9452213], but has a Label Code (LC 00322) on the back cover.\n\nLabels:\n© ℗ 2004 Reprise Records.\n\nAbbreviated catalog number \"48777-1\" appears on center labels.\n\n\"Parental advisory explicit content\" printed on back sleeve.\n\nRepressed over the years with the same graphic layouts.\n\nRunouts are etched, except \"STERLING\" which is stamped.",
+        "image": "vinyls-cover/Ni05MDM2LmpwZWc.jpeg",
+        "date_added": "2024-01-02T04:08:46-08:00"
     },
     {
+        "release_id": 26588000,
+        "discogs_url": "https://www.discogs.com/release/26588000",
         "title": "Remember That You Will Die",
         "artist": "Polyphia",
         "label": "Rise Records Inc.",
+        "catno": "502-1",
         "year": 2023,
-        "image": "vinyls-cover/NzAtNTU0My5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2023-03-31",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Jazz",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Prog Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Genesis",
+                "duration": "3:14"
+            },
+            {
+                "position": "A2",
+                "title": "Playing God",
+                "duration": "3:25"
+            },
+            {
+                "position": "A3",
+                "title": "The Audacity",
+                "duration": "2:24"
+            },
+            {
+                "position": "A4",
+                "title": "Reverie",
+                "duration": "4:02"
+            },
+            {
+                "position": "A5",
+                "title": "ABC",
+                "duration": "2:32"
+            },
+            {
+                "position": "A6",
+                "title": "Memento Mori",
+                "duration": "2:44"
+            },
+            {
+                "position": "B1",
+                "title": "Fuck Around And Find Out",
+                "duration": "2:31"
+            },
+            {
+                "position": "B2",
+                "title": "All Falls Apart\t",
+                "duration": "1:19"
+            },
+            {
+                "position": "B3",
+                "title": "Neurotica",
+                "duration": "3:14"
+            },
+            {
+                "position": "B4",
+                "title": "Chimera",
+                "duration": "3:56"
+            },
+            {
+                "position": "B5",
+                "title": "Bloodbath",
+                "duration": "3:50"
+            },
+            {
+                "position": "B6",
+                "title": "Ego Death",
+                "duration": "5:50"
+            }
+        ],
+        "notes": "",
+        "image": "vinyls-cover/NzAtNTU0My5qcGVn.jpeg",
+        "date_added": "2023-12-03T04:43:54-08:00"
     },
     {
+        "release_id": 907105,
+        "discogs_url": "https://www.discogs.com/release/907105",
+        "title": "Enregistrement Public Olympia",
+        "artist": "Michel Sardou",
+        "label": "Trema, Trema",
+        "catno": "310 023, 310023",
+        "year": 1977,
+        "country": "France",
+        "released": "1977",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Stereo"
+        ],
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Chanson"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Introduction",
+                "duration": "1:10"
+            },
+            {
+                "position": "A2",
+                "title": "Je Vais T'aimer",
+                "duration": "4:30"
+            },
+            {
+                "position": "A3",
+                "title": "Les Villes De Solitude",
+                "duration": "3:40"
+            },
+            {
+                "position": "A4",
+                "title": "La Maladie D'amour",
+                "duration": "2:50"
+            },
+            {
+                "position": "A5",
+                "title": "Je Vous Ai Bien Eus",
+                "duration": "3:34"
+            },
+            {
+                "position": "A6",
+                "title": "Je Suis Pour",
+                "duration": "3:40"
+            },
+            {
+                "position": "A7",
+                "title": "La Vieille",
+                "duration": "3:30"
+            },
+            {
+                "position": "A8",
+                "title": "La France",
+                "duration": "3:45"
+            },
+            {
+                "position": "B1",
+                "title": "Une Fille Aux Yeux Clairs",
+                "duration": "3:16"
+            },
+            {
+                "position": "B2",
+                "title": "Présentation Des Musiciens",
+                "duration": "3:40"
+            },
+            {
+                "position": "B3",
+                "title": "J'ai 2000 Ans",
+                "duration": "3:10"
+            },
+            {
+                "position": "B4",
+                "title": "W. 454",
+                "duration": "4:25"
+            },
+            {
+                "position": "B5",
+                "title": "Un Accident",
+                "duration": "4:05"
+            },
+            {
+                "position": "B6",
+                "title": "La Marche En Avant",
+                "duration": "5:34"
+            },
+            {
+                "position": "B7",
+                "title": "J'accuse",
+                "duration": "3:58"
+            }
+        ],
+        "notes": "Made in France\nPrinted in France\n\nA1, B2 Uncredited",
+        "image": "vinyls-cover/LTY4MjAuanBlZw.jpeg",
+        "date_added": "2026-02-04T07:03:58-08:00"
+    },
+    {
+        "release_id": 23605763,
+        "discogs_url": "https://www.discogs.com/release/23605763",
         "title": "Money For Nothing",
         "artist": "Dire Straits",
         "label": "UMC, Mercury, Vertigo",
+        "catno": "00602438631940, 3863194, 3863194",
         "year": 2022,
-        "image": "vinyls-cover/NTItNTU5OS5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2022-06-17",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Compilation",
+            "Reissue",
+            "Remastered",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Blues Rock",
+            "Folk Rock",
+            "Pop Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Sultans Of Swing ",
+                "duration": "5:55"
+            },
+            {
+                "position": "A2",
+                "title": "Down To The Waterline ",
+                "duration": "4:01"
+            },
+            {
+                "position": "A3",
+                "title": "Portobello Belle - Live (Alternate Version)",
+                "duration": "4:23"
+            },
+            {
+                "position": "B1",
+                "title": "Twisting By The Pool (Remix)",
+                "duration": "3:33"
+            },
+            {
+                "position": "B2",
+                "title": "Tunnel Of Love",
+                "duration": "8:12"
+            },
+            {
+                "position": "B3",
+                "title": "Romeo And Juliet",
+                "duration": "5:59"
+            },
+            {
+                "position": "C1",
+                "title": "Where Do You Think You're Going?",
+                "duration": "3:33"
+            },
+            {
+                "position": "C2",
+                "title": "Walk Of Life",
+                "duration": "4:06"
+            },
+            {
+                "position": "C3",
+                "title": "Private Investigations",
+                "duration": "5:56"
+            },
+            {
+                "position": "D1",
+                "title": "Telegraph Road - Live (Remix)",
+                "duration": "13:08"
+            },
+            {
+                "position": "D2",
+                "title": "Money For Nothing",
+                "duration": "4:08"
+            },
+            {
+                "position": "D3",
+                "title": "Brothers In Arms",
+                "duration": "4:58"
+            }
+        ],
+        "notes": "Comes with 2 plain black poly-lined inner sleeves and a full size insert with lyrics and credits.\n\n[From sticker]\nIncludes ... previously unreleased alternative live version of 'Portobello Belle'\n\n[From back cover]\nAn EMI Release. ℗ 2022 Mercury Records Limited. © 2022 Mercury Records Limited. A Universal Music Company.\nMade in the EU.\n\n[From insert]\n© 2022 Mercury Records Limited.\n{Track details}\nA1, A2 <> February 1978 Original Recording ℗ 1978 Mercury Records Limited. © 1978 Straitjacket Songs Limited.\nA3 <> June 1983 Original Recording ℗ 2022 Mercury Records Limited. © 1983 Straitjacket Songs Limited.\nB1 <> October 1982 Original Recording ℗ 1982 Mercury Records Limited. © 1982 Straitjacket Songs Limited.\nB2, B3 <> July 1980 Original Recording ℗ 1980 Mercury Records Limited. © 1980 Straitjacket Songs Limited.\nC1 <> November 1978 Original Recording ℗ 1979 Mercury Records Limited. © 1979 Straitjacket Songs Limited.\nC2, D2 <> December 1984 Original Recording ℗ 1985 Mercury Records Limited. © 1985 Straitjacket Songs Limited.\nC3 <> May 1982 Original Recording ℗ 1982 Mercury Records Limited. © 1982 Straitjacket Songs Limited.\nD1 <> May 1982 Original Recording ℗ 1988 Mercury Records Limited. © 1982 Straitjacket Songs Limited.\nD3 <> December 1984 Original Recording ℗ 1988 Mercury Records Limited. © 1985 Straitjacket Songs Limited.\n\n[From labels]\nAn EMI Release. ℗ 2022 Mercury Records Limited. © 2022 Mercury Records Limited. A Universal Music Company. [...] Made in the Czech Republic.\n{All sides}\nAll songs Straitjacket Songs Limited/Universal Music Publishing Limited (ex. USA/Canada), Straitjacket Songs Limited/Rondor Music International Inc (USA/Canada)\n{Side D}\nexcept 2 Straitjacket Songs Limited/Universal Music Publishing Limited (ex. USA/Canada), Straitjacket Songs Limited/Rondor Music International Inc (USA/Canada)/Steerpike Ltd, EMI Music Publishing Ltd.\n\nRunouts are engraved except 'BG' and '38619x-xx' are etched.",
+        "image": "vinyls-cover/NTItNTU5OS5qcGVn.jpeg",
+        "date_added": "2023-12-03T04:45:22-08:00"
     },
     {
-        "title": "The Complete Collection",
-        "artist": "Kungs",
-        "label": "Universal Music France",
-        "year": 2023,
-        "image": "vinyls-cover/ODMtOTY3OS5qcGVn.jpeg"
-    },
-    {
+        "release_id": 28716661,
+        "discogs_url": "https://www.discogs.com/release/28716661",
         "title": "Getz / Gilberto",
         "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
         "label": "Verve Records",
+        "catno": "0600753551561",
         "year": 2023,
-        "image": "vinyls-cover/OTQtNjE4Ni5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2023",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Remastered",
+            "Repress",
+            "Stereo"
+        ],
+        "genres": [
+            "Jazz"
+        ],
+        "styles": [
+            "Bossa Nova",
+            "Latin Jazz"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "The Girl From Ipanema",
+                "duration": "5:15"
+            },
+            {
+                "position": "A2",
+                "title": "Doralice",
+                "duration": "2:45"
+            },
+            {
+                "position": "A3",
+                "title": "Pra Machuchar Meu Coração (To Hurt My Heart)",
+                "duration": "5:07"
+            },
+            {
+                "position": "A4",
+                "title": "Desafinado",
+                "duration": "4:05"
+            },
+            {
+                "position": "B1",
+                "title": "Corcovado",
+                "duration": "4:15"
+            },
+            {
+                "position": "B2",
+                "title": "Só Danço Samba (Jazz Samba)",
+                "duration": "3:30"
+            },
+            {
+                "position": "B3",
+                "title": "O Grande Amor",
+                "duration": "5:25"
+            },
+            {
+                "position": "B4",
+                "title": "Vivo Sonhando",
+                "duration": "2:52"
+            }
+        ],
+        "notes": "Copyright on back cover is 2014, but this is a 2023 repress on blue vinyl.",
+        "image": "vinyls-cover/OTQtNjE4Ni5qcGVn.jpeg",
+        "date_added": "2024-11-29T05:42:23-08:00"
     },
     {
+        "release_id": 626510,
+        "discogs_url": "https://www.discogs.com/release/626510",
         "title": "Un Autre Monde",
         "artist": "Téléphone",
         "label": "Virgin",
+        "catno": "70248",
         "year": 1984,
-        "image": "vinyls-cover/LTgwMjMuanBlZw.jpeg"
+        "country": "France",
+        "released": "1984-05-07",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Pop Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Les Dunes",
+                "duration": "4:10"
+            },
+            {
+                "position": "A2",
+                "title": "New York Avec Toi",
+                "duration": "2:23"
+            },
+            {
+                "position": "A3",
+                "title": "Loin De Toi (Un Peu Trop Loin)",
+                "duration": "3:02"
+            },
+            {
+                "position": "A4",
+                "title": "66 Heures",
+                "duration": "2:18"
+            },
+            {
+                "position": "A5",
+                "title": "Ce Que Je Veux",
+                "duration": "3:04"
+            },
+            {
+                "position": "A6",
+                "title": "Le Garçon D'ascenseur",
+                "duration": "4:56"
+            },
+            {
+                "position": "B1",
+                "title": "Oublie Ça",
+                "duration": "4:12"
+            },
+            {
+                "position": "B2",
+                "title": "T'as Qu'ces Mots",
+                "duration": "2:50"
+            },
+            {
+                "position": "B3",
+                "title": "Le Taxi Las",
+                "duration": "3:55"
+            },
+            {
+                "position": "B4",
+                "title": "Electric Cité",
+                "duration": "4:07"
+            },
+            {
+                "position": "B5",
+                "title": "Un Autre Monde",
+                "duration": "4:30"
+            }
+        ],
+        "notes": "Printed on rear cover:\n℗ 1984 Virgin Records Ltd. © 1984 Virgin France S.A.\n\nPrinted on labels:\nMADE IN FRANCE\n\nPrinted on Label Side A\néd. Telephone Music S.A. ℗ 1984 VIRGIN RECORDS LTD\n\nPrinted on inner sleeve:\nglory Imprimé en France\n\n\nVinyl housed in a printed Inner sleeve (Lyrics, Credits, Photos, Drawings)\n\nThis version does have the girafe on sleeve, unlike a similar edition [r6081692] with same catalaog number, whith no girafe on sleeve.\n\nRecorded in Sussex (England), February & March 1984.",
+        "image": "vinyls-cover/LTgwMjMuanBlZw.jpeg",
+        "date_added": "2023-12-03T04:41:42-08:00"
     },
     {
+        "release_id": 9371072,
+        "discogs_url": "https://www.discogs.com/release/9371072",
         "title": "Greatest Hits",
         "artist": "Queen",
         "label": "Virgin EMI Records",
+        "catno": "0602557048414",
         "year": 2016,
-        "image": "vinyls-cover/My05MjgwLmpwZWc.jpeg"
+        "country": "Europe",
+        "released": "2016-11-17",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Compilation",
+            "Reissue",
+            "Remastered",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Arena Rock",
+            "Hard Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Bohemian Rhapsody",
+                "duration": "5:54"
+            },
+            {
+                "position": "A2",
+                "title": "Another One Bites The Dust",
+                "duration": "3:36"
+            },
+            {
+                "position": "A3",
+                "title": "Killer Queen",
+                "duration": "2:59"
+            },
+            {
+                "position": "A4",
+                "title": "Fat Bottomed Girls",
+                "duration": "3:21"
+            },
+            {
+                "position": "B1",
+                "title": "Bicycle Race",
+                "duration": "3:02"
+            },
+            {
+                "position": "B2",
+                "title": "You're My Best Friend",
+                "duration": "2:51"
+            },
+            {
+                "position": "B3",
+                "title": "Don't Stop Me Now",
+                "duration": "3:29"
+            },
+            {
+                "position": "B4",
+                "title": "Save Me",
+                "duration": "3:48"
+            },
+            {
+                "position": "C1",
+                "title": "Crazy Little Thing Called Love",
+                "duration": "2:43"
+            },
+            {
+                "position": "C2",
+                "title": "Somebody To Love",
+                "duration": "4:55"
+            },
+            {
+                "position": "C3",
+                "title": "Now I'm Here",
+                "duration": "4:13"
+            },
+            {
+                "position": "C4",
+                "title": "Good Old-Fashioned Lover Boy",
+                "duration": "2:54"
+            },
+            {
+                "position": "D1",
+                "title": "Play The Game",
+                "duration": "3:31"
+            },
+            {
+                "position": "D2",
+                "title": "Flash",
+                "duration": "2:47"
+            },
+            {
+                "position": "D3",
+                "title": "Seven Seas Of Rhye",
+                "duration": "2:48"
+            },
+            {
+                "position": "D4",
+                "title": "We Will Rock You",
+                "duration": "2:01"
+            },
+            {
+                "position": "D5",
+                "title": "We Are The Champions",
+                "duration": "2:59"
+            }
+        ],
+        "notes": "Issued in a gatefold sleeve.\nPrinted inner sleeves of top opening card with curved corners and wide die cut thumb section.\nHype sticker applied to the shrink-wrap.\nIncludes a 'Back To Black' voucher to download an [url=http://www.discogs.com/release/9411799]MP3 version of the album[/url].\n180g heavyweight double vinyl, half speed mastered at Abbey Road Studios\n\n℗ 2011 Queen Productions Ltd.\n© 2016 Queen Productions Ltd.",
+        "image": "vinyls-cover/My05MjgwLmpwZWc.jpeg",
+        "date_added": "2023-12-24T12:47:48-08:00"
     },
     {
+        "release_id": 16734525,
+        "discogs_url": "https://www.discogs.com/release/16734525",
         "title": "Chansons De Noël - French Christmas Songs",
         "artist": "Various",
         "label": "Wagram Music",
+        "catno": "3386336",
         "year": 2020,
-        "image": "vinyls-cover/ODctMzE4My5qcGVn.jpeg"
+        "country": "France",
+        "released": "2020-10-23",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Compilation",
+            "Reissue"
+        ],
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Chanson",
+            "Holiday"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Petit Papa Noël",
+                "duration": "3:05"
+            },
+            {
+                "position": "A2",
+                "title": "Douce Nuit, Sainte Nuit",
+                "duration": "2:09"
+            },
+            {
+                "position": "A3",
+                "title": "Mon Beau Sapin",
+                "duration": "2:25"
+            },
+            {
+                "position": "A4",
+                "title": "Noël Blanc",
+                "duration": "2:30"
+            },
+            {
+                "position": "A5",
+                "title": "Berceuse De Noël ",
+                "duration": "3:05"
+            },
+            {
+                "position": "A6",
+                "title": "C'est Noël Mamie",
+                "duration": "3:02"
+            },
+            {
+                "position": "A7",
+                "title": "Trois Anges Sont Venus (Noël)",
+                "duration": "2:37"
+            },
+            {
+                "position": "A8",
+                "title": "Ave Maria",
+                "duration": "3:03"
+            },
+            {
+                "position": "B1",
+                "title": "Il Est Né Le Divin Enfant",
+                "duration": "2:54"
+            },
+            {
+                "position": "B2",
+                "title": "Vive Le Vent",
+                "duration": "2:33"
+            },
+            {
+                "position": "B3",
+                "title": "La Petite Fille Et Le Père Noël ",
+                "duration": "2:11"
+            },
+            {
+                "position": "B4",
+                "title": "Le Noël De La Rue",
+                "duration": "3:19"
+            },
+            {
+                "position": "B5",
+                "title": "La Révolte Des Joujoux",
+                "duration": "2:58"
+            },
+            {
+                "position": "B6",
+                "title": "Étoile Des Neiges",
+                "duration": "3:01"
+            },
+            {
+                "position": "B7",
+                "title": "Joyeux Noël",
+                "duration": "2:08"
+            },
+            {
+                "position": "B8",
+                "title": "Chanson Pour Noël",
+                "duration": "2:03"
+            }
+        ],
+        "notes": "",
+        "image": "vinyls-cover/ODctMzE4My5qcGVn.jpeg",
+        "date_added": "2023-12-12T12:03:07-08:00"
     },
     {
+        "release_id": 7220017,
+        "discogs_url": "https://www.discogs.com/release/7220017",
         "title": "Absolution",
         "artist": "Muse",
         "label": "Warner Bros. Records, Helium 3",
+        "catno": "0825646909445, 0825646909445",
         "year": 2015,
-        "image": "vinyls-cover/My03NzM2LmpwZWc.jpeg"
+        "country": "Europe",
+        "released": "2015-07-10",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Intro",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Apocalypse Please",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Time Is Running Out",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Sing For Absolution",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Stockholm Syndrome",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "Falling Away With You",
+                "duration": ""
+            },
+            {
+                "position": "B7",
+                "title": "Interlude",
+                "duration": ""
+            },
+            {
+                "position": "B8",
+                "title": "Hysteria",
+                "duration": ""
+            },
+            {
+                "position": "C9",
+                "title": "Blackout",
+                "duration": ""
+            },
+            {
+                "position": "C10",
+                "title": "Butterflies & Hurricanes",
+                "duration": ""
+            },
+            {
+                "position": "C11",
+                "title": "The Small Print",
+                "duration": ""
+            },
+            {
+                "position": "D12",
+                "title": "Endlessly",
+                "duration": ""
+            },
+            {
+                "position": "D13",
+                "title": "Thoughts Of A Dying Atheist",
+                "duration": ""
+            },
+            {
+                "position": "D14",
+                "title": "Ruled By Secrecy",
+                "duration": ""
+            }
+        ],
+        "notes": "Gatefold sleeve with lyrics printed on the inside panels.\n\nTracks listed sequentially on the release.\n\nThe runouts are machine etched.\n\n[Back cover:]\nRecorded at Grouse Lodge studios (Co. Westmeath, Ireland) and Air studios (London)\nAdditional recording at Cello studios (Hollywood), Livingston studios (London) and Sawmills studio (Fowey, Cornwall)\nMastered [...] at Masterdisk, New York\nDigital Editing at Masterdisk\n\n℗ & © 2003 Warner Music UK Limited. The copyright in this sound recording and artwork is owned by Warner Music UK Limited [...] A Warner Music Group company. Made in the E.U.",
+        "image": "vinyls-cover/My03NzM2LmpwZWc.jpeg",
+        "date_added": "2024-01-02T04:17:27-08:00"
     },
     {
+        "release_id": 22983965,
+        "discogs_url": "https://www.discogs.com/release/22983965",
         "title": "Californication",
         "artist": "Red Hot Chili Peppers",
         "label": "Warner Records",
+        "catno": "093624738619",
         "year": 2021,
-        "image": "vinyls-cover/MTktNDAyOS5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2021",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Around The World",
+                "duration": "3:59"
+            },
+            {
+                "position": "A2",
+                "title": "Parallel Universe",
+                "duration": "4:31"
+            },
+            {
+                "position": "A3",
+                "title": "Scar Tissue",
+                "duration": "3:37"
+            },
+            {
+                "position": "A4",
+                "title": "Otherside",
+                "duration": "4:16"
+            },
+            {
+                "position": "B1",
+                "title": "Get On Top",
+                "duration": "3:18"
+            },
+            {
+                "position": "B2",
+                "title": "Californication",
+                "duration": "5:21"
+            },
+            {
+                "position": "B3",
+                "title": "Easily",
+                "duration": "3:51"
+            },
+            {
+                "position": "C1",
+                "title": "Porcelain",
+                "duration": "2:44"
+            },
+            {
+                "position": "C2",
+                "title": "Emit Remmus",
+                "duration": "4:00"
+            },
+            {
+                "position": "C3",
+                "title": "I Like Dirt",
+                "duration": "2:37"
+            },
+            {
+                "position": "C4",
+                "title": "This Velvet Glove",
+                "duration": "3:45"
+            },
+            {
+                "position": "D1",
+                "title": "Savior",
+                "duration": "4:52"
+            },
+            {
+                "position": "D2",
+                "title": "Purple Stain",
+                "duration": "4:13"
+            },
+            {
+                "position": "D3",
+                "title": "Right On Time",
+                "duration": "1:53"
+            },
+            {
+                "position": "D4",
+                "title": "Road Trippin'",
+                "duration": "3:26"
+            }
+        ],
+        "notes": "Similar to 2019 reissue [r=14541734] but cut by [a359447] instead of [a4567417].\n\nSingle sleeve including a printed black & white insert sheet with lyrics, credits and a photo of the band.\n\nOn back cover:\n© ℗ 1999 Warner Records Inc. Made in Germany. All Rights Reserved.\n\nOn labels:\n© 1999 Moebetoblame Music BMI\n℗ 1999 Warner Records Inc. Manufactured in Germany.\n\nOn the insert:\nRecorded at Ocean Way Recording\nMixed at The Village\nMastered at Sony Music Studio, New York, NY\n\nGreg Kurstin played keyboards, and appears courtesy of Luaka Bop Records.\nPatrick Warren played Chamberlin Organ on Road Trippin'. \n\nRunout info:\n- Runouts are hand-etched\n- The Optimal Media \"geometric\" marks are mirrored",
+        "image": "vinyls-cover/MTktNDAyOS5qcGVn.jpeg",
+        "date_added": "2023-12-24T12:49:44-08:00"
     },
     {
+        "release_id": 22040284,
+        "discogs_url": "https://www.discogs.com/release/22040284",
+        "title": "Rumours",
+        "artist": "Fleetwood Mac",
+        "label": "Warner Records",
+        "catno": "9362-49793-5",
+        "year": 2021,
+        "country": "Europe",
+        "released": "2021",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Classic Rock",
+            "Pop Rock",
+            "Soft Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Second Hand News",
+                "duration": "2:42"
+            },
+            {
+                "position": "A2",
+                "title": "Dreams",
+                "duration": "4:15"
+            },
+            {
+                "position": "A3",
+                "title": "Never Going Back Again",
+                "duration": "2:02"
+            },
+            {
+                "position": "A4",
+                "title": "Don't Stop",
+                "duration": "3:10"
+            },
+            {
+                "position": "A5",
+                "title": "Go Your Own Way",
+                "duration": "3:40"
+            },
+            {
+                "position": "A6",
+                "title": "Songbird",
+                "duration": "3:18"
+            },
+            {
+                "position": "B1",
+                "title": "The Chain",
+                "duration": "4:27"
+            },
+            {
+                "position": "B2",
+                "title": "You Make Loving Fun",
+                "duration": "3:33"
+            },
+            {
+                "position": "B3",
+                "title": "I Don't Want To Know",
+                "duration": "3:13"
+            },
+            {
+                "position": "B4",
+                "title": "Oh Daddy",
+                "duration": "3:54"
+            },
+            {
+                "position": "B5",
+                "title": "Gold Dust Woman",
+                "duration": "5:13"
+            }
+        ],
+        "notes": "Includes a fold-out sheet containing images, credits and lyrics.\n\n©2009 & ℗1977 Warner Records Inc. Made in E.U.\n\n\"Songbird\" recorded at Zellerback Auditorium, U.C. Berkeley, Berkeley, CA, March 3, 1976 [Zellerback wrongly spelled on release].\n\nPublished By:\nA1, A3, A5: Now Sounds Music (ASCAP)\nA2, B3, B5: Welsh Witch Music (BMI). All rights administered by Sony/ATV Music Publishing\nA4, A6, B2, B4: Careers-BMG Music Publishing, Inc. (BMI)\nB1: Careers-BMG Music Publishing, Inc. (BMI), Now Sounds Music (ASCAP), Molly Mac Music (BMI), Ratteman Music (BMI), Welsh Witch Music (BMI). All rights on behalf of Welsh Witch Music administered by Sony/ATV Music Publishing\n\nHas a golden sticker on the shrink wrap that says:\nTHE NUMBER ONE ALBUM OF 1977 \nGRAMMY® WINNER FOR ALBUM OF THE YEAR \nR.I.A.A. DIAMOND AWARD ALBUM\nCONTAINS THE HITS\n\" GO YOUR OWN WAY,\" \"DREAMS,\" \"DON'T STOP,\" & \"YOU MAKE LOVING FUN.\" \n9362-49793-5\n\nRunouts are etched. 'Optimal Media GmbH' plating identifiers (VI=, VI+, VIT, VI-, SI=, N+V, 61, 7=, X+5, I7) are mirrored.",
+        "image": "vinyls-cover/MDktNTQ4MC5qcGVn.jpeg",
+        "date_added": "2023-12-18T02:25:59-08:00"
+    },
+    {
+        "release_id": 15996141,
+        "discogs_url": "https://www.discogs.com/release/15996141",
         "title": "Black Holes And Revelations",
         "artist": "Muse",
         "label": "Warner Records, Helium 3",
+        "catno": "0825646350919, 0825646350919",
         "year": 2020,
-        "image": "vinyls-cover/MTEtNjM1NC5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2020",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress",
+            "Stereo"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Space Rock",
+            "Prog Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Take A Bow",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Starlight",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Supermassive Black Hole",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Map Of The Problematique",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Soldier's Poem",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "Invincible",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Assassin",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Exo-Politics",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "City Of Delusion",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Hoodoo",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Knights Of Cydonia",
+                "duration": ""
+            }
+        ],
+        "notes": "℗ & © 2006 Warner Music UK Limited.\nMade in the EU\nAll tracks mixed at Townhouse studios except 'Hoodoo' mixed at Avatar Studios, New York and 'Starlight' mixed at Sony Music Studios, New York assisted by Mark Rinaldi.\nmuse.mu\n\nThis release is roughly similar to [r=7220106], except for the Warner Bros logo (which has been replaced by Warner Records on this one) and the runout identifiers.\n\nThis release is almost identical to [r=23218028] apart from the \"Made in Czech Republic\" sticker on the back, which is not stuck to the cover underneath the shrink, but either on the outside of the shrink or not included. Variant 7, 8 and 9 have \"Made in Czech Republic\" sticker on the back cover of the sleeve.\n\nThe runouts are hand-etched apart from the [Invalid Label] (204142E#/A#), which are laser-etched.",
+        "image": "vinyls-cover/MTEtNjM1NC5qcGVn.jpeg",
+        "date_added": "2024-01-02T04:18:55-08:00"
     },
     {
+        "release_id": 32286705,
+        "discogs_url": "https://www.discogs.com/release/32286705",
         "title": "From Zero",
         "artist": "Linkin Park",
         "label": "Warner Records, Machine Shop Recordings",
+        "catno": "093624839880, 093624839880",
         "year": 2024,
-        "image": "vinyls-cover/NDEtMjg2NC5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2024-11-15",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Limited Edition"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Alternative Metal",
+            "Nu Metal"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "From Zero (Intro)",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "The Emptiness Machine",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Cut The Bridge",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Heavy Is The Crown",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Over Each Other",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "Casualty",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Overflow",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Two Faced",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Stained",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "IGYEIH",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Good Things Go",
+                "duration": ""
+            }
+        ],
+        "notes": "Housed in a gatefold sleeve.\n\nMade in Germany.\n\nRunouts are etched. Geometrical marks can be mirrored and/or rotated.\n\n\"IGYEIH\" is an acronym for \"I Gave You Everything I Have\".",
+        "image": "vinyls-cover/NDEtMjg2NC5qcGVn.jpeg",
+        "date_added": "2024-12-14T04:48:44-08:00"
     },
     {
+        "release_id": 32285475,
+        "discogs_url": "https://www.discogs.com/release/32285475",
         "title": "From Zero",
         "artist": "Linkin Park",
         "label": "Warner Records, Machine Shop Recordings",
+        "catno": "093624839941, 093624839941",
         "year": 2024,
-        "image": "vinyls-cover/MjUtMzc2OC5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2024-11-15",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "From Zero (Intro)",
+                "duration": "0:22"
+            },
+            {
+                "position": "A2",
+                "title": "The Emptiness Machine",
+                "duration": "3:10"
+            },
+            {
+                "position": "A3",
+                "title": "Cut The Bridge",
+                "duration": "3:48"
+            },
+            {
+                "position": "A4",
+                "title": "Heavy Is The Crown",
+                "duration": "2:47"
+            },
+            {
+                "position": "A5",
+                "title": "Over Each Other",
+                "duration": "2:50"
+            },
+            {
+                "position": "A6",
+                "title": "Casualty",
+                "duration": "2:21"
+            },
+            {
+                "position": "B1",
+                "title": "Overflow",
+                "duration": "3:31"
+            },
+            {
+                "position": "B2",
+                "title": "Two Faced",
+                "duration": "3:03"
+            },
+            {
+                "position": "B3",
+                "title": "Stained",
+                "duration": "3:05"
+            },
+            {
+                "position": "B4",
+                "title": "IGYEIH",
+                "duration": "3:29"
+            },
+            {
+                "position": "B5",
+                "title": "Good Things Go",
+                "duration": "3:30"
+            }
+        ],
+        "notes": "Hype sticker on front shrink.\nIncludes printed inner sleeve with photos, lyrics and credits.\n\nOn back cover:\nWarner Records Inc., A Warner Music Group Company.\n©℗2024 Linkin Park, LLC under exclusive license to Warner Records Inc.\nMade in Germany.\n\nOn labels:\n©℗2024 Linkin Park, LLC under exclusive license to Warner Records Inc. Made in Germany.\n\nRunout information:\nRunouts are etched. Geometrical marks like '1+ △' or '2 + x' are mirrored.",
+        "image": "vinyls-cover/MjUtMzc2OC5qcGVn.jpeg",
+        "date_added": "2024-12-14T04:49:04-08:00"
     },
     {
+        "release_id": 28205623,
+        "discogs_url": "https://www.discogs.com/release/28205623",
         "title": "Meteora",
         "artist": "Linkin Park",
         "label": "Warner Records, Machine Shop Recordings",
+        "catno": "093624853343, 093624853343",
         "year": 2023,
-        "image": "vinyls-cover/ODUtNjY5MS5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2023-09-08",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Nu Metal"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Foreword",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Don't Stay",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Somewhere I Belong",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Lying From You",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Hit The Floor",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "Easier To Run",
+                "duration": ""
+            },
+            {
+                "position": "A7",
+                "title": "Faint",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Figure.09",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Breaking The Habit",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "From The Inside",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Nobody's Listening",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Session",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "Numb",
+                "duration": ""
+            }
+        ],
+        "notes": "MADE IN ITALY",
+        "image": "vinyls-cover/ODUtNjY5MS5qcGVn.jpeg",
+        "date_added": "2024-11-29T05:46:45-08:00"
     },
     {
+        "release_id": 14820313,
+        "discogs_url": "https://www.discogs.com/release/14820313",
         "title": "Hybrid Theory",
         "artist": "Linkin Park",
         "label": "Warner Records, Machine Shop Recordings",
+        "catno": "093624941422, 093624941422",
         "year": 2020,
-        "image": "vinyls-cover/NjMtODQ3OS5wbmc.jpeg"
+        "country": "Europe",
+        "released": "2020",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Hip Hop",
+            "Rock"
+        ],
+        "styles": [
+            "Nu Metal",
+            "Alternative Rock",
+            "Hard Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Papercut",
+                "duration": "3:05"
+            },
+            {
+                "position": "A2",
+                "title": "One Step Closer",
+                "duration": "2:37"
+            },
+            {
+                "position": "A3",
+                "title": "With You",
+                "duration": "3:23"
+            },
+            {
+                "position": "A4",
+                "title": "Points Of Authority",
+                "duration": "3:20"
+            },
+            {
+                "position": "A5",
+                "title": "Crawling",
+                "duration": "3:29"
+            },
+            {
+                "position": "A6",
+                "title": "Runaway",
+                "duration": "3:04"
+            },
+            {
+                "position": "B1",
+                "title": "By Myself",
+                "duration": "3:10"
+            },
+            {
+                "position": "B2",
+                "title": "In The End",
+                "duration": "3:36"
+            },
+            {
+                "position": "B3",
+                "title": "A Place For My Head",
+                "duration": "3:05"
+            },
+            {
+                "position": "B4",
+                "title": "Forgotten",
+                "duration": "3:14"
+            },
+            {
+                "position": "B5",
+                "title": "Cure For The Itch",
+                "duration": "2:37"
+            },
+            {
+                "position": "B6",
+                "title": "Pushing Me Away",
+                "duration": "3:11"
+            }
+        ],
+        "notes": "Reissue with new [l134882] logo.\n\nOn back cover:\nWarner Records Inc., A Warner Music Group Company.\n© 2001 Warner Records Inc. ℗ 2000 Warner Records Inc. Made in Germany.\n\nOn labels:\n© 2001 Warner Records Inc.\n℗ 2000 Warner Records Inc.\nMade in Germany.\n\nOn lyrics sheet:\n© 2001 Warner Records Inc. Made In Germany.\n\nAdditional information:\nIncluding a printed lyrics sheet.\n\nRunout information:\n\"211\" of runout side B, variant 4 is mirrored.\nOn variant 7 side B, the \"9\" of the \"9=\" part is mirrored",
+        "image": "vinyls-cover/NjMtODQ3OS5wbmc.jpeg",
+        "date_added": "2023-12-03T04:43:26-08:00"
     },
     {
+        "release_id": 16098379,
+        "discogs_url": "https://www.discogs.com/release/16098379",
         "title": "Minutes To Midnight",
         "artist": "Linkin Park",
         "label": "Warner Records, Machine Shop Recordings",
+        "catno": "093624998105, 093624998105",
         "year": 2020,
-        "image": "vinyls-cover/MTgtNjkwNi5qcGVn.jpeg"
+        "country": "USA & Europe",
+        "released": "2020",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Wake",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Given Up",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Leave Out All The Rest",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Bleed It Out",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Shadow Of The Day",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "What I've Done",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Hands Held High",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "No More Sorrow",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Valentine's Day",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "In Between",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "In Pieces",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "The Little Things Give You Away",
+                "duration": ""
+            }
+        ],
+        "notes": "How to identify this version (Sealed):\n• Made in Germany\n• Unique catalog number for this version\n• New Warner logo\n\nRunouts are etched, besides BI28192 and everything behind, which is stamped. ",
+        "image": "vinyls-cover/MTgtNjkwNi5qcGVn.jpeg",
+        "date_added": "2024-12-14T04:32:22-08:00"
     },
     {
+        "release_id": 12619479,
+        "discogs_url": "https://www.discogs.com/release/12619479",
         "title": "Silent Alarm",
         "artist": "Bloc Party",
         "label": "Wichita, UMC",
+        "catno": "677 554-2, 677 554-2",
         "year": 2018,
-        "image": "vinyls-cover/MjItNDI3My5qcGVn.jpeg"
+        "country": "UK",
+        "released": "2018-10-05",
+        "formats": [
+            "Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Like Eating Glass",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "Helicopter ",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Positive Tension",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Banquet ",
+                "duration": ""
+            },
+            {
+                "position": "A5",
+                "title": "Blue Light",
+                "duration": ""
+            },
+            {
+                "position": "A6",
+                "title": "She’s Hearing Voices ",
+                "duration": ""
+            },
+            {
+                "position": "A7",
+                "title": "This Modern Love",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "The Pioneers",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "Price of Gasoline",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "So Here We Are",
+                "duration": ""
+            },
+            {
+                "position": "B4",
+                "title": "Luno",
+                "duration": ""
+            },
+            {
+                "position": "B5",
+                "title": "Plans",
+                "duration": ""
+            },
+            {
+                "position": "B6",
+                "title": "Compliments",
+                "duration": ""
+            }
+        ],
+        "notes": "A1 to A3, A5 to B5 recorded at Deltalab Studios, Copenhagen and Miloco, Hoxten, June and July, 2004. A4 and B6 recorded at The Exchange, London. Mixed at Avatar Studios, NYC.\n\nComes with printed inner sleeve containing photos and credits.\n\nPhotography by Paul Epworth except Russell and Copenhagen overhead by Matt Tong",
+        "image": "vinyls-cover/MjItNDI3My5qcGVn.jpeg",
+        "date_added": "2023-12-03T04:40:06-08:00"
     },
     {
+        "release_id": 21038209,
+        "discogs_url": "https://www.discogs.com/release/21038209",
         "title": "The Highlights",
         "artist": "The Weeknd",
         "label": "XO, Republic Records",
+        "catno": "00602435931975, 00602435931975",
         "year": 2021,
-        "image": "vinyls-cover/MjItMzczOC5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2021-11-19",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Compilation"
+        ],
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Disco",
+            "New Wave",
+            "Synthwave",
+            "Pop Rap",
+            "Dance-pop",
+            "Synth-pop"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Save Your Tears",
+                "duration": "3:36"
+            },
+            {
+                "position": "A2",
+                "title": "Blinding Lights",
+                "duration": "3:20"
+            },
+            {
+                "position": "A3",
+                "title": "In Your Eyes",
+                "duration": "3:58"
+            },
+            {
+                "position": "A4",
+                "title": "Can't Feel My Face",
+                "duration": "3:34"
+            },
+            {
+                "position": "A5",
+                "title": "I Feel It Coming",
+                "duration": "4:29"
+            },
+            {
+                "position": "B1",
+                "title": "Starboy",
+                "duration": "3:50"
+            },
+            {
+                "position": "B2",
+                "title": "Pray For Me",
+                "duration": "3:31"
+            },
+            {
+                "position": "B3",
+                "title": "Heartless",
+                "duration": "3:18"
+            },
+            {
+                "position": "B4",
+                "title": "Often",
+                "duration": "4:09"
+            },
+            {
+                "position": "B5",
+                "title": "The Hills",
+                "duration": "4:02"
+            },
+            {
+                "position": "C1",
+                "title": "Call Out My Name",
+                "duration": "3:48"
+            },
+            {
+                "position": "C2",
+                "title": "Die For You",
+                "duration": "4:20"
+            },
+            {
+                "position": "C3",
+                "title": "Earned It (Fifty Shades Of Grey)",
+                "duration": "4:38"
+            },
+            {
+                "position": "C4",
+                "title": "Love Me Harder",
+                "duration": "3:58"
+            },
+            {
+                "position": "D1",
+                "title": "Acquainted",
+                "duration": "5:49"
+            },
+            {
+                "position": "D2",
+                "title": "Wicked Games",
+                "duration": "5:24"
+            },
+            {
+                "position": "D3",
+                "title": "The Morning",
+                "duration": "5:13"
+            },
+            {
+                "position": "D4",
+                "title": "After Hours",
+                "duration": "6:01"
+            }
+        ],
+        "notes": "Universal International Music B.V. 's-Gravelandseweg 80, 1217 EW Hilversum, Netherlands.\n\nMade in the EU\n\nGatefold sleeve",
+        "image": "vinyls-cover/MjItMzczOC5qcGVn.jpeg",
+        "date_added": "2024-07-15T03:28:07-07:00"
     },
     {
+        "release_id": 16438605,
+        "discogs_url": "https://www.discogs.com/release/16438605",
         "title": "Welcome To The Pleasuredome",
         "artist": "Frankie Goes To Hollywood",
         "label": "ZTT, UMC",
+        "catno": "ZTDS30, 8242205",
         "year": 2020,
-        "image": "vinyls-cover/MTQtOTA3Ny5qcGVn.jpeg"
+        "country": "Europe",
+        "released": "2020-12-11",
+        "formats": [
+            "2 x Vinyl",
+            "LP",
+            "Album",
+            "Reissue"
+        ],
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Synth-pop",
+            "Pop Rock"
+        ],
+        "rating": 0,
+        "tracklist": [
+            {
+                "position": "A1",
+                "title": "Well...",
+                "duration": ""
+            },
+            {
+                "position": "A2",
+                "title": "The World Is My Oyster",
+                "duration": ""
+            },
+            {
+                "position": "A3",
+                "title": "Snatch Of Fury (Stay)",
+                "duration": ""
+            },
+            {
+                "position": "A4",
+                "title": "Welcome To The Pleasuredome",
+                "duration": ""
+            },
+            {
+                "position": "B1",
+                "title": "Relax (Come Fighting)",
+                "duration": ""
+            },
+            {
+                "position": "B2",
+                "title": "War (...And Hide)",
+                "duration": ""
+            },
+            {
+                "position": "B3",
+                "title": "Two Tribes (For The Victims Of Ravishment)",
+                "duration": ""
+            },
+            {
+                "position": "C1",
+                "title": "Ferry (Go)",
+                "duration": ""
+            },
+            {
+                "position": "C2",
+                "title": "Born To Run",
+                "duration": ""
+            },
+            {
+                "position": "C3",
+                "title": "San Jose (The Way)",
+                "duration": ""
+            },
+            {
+                "position": "C4",
+                "title": "Wish (The Lads Were Here)",
+                "duration": ""
+            },
+            {
+                "position": "C5",
+                "title": "Including The Ballad Of 32",
+                "duration": ""
+            },
+            {
+                "position": "D1",
+                "title": "Krisko Kisses",
+                "duration": ""
+            },
+            {
+                "position": "D2",
+                "title": "Black Night White Light",
+                "duration": ""
+            },
+            {
+                "position": "D3",
+                "title": "The Only Star In Heaven",
+                "duration": ""
+            },
+            {
+                "position": "D4",
+                "title": "The Power Of Love",
+                "duration": ""
+            },
+            {
+                "position": "D5",
+                "title": "Bang...",
+                "duration": ""
+            }
+        ],
+        "notes": "Gatefold sleeve.\n℗ 1984 ZTT Records Ltd. © 2020 ZTT Records Ltd.\nMade in the Czech Republic.\nPleasuredome's precious LP edition is Number 30 in a series of definitions of Zang Tuum Tumb. ZTDS30.",
+        "image": "vinyls-cover/MTQtOTA3Ny5qcGVn.jpeg",
+        "date_added": "2024-01-02T04:06:51-08:00"
     }
 ]

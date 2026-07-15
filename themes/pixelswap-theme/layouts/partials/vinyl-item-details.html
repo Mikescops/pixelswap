@@ -1,0 +1,161 @@
+{{- $vinyl := .vinyl -}}
+{{- $source := .source | default "collection" -}}
+{{- $discogsUrl := .discogsUrl -}}
+{{- $variant := .variant | default "list" -}}
+
+{{- if eq $variant "hover" -}}
+    <div class="vinyl-item__hover-heading">
+        <h3 class="vinyl-item__title">{{ $vinyl.title }}</h3>
+        {{- if eq $source "wishlist" -}}
+            <span class="vinyl-item__badge vinyl-item__badge--inline">Wishlist</span>
+        {{- end -}}
+    </div>
+    <p class="vinyl-item__artist">{{ $vinyl.artist }}</p>
+
+    <div class="vinyl-item__hover-body">
+        <div class="vinyl-item__hover-main">
+            <dl class="vinyl-item__meta">
+                {{- if $vinyl.label -}}
+                    <div class="vinyl-item__meta-row">
+                        <dt>Label</dt>
+                        <dd>{{ $vinyl.label }}</dd>
+                    </div>
+                {{- end -}}
+                {{- if gt $vinyl.year 0 -}}
+                    <div class="vinyl-item__meta-row">
+                        <dt>Year</dt>
+                        <dd>{{ $vinyl.year }}</dd>
+                    </div>
+                {{- end -}}
+                {{- with $vinyl.country -}}
+                    <div class="vinyl-item__meta-row">
+                        <dt>Country</dt>
+                        <dd>{{ . }}</dd>
+                    </div>
+                {{- end -}}
+                {{- with $vinyl.formats -}}
+                    <div class="vinyl-item__meta-row">
+                        <dt>Format</dt>
+                        <dd>{{ delimit . ", " }}</dd>
+                    </div>
+                {{- end -}}
+                {{- with $vinyl.genres -}}
+                    <div class="vinyl-item__meta-row">
+                        <dt>Genre</dt>
+                        <dd>{{ delimit . ", " }}</dd>
+                    </div>
+                {{- end -}}
+                {{- with $vinyl.styles -}}
+                    <div class="vinyl-item__meta-row">
+                        <dt>Style</dt>
+                        <dd>{{ delimit . ", " }}</dd>
+                    </div>
+                {{- end -}}
+                {{- if and (gt $vinyl.rating 0) (eq $source "wishlist") -}}
+                    <div class="vinyl-item__meta-row">
+                        <dt>Rating</dt>
+                        <dd>{{ $vinyl.rating }}/5</dd>
+                    </div>
+                {{- end -}}
+            </dl>
+
+            {{- with $vinyl.wishlist_notes -}}
+                <p class="vinyl-item__wishlist-notes">{{ . }}</p>
+            {{- end -}}
+
+            {{- with $discogsUrl -}}
+                <a
+                    href="{{ . }}"
+                    class="vinyl-item__discogs vinyl-item__discogs--block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="More info on Discogs"
+                >
+                    More info
+                </a>
+            {{- end -}}
+        </div>
+
+        {{- with $vinyl.tracklist -}}
+            {{- if gt (len .) 0 -}}
+                <div class="vinyl-item__hover-tracks">
+                    <p class="vinyl-item__tracks-heading">Tracklist</p>
+                    <ol class="vinyl-item__tracklist vinyl-item__tracklist--compact">
+                        {{- range . -}}
+                            <li>
+                                {{- with .position -}}<span class="vinyl-item__track-position">{{ . }}</span>{{- end -}}
+                                <span class="vinyl-item__track-title">{{ .title }}</span>
+                            </li>
+                        {{- end -}}
+                    </ol>
+                </div>
+            {{- end -}}
+        {{- end -}}
+    </div>
+{{- else -}}
+    <dl class="vinyl-item__meta">
+        {{- if $vinyl.label -}}
+            <div class="vinyl-item__meta-row">
+                <dt>Label</dt>
+                <dd>{{ $vinyl.label }}</dd>
+            </div>
+        {{- end -}}
+        {{- if gt $vinyl.year 0 -}}
+            <div class="vinyl-item__meta-row">
+                <dt>Year</dt>
+                <dd>{{ $vinyl.year }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $vinyl.country -}}
+            <div class="vinyl-item__meta-row">
+                <dt>Country</dt>
+                <dd>{{ . }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $vinyl.formats -}}
+            <div class="vinyl-item__meta-row">
+                <dt>Format</dt>
+                <dd>{{ delimit . ", " }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $vinyl.genres -}}
+            <div class="vinyl-item__meta-row">
+                <dt>Genre</dt>
+                <dd>{{ delimit . ", " }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $vinyl.styles -}}
+            <div class="vinyl-item__meta-row">
+                <dt>Style</dt>
+                <dd>{{ delimit . ", " }}</dd>
+            </div>
+        {{- end -}}
+        {{- if and (gt $vinyl.rating 0) (eq $source "wishlist") -}}
+            <div class="vinyl-item__meta-row">
+                <dt>Rating</dt>
+                <dd>{{ $vinyl.rating }}/5</dd>
+            </div>
+        {{- end -}}
+    </dl>
+
+    {{- with $vinyl.wishlist_notes -}}
+        <p class="vinyl-item__wishlist-notes">{{ . }}</p>
+    {{- end -}}
+
+    {{- with $vinyl.tracklist -}}
+        {{- if gt (len .) 0 -}}
+            <details class="vinyl-item__tracks">
+                <summary>Tracklist ({{ len . }})</summary>
+                <ol class="vinyl-item__tracklist">
+                    {{- range . -}}
+                        <li>
+                            {{- with .position -}}<span class="vinyl-item__track-position">{{ . }}</span>{{- end -}}
+                            <span class="vinyl-item__track-title">{{ .title }}</span>
+                            {{- with .duration -}}<span class="vinyl-item__track-duration">{{ . }}</span>{{- end -}}
+                        </li>
+                    {{- end -}}
+                </ol>
+            </details>
+        {{- end -}}
+    {{- end -}}
+{{- end -}}

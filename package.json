@@ -4,11 +4,19 @@
   "description": "Helper Node Module",
   "main": "index.js",
   "scripts": {
+    "build": "hugo --minify && pagefind --site public",
+    "serve": "hugo serve --disableFastRender",
+    "preview": "npm run build && npx serve public",
+    "pagefind": "pagefind --site public",
+    "sync-vinyls": "node get-vinyls.js",
+    "sync-vinyls:fast": "node get-vinyls.js --skip-details",
+    "sync-vinyls:force": "node get-vinyls.js --force-details",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "pagefind": "^1.4.0",
     "prettier": "^3.1.1",
     "prettier-plugin-go-template": "^0.0.15"
   },

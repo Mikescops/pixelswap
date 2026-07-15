@@ -1,83 +1,110 @@
-@media (prefers-color-scheme: dark) {
-    .app {
-        --initial-light-theme: ;
-        --initial-dark-theme: initial;
-        --current-light-theme: ;
-        --current-dark-theme: initial;
-    }
+html[data-theme='light'] .app {
+    --current-light-theme: initial;
+    --current-dark-theme: ;
+}
 
-    .switch-dark {
-        display: none;
-    }
+html[data-theme='dark'] .app {
+    --current-light-theme: ;
+    --current-dark-theme: initial;
 }
 
 @media (prefers-color-scheme: light) {
-    .app {
-        --initial-light-theme: initial;
-        --initial-dark-theme: ;
+    html:not([data-theme]) .app {
         --current-light-theme: initial;
         --current-dark-theme: ;
     }
+}
 
-    .switch-light {
-        display: none;
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme]) .app {
+        --current-light-theme: ;
+        --current-dark-theme: initial;
     }
-}
-
-#switch-light[type='checkbox']:checked ~ .app {
-    --current-dark-theme: var(--initial-light-theme, initial);
-    --current-light-theme: initial;
-}
-
-#switch-dark[type='checkbox']:checked ~ .app {
-    --current-dark-theme: initial;
-    --current-light-theme: var(--initial-dark-theme, initial);
-}
-
-#switch-light[type='checkbox'],
-#switch-dark[type='checkbox'] {
-    display: none;
 }
 
 @function darkMode($lightValue, $darkValue) {
     @return var(--current-light-theme, #{$lightValue}) var(--current-dark-theme, #{$darkValue});
 }
 
-.dark-mode-switcher {
-    position: absolute;
-    top: 20px;
-    right: 30px;
+.theme-toggle {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
     z-index: 9999;
-    cursor: pointer;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: none;
-    text-align: center;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0.2rem;
+    border-radius: 999px;
+    border: 1px solid darkMode(rgba(23, 43, 77, 0.12), rgba(255, 255, 255, 0.14));
+    background: darkMode(rgba(255, 255, 255, 0.82), rgba(29, 33, 37, 0.88));
+    backdrop-filter: blur(10px);
+    box-shadow: darkMode(0 2px 10px rgba(23, 43, 77, 0.08), 0 2px 12px rgba(0, 0, 0, 0.35));
 
-    background: darkMode(#ddd, #333);
-    color: darkMode($light-text-color, $dark-text-color);
+    &--embedded {
+        position: static;
+        top: auto;
+        right: auto;
+        z-index: auto;
+        flex-shrink: 0;
+        padding: 0.18rem;
+        border: 1px solid darkMode(rgba(23, 43, 77, 0.1), rgba(255, 255, 255, 0.12));
+        background: darkMode(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.06));
+        box-shadow: darkMode(0 1px 4px rgba(23, 43, 77, 0.06), none);
+        backdrop-filter: blur(8px);
 
-    &:hover {
-        background: darkMode(#ccc, #555);
+        .theme-toggle__btn {
+            width: 2rem;
+            height: 2rem;
+
+            svg {
+                width: 0.9rem;
+                height: 0.9rem;
+            }
+        }
     }
+}
+
+.theme-toggle__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    padding: 0;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: darkMode(rgba(23, 43, 77, 0.45), rgba(255, 255, 255, 0.45));
+    cursor: pointer;
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.15s ease;
 
     svg {
-        margin: 8px auto;
-        height: 18px;
+        width: 0.95rem;
+        height: 0.95rem;
+    }
+
+    &:hover {
+        color: darkMode(rgba(23, 43, 77, 0.85), rgba(255, 255, 255, 0.85));
+    }
+
+    &.is-active {
+        background: darkMode(rgba(23, 43, 77, 0.1), rgba(255, 255, 255, 0.14));
+        color: darkMode($light-text-color, #fff);
+    }
+
+    &:focus-visible {
+        outline: 2px solid $color-blue;
+        outline-offset: 2px;
     }
 }
 
-.switch-dark .dark-icon,
-.switch-light .light-icon {
-    display: darkMode(block, none);
-}
-
-.switch-dark .light-icon,
-.switch-light .dark-icon {
-    display: darkMode(none, block);
+@media (max-width: 540px) {
+    .theme-toggle:not(.theme-toggle--embedded) {
+        top: 0.85rem;
+        right: 0.85rem;
+    }
 }

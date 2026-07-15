@@ -1,0 +1,14 @@
+{{- $class := "theme-toggle" -}}
+{{- if reflect.IsMap . -}}
+    {{- with .class -}}
+        {{- $class = printf "theme-toggle %s" . -}}
+    {{- end -}}
+{{- end -}}
+<div class="{{ $class }}" role="group" aria-label="Color theme">
+    <button type="button" class="theme-toggle__btn" data-theme="light" aria-label="Light mode" aria-pressed="false">
+        <i class="icon">{{ partial "icons/sun-solid.svg" . }}</i>
+    </button>
+    <button type="button" class="theme-toggle__btn" data-theme="dark" aria-label="Dark mode" aria-pressed="false">
+        <i class="icon">{{ partial "icons/moon-solid.svg" . }}</i>
+    </button>
+</div>

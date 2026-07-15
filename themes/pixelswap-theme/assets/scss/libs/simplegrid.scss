@@ -16,6 +16,10 @@ body {
     font-size: 100%;
 }
 
+body {
+    overflow-x: clip;
+}
+
 /* TYPOGRAPHY */
 
 h1 {

@@ -1,0 +1,23 @@
+<a href="{{ .RelPermalink }}" class="post-suggestion{{ if not (and (isset .Params "image") (.Resources.GetMatch .Params.image)) }} post-suggestion--no-cover{{ end }}" title="{{ .LinkTitle }}">
+    {{- if isset .Params "image" -}}
+        {{- $image := .Resources.GetMatch .Params.image -}}
+        {{- if $image -}}
+            {{- $thumb := $image.Fill "400x240 Center webp q85" -}}
+            <span class="post-suggestion__cover">
+                <img src="{{ $thumb.RelPermalink }}" alt="" loading="lazy" decoding="async" />
+            </span>
+        {{- end -}}
+    {{- end -}}
+    <span class="post-suggestion__body">
+        {{- $itemLang := partial "get-post-lang.html" . -}}
+        {{- $monthsFr := dict "1" "janvier" "2" "février" "3" "mars" "4" "avril" "5" "mai" "6" "juin" "7" "juillet" "8" "août" "9" "septembre" "10" "octobre" "11" "novembre" "12" "décembre" -}}
+        <time class="post-suggestion__date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{- if eq $itemLang "fr" -}}
+                {{ .Date.Format "2" }} {{ index $monthsFr (.Date.Format "1") }} {{ .Date.Format "2006" }}
+            {{- else -}}
+                {{ .Date.Format "January 2, 2006" }}
+            {{- end -}}
+        </time>
+        <span class="post-suggestion__title">{{ .LinkTitle }}</span>
+    </span>
+</a>

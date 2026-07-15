@@ -1,28 +1,28 @@
-<div class="item">
-    {{- $itemLang := lower (.Params.post_lang | default (.Params.lang | default (substr .Lang 0 2))) -}}
+<article class="item{{ if .Scratch.Get "featured" }} item--featured{{ end }}">
+    {{- $itemLang := partial "get-post-lang.html" . -}}
     {{- $readMore := cond (eq $itemLang "fr") "Lire l'article" "Read more" -}}
-    <div class="item-image">
+    {{- $monthsFr := dict "1" "janvier" "2" "février" "3" "mars" "4" "avril" "5" "mai" "6" "juin" "7" "juillet" "8" "août" "9" "septembre" "10" "octobre" "11" "novembre" "12" "décembre" -}}
     {{- if isset .Params "image" -}}
         {{- $image := .Resources.GetMatch .Params.image -}}
         {{- if $image -}}
-            {{- $image_webp := $image.Fill "500x250 Center webp q100" -}}
-            <a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">
-                <img src="{{ $image_webp.RelPermalink }}" alt="{{ .LinkTitle }}" loading="lazy" decoding="async">
+            {{- $image_webp := $image.Fill "800x400 Center webp q100" -}}
+            <a href="{{ .RelPermalink }}" class="item-cover" title="{{ .LinkTitle }}">
+                <img src="{{ $image_webp.RelPermalink }}" alt="" loading="lazy" decoding="async">
             </a>
         {{- end -}}
     {{- end -}}
-    </div>
-    <div class="item-content-inner">
+    <div class="item-body">
+        <time class="item-date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{- if eq $itemLang "fr" -}}
+                {{ .Date.Format "2" }} {{ index $monthsFr (.Date.Format "1") }} {{ .Date.Format "2006" }}
+            {{- else -}}
+                {{ .Date.Format "January 2, 2006" }}
+            {{- end -}}
+        </time>
         <a href="{{ .RelPermalink }}" class="item-title" title="{{ .LinkTitle }}">
             <h2>{{ .LinkTitle }}</h2>
         </a>
-        <div class="item-content">
-            <p class="item-description">{{ .Summary | plainify }}</p>
-            <div class="item-add-content-inner">
-                <div class="section">
-                    <a href="{{ .RelPermalink }}" class="button-outline" title="{{ .LinkTitle }}">{{ $readMore }}</a>
-                </div>
-            </div>
-        </div>
+        <p class="item-description">{{ .Summary | plainify }}</p>
+        <a href="{{ .RelPermalink }}" class="button-outline" title="{{ .LinkTitle }}">{{ $readMore }}</a>
     </div>
-</div>
+</article>

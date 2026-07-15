@@ -2,34 +2,73 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="home-title">
-                    <h1>Blog</h1>
-                    <h3>
-                        by
-                        <a href="https://dev.pixelswap.fr/">Corentin Mors</a>
-                    </h3>
+                <header class="home-title">
+                    <h1>
+                        <span class="home-heading-brand" aria-hidden="true">Blog</span>
+                        <span class="home-heading-name">Corentin Mors</span>
+                    </h1>
+                    <p class="home-subtitle">Dev, infra &amp; creation — in English &amp; French</p>
+                    {{ partial "home-links.html" . }}
+                </header>
+
+                <div class="posts-toolbar">
+                    <div class="posts-search">
+                        <label class="posts-search__label" for="posts-search-input">Search posts</label>
+                        <span class="posts-search__icon" aria-hidden="true">
+                            <i class="icon">{{ partial "icons/magnifying-glass-solid.svg" . }}</i>
+                        </span>
+                        <input
+                            type="search"
+                            id="posts-search-input"
+                            class="posts-search__input"
+                            placeholder="Search by title, summary, or tag…"
+                            autocomplete="off"
+                            spellcheck="false"
+                        />
+                    </div>
+                    <div class="posts-lang-filter" role="group" aria-label="Filter by language">
+                        <button type="button" class="posts-lang-filter__btn is-active" data-lang="all" aria-pressed="true">All</button>
+                        <button type="button" class="posts-lang-filter__btn" data-lang="en" aria-pressed="false">EN</button>
+                        <button type="button" class="posts-lang-filter__btn" data-lang="fr" aria-pressed="false">FR</button>
+                    </div>
                 </div>
 
-                <div class="tag-links">
-                    <a href="https://dev.pixelswap.fr/"><i class="icon">{{ partial "icons/folder-tree-solid.svg" . }}</i> All my projects</a>
-                    <a href="https://me.pixelswap.fr/"><i class="icon">{{ partial "icons/user-solid.svg" . }}</i> Who am I?</a>
-                    <a href="/vinyls"><i class="icon">{{ partial "icons/record-vinyl-solid.svg" . }}</i> My vinyls</a>
-                    <a href="https://www.threads.net/@corentin.mrs" target="_blank"
-                        ><i class="icon">{{ partial "icons/threads-brands-solid.svg" . }}</i> Follow me on Threads</a
-                    >
-                    <a href="https://bsky.app/profile/corentin.mors.dev" target="_blank"
-                        ><i class="icon">{{ partial "icons/bluesky-brands-solid.svg" . }}</i> Follow me on Bluesky</a
-                    >
+                <p class="posts-status" id="posts-status" aria-live="polite" hidden></p>
+
+                {{- $allPosts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse -}}
+                {{- $paginator := .Paginate $allPosts 12 -}}
+                {{- $pageNum := $paginator.PageNumber -}}
+                {{- $pagePosts := slice -}}
+                {{- if eq $pageNum 1 -}}
+                    {{- $pagePosts = first 13 $allPosts -}}
+                {{- else -}}
+                    {{- $offset := add 13 (mul (sub $pageNum 2) 12) -}}
+                    {{- $pagePosts = after $offset $allPosts | first 12 -}}
+                {{- end -}}
+                {{- $totalPages := 1 -}}
+                {{- if gt (sub (len $allPosts) 13) 0 -}}
+                    {{- $totalPages = add 1 (div (add (sub (len $allPosts) 13) 11) 12) -}}
+                {{- end -}}
+
+                {{- if and (eq $pageNum 1) (gt (len $pagePosts) 0) -}}
+                    {{- $featured := index $pagePosts 0 -}}
+                    {{- $featured.Scratch.Set "featured" true -}}
+                    <div class="items-list items-list--featured" id="posts-featured" data-pagefind-ignore>
+                        {{ $featured.Render "item" }}
+                    </div>
+                {{- end -}}
+
+                <div class="items-list" id="posts-list" data-pagefind-ignore>
+                    {{ range $index, $page := $pagePosts }}
+                        {{- if and (eq $pageNum 1) (eq $index 0) -}}
+                            {{- continue -}}
+                        {{- end -}}
+                        {{ $page.Render "item" }}
+                    {{ end }}
                 </div>
 
-                <div class="items-list">
-                    {{ range (.Paginator 12).Pages }}{{ .Render "item" }}{{ end }}
-                </div>
-
-                <br />
-
-                <div style="width: 100%">
-                    <div class="section">{{ template "partials/pagination.html" . }}</div>
+                <div class="posts-pagination" id="posts-pagination">
+                    {{ partial "home-pagination.html" (dict "page" . "totalPages" $totalPages) }}
                 </div>
             </div>
         </div>

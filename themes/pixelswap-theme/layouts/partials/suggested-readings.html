@@ -1,0 +1,33 @@
+{{- $page := . -}}
+{{- $postLang := partial "get-post-lang.html" $page -}}
+{{- $heading := cond (eq $postLang "fr") "À lire aussi" "Suggested reading" -}}
+{{- $limit := 3 -}}
+{{- $pickedPermalinks := slice $page.RelPermalink -}}
+{{- $suggestions := slice -}}
+
+{{- range $page.Site.RegularPages.Related $page | first 12 -}}
+    {{- if and (lt (len $suggestions) $limit) (eq (partial "get-post-lang.html" .) $postLang) (not (in $pickedPermalinks .RelPermalink)) -}}
+        {{- $suggestions = $suggestions | append . -}}
+        {{- $pickedPermalinks = $pickedPermalinks | append .RelPermalink -}}
+    {{- end -}}
+{{- end -}}
+
+{{- if lt (len $suggestions) $limit -}}
+    {{- range (where site.RegularPages "Section" "posts").ByDate.Reverse -}}
+        {{- if and (lt (len $suggestions) $limit) (eq (partial "get-post-lang.html" .) $postLang) (not (in $pickedPermalinks .RelPermalink)) -}}
+            {{- $suggestions = $suggestions | append . -}}
+            {{- $pickedPermalinks = $pickedPermalinks | append .RelPermalink -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- if gt (len $suggestions) 0 -}}
+    <section class="post-suggestions" aria-label="{{ $heading }}" data-pagefind-ignore>
+        <h2 class="post-suggestions__title">{{ $heading }}</h2>
+        <div class="post-suggestions__list">
+            {{- range $suggestions -}}
+                {{ partial "suggested-reading-item.html" . }}
+            {{- end -}}
+        </div>
+    </section>
+{{- end -}}

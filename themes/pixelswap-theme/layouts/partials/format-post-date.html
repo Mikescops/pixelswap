@@ -1,0 +1,10 @@
+{{- $page := . -}}
+{{- $lang := partial "get-post-lang.html" $page -}}
+{{- $monthsFr := dict "1" "janvier" "2" "février" "3" "mars" "4" "avril" "5" "mai" "6" "juin" "7" "juillet" "8" "août" "9" "septembre" "10" "octobre" "11" "novembre" "12" "décembre" -}}
+<time datetime="{{ $page.Date.Format "2006-01-02" }}">
+    {{- if eq $lang "fr" -}}
+        {{ $page.Date.Format "2" }} {{ index $monthsFr ($page.Date.Format "1") }} {{ $page.Date.Format "2006" }}
+    {{- else -}}
+        {{ $page.Date.Format "January 2, 2006" }}
+    {{- end -}}
+</time>

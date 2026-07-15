@@ -1,0 +1,14 @@
+{{- $lang := lower (or .Params.post_lang .Params.lang "") -}}
+{{- if not $lang -}}
+    {{- $title := .Title -}}
+    {{- if findRE `[éèêëàâäùûüôîïçœæÉÈÊËÀÂÄÙÛÜÔÎÏÇŒÆ]` $title -}}
+        {{- $lang = "fr" -}}
+    {{- else if findRE `(?i)\b(j'|l'|d'|n'|qu'|c'|j'ai)\b` $title -}}
+        {{- $lang = "fr" -}}
+    {{- else if findRE `(?i)^(\[tuto\]|\[dossier\]|\[top5\]|\[concours\]|\[infographie\]|\[wtf\]|comment |mon |mes |une |le |la |création|creation |récap|recap'|billet |détecter|decouvrez|configurer|installer|générer|generer|partager |set-up pour|erupsis|mysetup|onmap |ingenieur |combien |tout savoir|python :|koken |pen\.io|foundation 5|html5 up|pixelswap studio|will it blend|apex :|a la découverte|#edito)` $title -}}
+        {{- $lang = "fr" -}}
+    {{- else -}}
+        {{- $lang = "en" -}}
+    {{- end -}}
+{{- end -}}
+{{- return $lang -}}

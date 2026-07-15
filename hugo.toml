@@ -73,3 +73,17 @@ term = ['html']
     noClasses = false
     noHl = false
     tabWidth = 4
+
+[related]
+  includeNewer = true
+  includeOlder = true
+  threshold = 20
+  toLower = true
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10

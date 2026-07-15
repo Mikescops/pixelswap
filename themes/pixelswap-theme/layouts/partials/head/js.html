@@ -1,3 +1,6 @@
 {{- $global := resources.Get "js/index.js" }}
-{{- $js := slice $global | resources.Concat "js/bundle.js" }}
+{{- $postsFilter := resources.Get "js/posts-filter.js" }}
+{{- $postReading := resources.Get "js/post-reading.js" }}
+{{- $vinylFilter := resources.Get "js/vinyl-filter.js" }}
+{{- $js := slice $global $postsFilter $postReading $vinylFilter | resources.Concat "js/bundle.js" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{- $js.Data.Integrity }}" crossorigin="anonymous" async></script>

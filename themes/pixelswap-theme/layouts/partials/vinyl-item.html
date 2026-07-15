@@ -1,0 +1,120 @@
+{{- $vinyl := .vinyl -}}
+{{- $index := .index -}}
+{{- $source := .source | default "collection" -}}
+{{- $asset := "" -}}
+{{- with $vinyl.image -}}
+    {{- with resources.Get . -}}
+        {{- $asset = . -}}
+    {{- end -}}
+{{- end -}}
+{{- $gridImage := "" -}}
+{{- $listImage := "" -}}
+{{- if $asset -}}
+    {{- $gridImage = ($asset.Fill "250x250 Center webp q85").RelPermalink -}}
+    {{- $listImage = ($asset.Fill "96x96 Center webp q85").RelPermalink -}}
+{{- end -}}
+{{- $discogsUrl := index $vinyl "discogs_url" -}}
+{{- if not $discogsUrl -}}
+    {{- with index $vinyl "release_id" -}}
+        {{- $discogsUrl = printf "https://www.discogs.com/release/%v" . -}}
+    {{- else -}}
+        {{- with index $vinyl "id" -}}
+            {{- $discogsUrl = printf "https://www.discogs.com/release/%v" . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- $searchParts := slice $vinyl.title $vinyl.artist $vinyl.label -}}
+{{- with $vinyl.country -}}
+    {{- $searchParts = $searchParts | append . -}}
+{{- end -}}
+{{- with $vinyl.genres -}}
+    {{- $searchParts = $searchParts | append (delimit . " ") -}}
+{{- end -}}
+{{- with $vinyl.styles -}}
+    {{- $searchParts = $searchParts | append (delimit . " ") -}}
+{{- end -}}
+{{- with $vinyl.formats -}}
+    {{- $searchParts = $searchParts | append (delimit . " ") -}}
+{{- end -}}
+{{- if gt $vinyl.year 0 -}}
+    {{- $searchParts = $searchParts | append (string $vinyl.year) -}}
+{{- end -}}
+{{- with $vinyl.wishlist_notes -}}
+    {{- $searchParts = $searchParts | append . -}}
+{{- end -}}
+{{- $searchText := delimit $searchParts " " | lower -}}
+{{- $detailsCtx := dict "vinyl" $vinyl "source" $source "discogsUrl" $discogsUrl -}}
+<article
+    class="vinyl-item{{ if eq $source "wishlist" }} vinyl-item--wishlist{{ end }}"
+    data-search="{{ $searchText }}"
+    data-source="{{ $source }}"
+    aria-label="{{ $vinyl.title }} by {{ $vinyl.artist }}"
+>
+    <div class="vinyl-item__grid">
+        <div class="vinyl-item__disc-wrap">
+            {{- if $asset -}}
+                <div
+                    class="vinyl-item__disc"
+                    style="background-image: url('{{ $gridImage }}')"
+                    role="img"
+                    aria-label="{{ $vinyl.title }} cover"
+                ></div>
+            {{- else -}}
+                <div class="vinyl-item__disc vinyl-item__disc--placeholder" role="img" aria-label="{{ $vinyl.title }} cover"></div>
+            {{- end -}}
+            {{- if eq $source "wishlist" -}}
+                <span class="vinyl-item__badge">Wishlist</span>
+            {{- end -}}
+            <svg class="vinyl-item__arc-title" viewBox="0 0 100 100" width="250" height="250" aria-hidden="true">
+                <defs>
+                    <path
+                        id="vinyl-arc-{{ $index }}"
+                        d="
+                            M 45, 45
+                            m -37, 5
+                            a 37,37 0 1,1 84,0
+                            a 37,37 0 1,1 -84,0"
+                    />
+                </defs>
+                <text font-size="8">
+                    <textPath xlink:href="#vinyl-arc-{{ $index }}">{{ $vinyl.title }} - {{ $vinyl.artist }}</textPath>
+                </text>
+            </svg>
+        </div>
+
+        <div class="vinyl-item__hover-card">
+            {{ partial "vinyl-item-details.html" (merge $detailsCtx (dict "variant" "hover")) }}
+        </div>
+    </div>
+
+    <div class="vinyl-item__list">
+        <div class="vinyl-item__list-cover">
+            {{- if $asset -}}
+                <img src="{{ $listImage }}" alt="" loading="lazy" decoding="async" width="96" height="96" />
+            {{- else -}}
+                <div class="vinyl-item__list-cover-placeholder" aria-hidden="true"></div>
+            {{- end -}}
+        </div>
+        <div class="vinyl-item__list-body">
+            <div class="vinyl-item__list-heading">
+                <h2 class="vinyl-item__title">{{ $vinyl.title }}</h2>
+                {{- if eq $source "wishlist" -}}
+                    <span class="vinyl-item__badge vinyl-item__badge--inline">Wishlist</span>
+                {{- end -}}
+            </div>
+            <p class="vinyl-item__artist">{{ $vinyl.artist }}</p>
+            {{ partial "vinyl-item-details.html" (merge $detailsCtx (dict "variant" "list")) }}
+        </div>
+        {{- with $discogsUrl -}}
+            <a
+                href="{{ . }}"
+                class="vinyl-item__discogs vinyl-item__discogs--list"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="More info on Discogs"
+            >
+                More info
+            </a>
+        {{- end -}}
+    </div>
+</article>
