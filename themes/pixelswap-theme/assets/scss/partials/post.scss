@@ -295,6 +295,24 @@
         overflow-x: auto;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
+        // iOS otherwise boosts some Chroma tokens (esp. bold) to different sizes.
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+
+        pre,
+        code,
+        .chroma,
+        .chroma span {
+            font-size: inherit;
+            line-height: inherit;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+
+        pre {
+            font-size: 14px !important;
+            margin: 0;
+        }
 
         @media all and (max-width: 618px) {
             left: auto;

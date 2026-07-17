@@ -65,6 +65,17 @@ pre {
     color: #c5c8c6;
     padding: 1.5em;
     font-size: 14px !important;
+    // Prevent iOS Safari from randomly upsizing some code tokens on mobile.
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+
+    code,
+    span {
+        font-size: inherit;
+        line-height: inherit;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
 }
 
 p code, ul code, ol code {

@@ -119,6 +119,7 @@ function initBookFilter() {
     }
 
     function applyFilters() {
+        closeOpenBookDetails();
         const query = searchInput.value.trim().toLowerCase();
         let visibleCount = 0;
 
@@ -156,6 +157,71 @@ function initBookFilter() {
         }
     }
 
+    function closeOpenBookDetails() {
+        items.forEach((item) => {
+            if (!item.classList.contains('is-open')) {
+                return;
+            }
+            item.classList.remove('is-open');
+            const trigger = item.querySelector('.book-item__cover-wrap');
+            if (trigger) {
+                trigger.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
+
+    function initTouchBookDetails() {
+        const canHover = window.matchMedia('(hover: hover)').matches;
+        if (canHover) {
+            return;
+        }
+
+        items.forEach((item) => {
+            const cover = item.querySelector('.book-item__cover-wrap');
+            const card = item.querySelector('.book-item__hover-card');
+            if (!cover || !card) {
+                return;
+            }
+
+            cover.setAttribute('role', 'button');
+            cover.setAttribute('tabindex', '0');
+            cover.setAttribute('aria-expanded', 'false');
+            cover.setAttribute('aria-label', `Show details for ${item.getAttribute('aria-label') || 'book'}`);
+
+            const toggle = (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+                const willOpen = !item.classList.contains('is-open');
+                closeOpenBookDetails();
+                if (willOpen) {
+                    item.classList.add('is-open');
+                    cover.setAttribute('aria-expanded', 'true');
+                    item.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+                }
+            };
+
+            cover.addEventListener('click', toggle);
+            cover.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    toggle(event);
+                }
+            });
+        });
+
+        document.addEventListener('click', (event) => {
+            if (event.target.closest('.book-item.is-open')) {
+                return;
+            }
+            closeOpenBookDetails();
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                closeOpenBookDetails();
+            }
+        });
+    }
+
     const debouncedFilter = debounceBooks(applyFilters, 150);
 
     searchInput.addEventListener('input', debouncedFilter);
@@ -163,6 +229,7 @@ function initBookFilter() {
 
     viewButtons.forEach((button) => {
         button.addEventListener('click', () => {
+            closeOpenBookDetails();
             setView(button.dataset.view || 'grid');
         });
     });
@@ -173,6 +240,7 @@ function initBookFilter() {
         }
 
         button.addEventListener('click', () => {
+            closeOpenBookDetails();
             setSource(button.dataset.source || 'collection');
         });
     });
@@ -183,9 +251,12 @@ function initBookFilter() {
         }
 
         button.addEventListener('click', () => {
+            closeOpenBookDetails();
             setRead(button.dataset.read || 'all');
         });
     });
+
+    initTouchBookDetails();
 
     try {
         const savedView = localStorage.getItem('books-view');

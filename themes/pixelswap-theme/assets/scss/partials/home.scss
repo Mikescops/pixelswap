@@ -179,7 +179,8 @@
     min-width: 0;
     box-sizing: border-box;
     padding: 0.5rem 0.35rem 0.5rem 0;
-    font-size: 0.9375rem;
+    // 16px minimum on small screens — iOS Safari zooms focused inputs below that.
+    font-size: 1rem;
     line-height: 1.4;
     font-family: inherit;
     color: darkMode($light-text-color, $dark-text-color);
@@ -187,6 +188,10 @@
     border: none;
     border-radius: 0;
     transition: color 0.2s ease;
+
+    @media (min-width: 48em) {
+        font-size: 0.9375rem;
+    }
 
     &::placeholder {
         color: darkMode(rgba(23, 43, 77, 0.42), rgba(255, 255, 255, 0.38));
