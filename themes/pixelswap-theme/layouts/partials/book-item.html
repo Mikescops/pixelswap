@@ -1,0 +1,95 @@
+{{- $book := .book -}}
+{{- $index := .index -}}
+{{- $source := .source | default "collection" -}}
+{{- $asset := "" -}}
+{{- with $book.image -}}
+    {{- with resources.Get . -}}
+        {{- $asset = . -}}
+    {{- end -}}
+{{- end -}}
+{{- $gridImage := "" -}}
+{{- $listImage := "" -}}
+{{- if $asset -}}
+    {{- $gridImage = ($asset.Fit "180x270 webp q85").RelPermalink -}}
+    {{- $listImage = ($asset.Fill "96x144 Center webp q85").RelPermalink -}}
+{{- end -}}
+{{- $gleephUrl := index $book "gleeph_url" -}}
+{{- if not $gleephUrl -}}
+    {{- with $book.isbn -}}
+        {{- $gleephUrl = printf "https://www.gleeph.com/book/ean/%v" . -}}
+    {{- end -}}
+{{- end -}}
+{{- $searchParts := slice $book.title $book.author $book.publisher $book.genre $book.format $book.isbn $book.comment -}}
+{{- if gt $book.year 0 -}}
+    {{- $searchParts = $searchParts | append (string $book.year) -}}
+{{- end -}}
+{{- with $book.published -}}
+    {{- $searchParts = $searchParts | append . -}}
+{{- end -}}
+{{- $searchText := delimit $searchParts " " | lower -}}
+{{- $isRead := $book.read -}}
+{{- $detailsCtx := dict "book" $book "source" $source "gleephUrl" $gleephUrl -}}
+<article
+    class="book-item{{ if eq $source "wishlist" }} book-item--wishlist{{ end }}{{ if $isRead }} book-item--read{{ end }}"
+    data-search="{{ $searchText }}"
+    data-source="{{ $source }}"
+    data-read="{{ if $isRead }}read{{ else }}unread{{ end }}"
+    aria-label="{{ $book.title }} by {{ $book.author }}"
+>
+    <div class="book-item__grid">
+        <div class="book-item__cover-wrap">
+            {{- if $asset -}}
+                <div
+                    class="book-item__cover"
+                    style="background-image: url('{{ $gridImage }}')"
+                    role="img"
+                    aria-label="{{ $book.title }} cover"
+                ></div>
+            {{- else -}}
+                <div class="book-item__cover book-item__cover--placeholder" role="img" aria-label="{{ $book.title }} cover"></div>
+            {{- end -}}
+            {{- if eq $source "wishlist" -}}
+                <span class="book-item__badge book-item__badge--wishlist">Wishlist</span>
+            {{- else if $isRead -}}
+                <span class="book-item__badge book-item__badge--read">Read</span>
+            {{- end -}}
+        </div>
+
+        <div class="book-item__hover-card">
+            {{ partial "book-item-details.html" (merge $detailsCtx (dict "variant" "hover")) }}
+        </div>
+    </div>
+
+    <div class="book-item__list">
+        <div class="book-item__list-cover">
+            {{- if $asset -}}
+                <img src="{{ $listImage }}" alt="" loading="lazy" decoding="async" width="96" height="144" />
+            {{- else -}}
+                <div class="book-item__list-cover-placeholder" aria-hidden="true"></div>
+            {{- end -}}
+        </div>
+        <div class="book-item__list-body">
+            <div class="book-item__list-heading">
+                <h2 class="book-item__title">{{ $book.title }}</h2>
+                {{- if eq $source "wishlist" -}}
+                    <span class="book-item__badge book-item__badge--inline book-item__badge--wishlist">Wishlist</span>
+                {{- else if $isRead -}}
+                    <span class="book-item__badge book-item__badge--inline book-item__badge--read">Read</span>
+                {{- end -}}
+            </div>
+            <p class="book-item__author">{{ $book.author }}</p>
+            {{ partial "book-item-details.html" (merge $detailsCtx (dict "variant" "list")) }}
+        </div>
+        {{- with $gleephUrl -}}
+            <a
+                href="{{ . }}"
+                class="book-item__link book-item__link--list"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="More info"
+            >
+                More info
+            </a>
+        {{- end -}}
+    </div>
+</article>

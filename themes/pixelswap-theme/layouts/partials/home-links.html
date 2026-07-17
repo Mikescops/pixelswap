@@ -12,6 +12,10 @@
             <i class="icon" aria-hidden="true">{{ partial "icons/record-vinyl-solid.svg" . }}</i>
             <span>Vinyls</span>
         </a>
+        <a href="/books" class="home-links__item">
+            <i class="icon" aria-hidden="true">{{ partial "icons/book-solid.svg" . }}</i>
+            <span>Books</span>
+        </a>
     {{- else -}}
         <a href="{{ "" | relURL }}" class="home-links__item">
             <i class="icon" aria-hidden="true">{{ partial "icons/house-solid.svg" . }}</i>

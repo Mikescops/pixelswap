@@ -112,6 +112,20 @@
     {{- $graph = $graph | append $collection -}}
 {{- end -}}
 
+{{- if eq .Layout "books" -}}
+    {{- $booksCollection := dict
+        "@type" "CollectionPage"
+        "@id" (printf "%s#collection" .Permalink)
+        "name" .Title
+        "url" .Permalink
+        "description" ($desc | default "Book collection and wishlist by Corentin Mors.")
+        "inLanguage" "en-US"
+        "isPartOf" (dict "@id" (printf "%s#website" site.Home.Permalink))
+        "author" $person
+    -}}
+    {{- $graph = $graph | append $booksCollection -}}
+{{- end -}}
+
 {{- if and (eq .Kind "page") (eq .Section "posts") -}}
     {{- $contentLang := "en" -}}
     {{- with lower (or .Params.post_lang .Params.lang "") -}}

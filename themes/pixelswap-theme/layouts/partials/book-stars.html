@@ -1,0 +1,8 @@
+{{- $rating := . | default 0 -}}
+{{- if gt $rating 0 -}}
+    <span class="book-item__stars" aria-label="{{ $rating }} out of 5 stars">
+        {{- range seq 1 5 -}}
+            <span class="book-item__star{{ if le . $rating }} is-filled{{ end }}" aria-hidden="true">★</span>
+        {{- end -}}
+    </span>
+{{- end -}}

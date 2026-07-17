@@ -70,6 +70,8 @@
     {{- $keywords = delimit .Params.tags ", " -}}
 {{- else if eq .Layout "vinyls" -}}
     {{- $keywords = "vinyl, discogs, music collection, wishlist, Corentin Mors, France" -}}
+{{- else if eq .Layout "books" -}}
+    {{- $keywords = "books, bookshelf, reading, wishlist, Corentin Mors, France" -}}
 {{- end -}}
 
 {{- $ogType := cond .IsHome "website" (cond (and (eq .Kind "page") (eq .Section "posts")) "article" "website") -}}

@@ -1,0 +1,130 @@
+{{- $book := .book -}}
+{{- $source := .source | default "collection" -}}
+{{- $gleephUrl := .gleephUrl -}}
+{{- $variant := .variant | default "list" -}}
+{{- $rating := $book.rating | default 0 -}}
+
+{{- if eq $variant "hover" -}}
+    <div class="book-item__hover-heading">
+        <h3 class="book-item__title">{{ $book.title }}</h3>
+        {{- if eq $source "wishlist" -}}
+            <span class="book-item__badge book-item__badge--inline book-item__badge--wishlist">Wishlist</span>
+        {{- else if $book.read -}}
+            <span class="book-item__badge book-item__badge--inline book-item__badge--read">Read</span>
+        {{- end -}}
+    </div>
+    <p class="book-item__author">{{ $book.author }}</p>
+    {{- if gt $rating 0 -}}
+        <p class="book-item__rating">
+            {{ partial "book-stars.html" $rating }}
+            <span class="book-item__rating-value">{{ $rating }}/5</span>
+        </p>
+    {{- end -}}
+
+    <div class="book-item__hover-body">
+        <dl class="book-item__meta">
+            {{- if $book.publisher -}}
+                <div class="book-item__meta-row">
+                    <dt>Publisher</dt>
+                    <dd>{{ $book.publisher }}</dd>
+                </div>
+            {{- end -}}
+            {{- if gt $book.year 0 -}}
+                <div class="book-item__meta-row">
+                    <dt>Year</dt>
+                    <dd>{{ $book.year }}</dd>
+                </div>
+            {{- end -}}
+            {{- with $book.format -}}
+                <div class="book-item__meta-row">
+                    <dt>Format</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+            {{- end -}}
+            {{- with $book.genre -}}
+                <div class="book-item__meta-row">
+                    <dt>Genre</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+            {{- end -}}
+            {{- with $book.pages -}}
+                <div class="book-item__meta-row">
+                    <dt>Pages</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+            {{- end -}}
+            {{- with $book.isbn -}}
+                <div class="book-item__meta-row">
+                    <dt>ISBN</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+            {{- end -}}
+        </dl>
+
+        {{- with $book.comment -}}
+            <p class="book-item__comment">{{ . }}</p>
+        {{- end -}}
+
+        {{- with $gleephUrl -}}
+            <a
+                href="{{ . }}"
+                class="book-item__link book-item__link--block"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="More info"
+            >
+                More info
+            </a>
+        {{- end -}}
+    </div>
+{{- else -}}
+    {{- if gt $rating 0 -}}
+        <p class="book-item__rating">
+            {{ partial "book-stars.html" $rating }}
+            <span class="book-item__rating-value">{{ $rating }}/5</span>
+        </p>
+    {{- end -}}
+
+    <dl class="book-item__meta">
+        {{- if $book.publisher -}}
+            <div class="book-item__meta-row">
+                <dt>Publisher</dt>
+                <dd>{{ $book.publisher }}</dd>
+            </div>
+        {{- end -}}
+        {{- if gt $book.year 0 -}}
+            <div class="book-item__meta-row">
+                <dt>Year</dt>
+                <dd>{{ $book.year }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $book.format -}}
+            <div class="book-item__meta-row">
+                <dt>Format</dt>
+                <dd>{{ . }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $book.genre -}}
+            <div class="book-item__meta-row">
+                <dt>Genre</dt>
+                <dd>{{ . }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $book.pages -}}
+            <div class="book-item__meta-row">
+                <dt>Pages</dt>
+                <dd>{{ . }}</dd>
+            </div>
+        {{- end -}}
+        {{- with $book.isbn -}}
+            <div class="book-item__meta-row">
+                <dt>ISBN</dt>
+                <dd>{{ . }}</dd>
+            </div>
+        {{- end -}}
+    </dl>
+
+    {{- with $book.comment -}}
+        <p class="book-item__comment">{{ . }}</p>
+    {{- end -}}
+{{- end -}}

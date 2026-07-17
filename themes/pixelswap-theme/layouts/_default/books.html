@@ -1,0 +1,129 @@
+{{ define "main" }}
+    {{- $books := .Site.Data.books | default slice -}}
+    {{- $wishlist := index .Site.Data "books-wishlist" | default slice -}}
+    {{- $collectionCount := len $books -}}
+    {{- $wishlistCount := len $wishlist -}}
+    {{- $readCount := 0 -}}
+    {{- range $books -}}
+        {{- if .read -}}
+            {{- $readCount = add $readCount 1 -}}
+        {{- end -}}
+    {{- end -}}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="books-header home-title">
+                    <h1>
+                        <span class="home-heading-brand">Books</span>
+                        <span class="home-heading-name">Corentin's collection</span>
+                    </h1>
+                    <p class="home-subtitle">
+                        {{ $collectionCount }} books and {{ $wishlistCount }} wishlist items — hover a cover for details
+                    </p>
+                    {{ partial "home-links.html" . }}
+                </header>
+
+                <div class="books-toolbar posts-toolbar">
+                    <div class="posts-search books-search">
+                        <label class="posts-search__label" for="books-search-input">Search books</label>
+                        <span class="posts-search__icon" aria-hidden="true">
+                            <i class="icon">{{ partial "icons/magnifying-glass-solid.svg" . }}</i>
+                        </span>
+                        <input
+                            type="search"
+                            id="books-search-input"
+                            class="posts-search__input"
+                            placeholder="Search by title, author, publisher, genre…"
+                            autocomplete="off"
+                            spellcheck="false"
+                        />
+                    </div>
+                    <div class="books-source-filter posts-lang-filter" role="group" aria-label="Filter by source">
+                        <button
+                            type="button"
+                            class="books-source-filter__btn posts-lang-filter__btn is-active"
+                            data-source="collection"
+                            aria-pressed="true"
+                        >
+                            Collection ({{ $collectionCount }})
+                        </button>
+                        <button
+                            type="button"
+                            class="books-source-filter__btn posts-lang-filter__btn"
+                            data-source="wishlist"
+                            aria-pressed="false"
+                            {{- if eq $wishlistCount 0 }} disabled title="Run npm run import-gleeph-books or add-book --wishlist"{{- end -}}
+                        >
+                            Wishlist ({{ $wishlistCount }})
+                        </button>
+                    </div>
+                    <div class="books-read-filter posts-lang-filter" role="group" aria-label="Filter by read status">
+                        <button
+                            type="button"
+                            class="books-read-filter__btn posts-lang-filter__btn is-active"
+                            data-read="all"
+                            aria-pressed="true"
+                        >
+                            All
+                        </button>
+                        <button
+                            type="button"
+                            class="books-read-filter__btn posts-lang-filter__btn"
+                            data-read="read"
+                            aria-pressed="false"
+                            {{- if eq $readCount 0 }} disabled{{- end -}}
+                        >
+                            Read ({{ $readCount }})
+                        </button>
+                        <button
+                            type="button"
+                            class="books-read-filter__btn posts-lang-filter__btn"
+                            data-read="unread"
+                            aria-pressed="false"
+                        >
+                            Unread
+                        </button>
+                    </div>
+                    <div class="books-view-filter posts-lang-filter" role="group" aria-label="View mode">
+                        <button
+                            type="button"
+                            class="books-view-filter__btn posts-lang-filter__btn is-active"
+                            data-view="grid"
+                            aria-pressed="true"
+                            title="Grid view"
+                        >
+                            <i class="icon" aria-hidden="true">{{ partial "icons/grid-solid.svg" . }}</i>
+                            <span>Grid</span>
+                        </button>
+                        <button
+                            type="button"
+                            class="books-view-filter__btn posts-lang-filter__btn"
+                            data-view="list"
+                            aria-pressed="false"
+                            title="List view"
+                        >
+                            <i class="icon" aria-hidden="true">{{ partial "icons/list-solid.svg" . }}</i>
+                            <span>List</span>
+                        </button>
+                    </div>
+                </div>
+
+                <p class="posts-status books-status" id="books-status" aria-live="polite">{{ $collectionCount }} books</p>
+
+                <div class="books-collection" id="books-collection" data-view="grid" data-source="collection" data-read="all">
+                    <div class="books-items" id="books-items">
+                        {{- range $index, $book := $books -}}
+                            {{ partial "book-item.html" (dict "book" $book "index" $index "source" "collection") }}
+                        {{- end -}}
+                        {{- range $index, $book := $wishlist -}}
+                            {{ partial "book-item.html" (dict "book" $book "index" (add $collectionCount $index) "source" "wishlist") }}
+                        {{- end -}}
+                    </div>
+                </div>
+
+                <p class="books-empty" id="books-empty" hidden>No books match your search.</p>
+            </div>
+        </div>
+    </div>
+{{ end }}

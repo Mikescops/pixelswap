@@ -11,6 +11,9 @@
     "sync-vinyls": "node get-vinyls.js",
     "sync-vinyls:fast": "node get-vinyls.js --skip-details",
     "sync-vinyls:force": "node get-vinyls.js --force-details",
+    "import-gleeph-books": "node import-gleeph-books.js",
+    "import-gleeph-books:force-covers": "node import-gleeph-books.js --force-covers",
+    "add-book": "node add-book.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
