@@ -39,12 +39,21 @@
     <div class="book-item__grid">
         <div class="book-item__cover-wrap">
             {{- if $asset -}}
-                <div
+                {{- /* Eager-load the first screenful of collection covers; lazy-load the rest. */ -}}
+                {{- $loading := "lazy" -}}
+                {{- if and (eq $source "collection") (lt $index 12) -}}
+                    {{- $loading = "eager" -}}
+                {{- end -}}
+                <img
                     class="book-item__cover"
-                    style="background-image: url('{{ $gridImage }}')"
-                    role="img"
-                    aria-label="{{ $book.title }} cover"
-                ></div>
+                    src="{{ $gridImage }}"
+                    alt="{{ $book.title }} cover"
+                    width="120"
+                    height="180"
+                    loading="{{ $loading }}"
+                    decoding="async"
+                    {{- if eq $loading "eager" }} fetchpriority="high"{{- end -}}
+                />
             {{- else -}}
                 <div class="book-item__cover book-item__cover--placeholder" role="img" aria-label="{{ $book.title }} cover"></div>
             {{- end -}}

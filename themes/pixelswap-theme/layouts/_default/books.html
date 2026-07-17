@@ -1,6 +1,6 @@
 {{ define "main" }}
-    {{- $books := .Site.Data.books | default slice -}}
-    {{- $wishlist := index .Site.Data "books-wishlist" | default slice -}}
+    {{- $books := sort (.Site.Data.books | default slice) "date_added" "desc" -}}
+    {{- $wishlist := sort (index .Site.Data "books-wishlist" | default slice) "date_added" "desc" -}}
     {{- $collectionCount := len $books -}}
     {{- $wishlistCount := len $wishlist -}}
     {{- $readCount := 0 -}}
